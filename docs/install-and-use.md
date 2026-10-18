@@ -1,13 +1,15 @@
 # 安装与使用：Codex 和 DeepSeek Harness
 
-本指南适用于 Godot Agent Kit **2.0.0**，面向 Windows 用户。第一次使用推荐按第 1–6 步完成项目级安装：两个技能安装一次，Codex 和 DeepSeek Harness 共用。
+本指南适用于 Godot Agent Kit **2.0.1**，面向 Windows 用户。推荐流程是：**用户级安装 `godot-project-init` → 在目标游戏目录初始化 → 自动生成项目级 `godot-dev` → 使用项目 dev 开发**。用户级 init 可复用于多个游戏，每个游戏独立维护自己的 dev。
+
+第 1–6 步介绍推荐方式。项目级安装 init、用户级安装 dev、两个技能一起安装和独立 dev 均可选择，见第 7 节；无需把已有安装强制迁移成推荐方式。
 
 | 技能 | 用途 |
 | --- | --- |
 | `godot-project-init` | 新建或补齐 Godot 项目的规范、开发技能、官方文档和检查工具，按配置接入 ComfyUI |
 | `godot-dev` | 在已有项目中实现玩法、场景、UI、资源和素材，修复问题，完成验证与清理 |
 
-[返回仓库首页](../README.md) · [下载 v2.0.0](https://github.com/CedarHWA/godot-agent-kit/releases/tag/v2.0.0) · [兼容范围](compatibility.md)
+[返回仓库首页](../README.md) · [下载 v2.0.1](https://github.com/CedarHWA/godot-agent-kit/releases/tag/v2.0.1) · [兼容范围](compatibility.md)
 
 ## 1. 准备环境
 
@@ -20,7 +22,7 @@ ComfyUI 是可选项。普通初始化和代码开发先使用 `core` 配置档�
 
 ## 2. 从 GitHub 获取工具包
 
-打开 [v2.0.0 发布页](https://github.com/CedarHWA/godot-agent-kit/releases/tag/v2.0.0)，下载 `godot-agent-kit-2.0.0.zip`，解压到准备长期保留的工具目录。发布页同时提供 SHA-256 文件，可用 `Get-FileHash -Algorithm SHA256 <下载的ZIP路径>` 对照校验。
+打开 [v2.0.1 发布页](https://github.com/CedarHWA/godot-agent-kit/releases/tag/v2.0.1)，下载 `godot-agent-kit-2.0.1.zip`，解压到准备长期保留的工具目录。发布页同时提供 SHA-256 文件，可用 `Get-FileHash -Algorithm SHA256 <下载的ZIP路径>` 对照校验。
 
 如果已安装 Git，也可以在自己的工具目录中运行：
 
@@ -71,16 +73,9 @@ if (-not (Test-Path -LiteralPath '.local\machine.json')) {
 
 机器配置只保存在本机。安装时传 `-Config`，初始化技能就能记住这些路径。该示例引用工具包内的 `.venv`，因此后续应保留工具包目录；移动目录或更换电脑后更新配置并重新安装。
 
-如果关闭过 PowerShell，重新进入工具包目录后再次设置 `$kitPython`；第 4 节中的 `$targetProject` 也需要重新设置。变量只在当前终端有效。
+如果关闭过 PowerShell，重新进入工具包目录后再次设置 `$kitPython`。变量只在当前终端有效。
 
-## 4. 检查环境并安装两个技能
-
-设置目标游戏目录，可以是空目录，也可以是已有 Godot 工程。下面默认放在当前用户目录中，可替换为自己的绝对路径：
-
-```powershell
-$targetProject = Join-Path $env:USERPROFILE 'GodotProjects\MyGame'
-New-Item -ItemType Directory -Path $targetProject -Force | Out-Null
-```
+## 4. 检查环境并安装用户级初始化技能
 
 在工具包根目录检查环境：
 
@@ -88,7 +83,6 @@ New-Item -ItemType Directory -Path $targetProject -Force | Out-Null
 powershell -NoProfile -ExecutionPolicy Bypass -File .\doctor.ps1 `
     -Python $kitPython `
     -Config .local\machine.json `
-    -Project $targetProject `
     -Agent both `
     -Profile core
 if ($LASTEXITCODE -ne 0) { throw '环境检查未通过，请处理必需项失败后重试。' }
@@ -96,47 +90,57 @@ if ($LASTEXITCODE -ne 0) { throw '环境检查未通过，请处理必需项失�
 
 输出为 JSON。必需项失败时先按提示修复；宿主 CLI 不在 PATH 可能只是 warning，桌面版仍可能正常加载技能。
 
-安装到目标游戏目录：
+推荐安装命令无需指定游戏目录，在两个宿主的用户目录各安装一个初始化入口：
 
 ```powershell
 powershell -NoProfile -ExecutionPolicy Bypass -File .\install.ps1 `
     -Python $kitPython `
     -Agent both `
-    -Scope project `
-    -Project $targetProject `
-    -Skills both `
+    -Scope user `
+    -Skills init `
     -Config .local\machine.json
 if ($LASTEXITCODE -ne 0) { throw '技能安装未完成，请按输出处理错误或文件冲突。' }
 ```
 
 | 参数 | 含义 |
 | --- | --- |
-| `-Agent both` | 两个宿主共用目标项目的 `.agents\skills` |
-| `-Skills both` | 安装初始化和开发两个技能 |
-| `-Scope project` | 仅安装到指定项目 |
+| `-Agent both` | 分别给 Codex、Harness 安装用户级初始化技能 |
+| `-Skills init` | 只安装 init 入口，内附完整 dev 模板 |
+| `-Scope user` | 安装到当前用户技能目录，可用于多个项目 |
 | `-Config` | 将本机工具配置写入已安装的初始化技能 |
 | `-DryRun` | 可选，附加到安装命令只查看计划 |
 
-安装成功后检查两个入口：
+安装成功后检查两个宿主的 init 入口。自定义过 CODEX_HOME 或 DSH_HOME 时，使用其实际目录：
 
 ```powershell
-Test-Path "$targetProject\.agents\skills\godot-project-init\SKILL.md"
-Test-Path "$targetProject\.agents\skills\godot-dev\SKILL.md"
+$codexUserRoot = if ($env:CODEX_HOME) { $env:CODEX_HOME } else { Join-Path $env:USERPROFILE '.codex' }
+$harnessUserRoot = if ($env:DSH_HOME) { $env:DSH_HOME } else { Join-Path $env:USERPROFILE '.dsh' }
+Test-Path (Join-Path $codexUserRoot 'skills\godot-project-init\SKILL.md')
+Test-Path (Join-Path $harnessUserRoot 'skills\godot-project-init\SKILL.md')
 ```
 
-两项应为 `True`。文件检查只确认安装入口存在；下一步还要在宿主的新会话中确认实际识别。安装技能本身不会初始化游戏或启动 ComfyUI。
+双宿主安装后两项应为 `True`；单宿主只需检查对应项。此时无需看到用户级 `godot-dev`，它的完整模板位于 init 内，尚未作为独立技能暴露。下一步初始化游戏时才会生成可发现的项目级 dev。安装本身不会初始化游戏或启动 ComfyUI。
 
-只使用一个宿主时，可以用下表的 `-Agent` 值替代 `both`；其余安装参数相同。Harness 单宿主安装后，入口检查路径相应改为 `.dsh\skills`。
+只使用一个宿主时替换 `-Agent`，保留 `-Scope user -Skills init`。安装宿主与初始化时的目标项目宿主可以分别选择：
 
-| 宿主选择 | 参数 | 项目技能目录 |
-| --- | --- | --- |
-| 两者共用 | `-Agent both` | `.agents\skills` |
-| 仅 Codex | `-Agent codex` | `.agents\skills` |
-| 仅 DeepSeek Harness | `-Agent deepseek-harness` | `.dsh\skills` |
+| 宿主选择 | 安装参数 | 初始化时指定 | 生成的项目 dev |
+| --- | --- | --- | --- |
+| 两者共用 | `-Agent both` | `agent=both` | `.agents\skills\godot-dev` |
+| 仅 Codex | `-Agent codex` | `agent=codex` | `.agents\skills\godot-dev` |
+| 仅 DeepSeek Harness | `-Agent deepseek-harness` | `agent=deepseek-harness` | `.dsh\skills\godot-dev` |
+
+现在选一个空目录或已有 Godot 工程，在对应宿主中打开。例如：
+
+```powershell
+$targetProject = Join-Path $env:USERPROFILE 'GodotProjects\MyGame'
+New-Item -ItemType Directory -Path $targetProject -Force | Out-Null
+```
+
+原安装器默认值保留以兼容旧脚本，推荐方式通过上述显式参数选择。不要省略 `-Scope user -Skills init` 后以为仍在执行推荐安装。
 
 ## 5. 在 Codex 中初始化和开发
 
-在 Codex 中打开**目标游戏目录**，新建会话，输入 `$` 查找这两个技能。CLI/IDE 也可使用 `/skills`。如果新技能没有显示，重启宿主后再试。
+在 Codex 中打开**目标游戏目录**，新建会话，输入 `$` 查找用户级 `godot-project-init`。CLI/IDE 也可使用 `/skills`。如果新技能没有显示，重启宿主后再试。
 
 以下提示词发给 Agent，**不要粘贴到 PowerShell**。双宿主项目初始化：
 
@@ -147,6 +151,8 @@ Codex 和 DeepSeek Harness 共用这个项目，请使用 agent=both。
 ```
 
 只给 Codex 使用的项目，将第二行改为“本项目仅使用 Codex，请使用 agent=codex”。新项目初始化后应得到可编辑入口、开发规范、文档和检查工具；已有项目则补齐所缺内容并保留已有工作。
+
+初始化会生成 `.agents/skills/godot-dev/SKILL.md` 和完整专题，init 仍留在用户目录。确认 Agent 报告的实际 dev 路径，在该游戏目录新建会话，再调用 `$godot-dev`。
 
 需要先设计游戏时：
 
@@ -175,6 +181,8 @@ Codex 和 DeepSeek Harness 共用这个项目，请使用 agent=both。
 
 只给 Harness 使用的项目，将第二行改为“本项目仅使用 DeepSeek Harness，请使用 agent=deepseek-harness”。
 
+`agent=both` 生成 `.agents/skills/godot-dev`；`agent=deepseek-harness` 生成 `.dsh/skills/godot-dev`。确认该目录下的 `SKILL.md` 和完整专题后，在项目新会话使用 `/godot-dev`。用户级 init 不会被复制到游戏目录。
+
 先生成需求文档：
 
 ```text
@@ -194,16 +202,28 @@ Harness 以最近的 `.git` 上级目录作为项目根，没有 `.git` 才使�
 
 两个宿主均可直接在已有项目中使用 `godot-dev` 修改功能，不要求先重新初始化。切换宿主时继续使用同一份需求、架构和场景资源。
 
-## 7. 可选：安装到用户目录
+## 7. 可选：其他安装方式
 
-希望多个项目都能使用时，选择用户级安装，替代第 4 节的项目级安装命令：
+推荐布局不限制其他选择。第 4 节安装命令中的参数可以按下表替换，仍使用相同的 Python 和本机配置：
+
+| 用途 | 安装参数 |
+| --- | --- |
+| 推荐：用户 init → 初始化后生成项目 dev | `-Agent both -Scope user -Skills init` |
+| 两个技能都随项目安装 | `-Agent both -Scope project -Project $targetProject -Skills both` |
+| 两个技能都供当前用户使用 | `-Agent both -Scope user -Skills both` |
+| 仅为已有项目安装 dev | `-Agent both -Scope project -Project $targetProject -Skills dev` |
+| 仅安装用户级 dev | `-Agent both -Scope user -Skills dev` |
+| 仅在项目内安装 init | `-Agent both -Scope project -Project $targetProject -Skills init` |
+
+各项都能将 `both` 改为单一宿主。例如，给已有 Codex 项目单独安装开发技能：
 
 ```powershell
 powershell -NoProfile -ExecutionPolicy Bypass -File .\install.ps1 `
     -Python $kitPython `
-    -Agent both `
-    -Scope user `
-    -Skills both `
+    -Agent codex `
+    -Scope project `
+    -Project $targetProject `
+    -Skills dev `
     -Config .local\machine.json
 ```
 
@@ -214,7 +234,9 @@ powershell -NoProfile -ExecutionPolicy Bypass -File .\install.ps1 `
 | Codex | `CODEX_HOME\skills`，默认用户目录下的 `.codex\skills` |
 | Harness | `DSH_HOME\skills`，默认用户目录下的 `.dsh\skills` |
 
-`-Agent both -Scope user` 分别安装两份。同一技能通常选择一个安装范围；已有同名技能时先按[迁移说明](migration.md)处理，避免重复出现。Codex 官方还列出共享用户目录 `.agents\skills`；本工具包默认采用已实际验证的 `CODEX_HOME\skills`，自定义发现根可使用 `-SkillsDir`，详见[宿主适配](agents.md)。
+`-Agent both -Scope user` 分别安装两份。自定义技能根用 `-SkillsDir <目录>`，它覆盖自动选根，仅安装到指定的一个目录。Codex 官方还列出共享用户目录 `.agents\skills`；本工具包默认采用已实际验证的 `CODEX_HOME\skills`，详见[宿主适配](agents.md)。
+
+已有安装可以继续使用，不必迁移。再次只安装 init 不会删除原来的用户级 dev；如需切换布局，按[迁移说明](migration.md)明确处理旧技能。相同名称同时出现在用户和项目范围可能产生重复入口，应核对实际来源。独立使用 dev 不要求重新初始化项目。
 
 ## 8. 可选：配置 ComfyUI 生成素材
 
@@ -250,27 +272,29 @@ powershell -NoProfile -ExecutionPolicy Bypass -File .\install.ps1 `
 
 Git 克隆用户在工具包目录执行 `git pull --ff-only`；ZIP 用户下载新版并解压到合适目录。然后核对本机配置中的工具路径，用**原来的 Agent、Scope、Project/SkillsDir 和 Config 参数**重跑安装命令。安装器更新未被用户修改的受管理文件；有冲突时保留原件并报告候选内容。
 
-以下示例对应本指南的项目级双宿主安装。按需选择一项操作。
+推荐布局更新用户级 init 时，重跑第 4 节的安装命令即可。**已有项目的 dev 不会随之更新**，卸载用户级 init 也不会删除它。每个项目的 dev 是独立文件，并由项目 `.bootstrap/state.json` 记录归属；需要升级时，在目标游戏中明确要求更新已有项目，先审阅补齐计划及自定义改动，按[迁移说明](migration.md)处理冲突。不要用安装器直接覆盖初始化器管理的项目 dev。
+
+以下示例对应本指南的用户级双宿主 init 安装。按需选择一项操作。
 
 回滚最后一次实际变更：
 
 ```powershell
-powershell -NoProfile -ExecutionPolicy Bypass -File .\install.ps1 -Python $kitPython -Agent both -Scope project -Project $targetProject -Action rollback
+powershell -NoProfile -ExecutionPolicy Bypass -File .\install.ps1 -Python $kitPython -Agent both -Scope user -Skills init -Action rollback
 ```
 
 卸载未修改的受管理技能文件：
 
 ```powershell
-powershell -NoProfile -ExecutionPolicy Bypass -File .\install.ps1 -Python $kitPython -Agent both -Scope project -Project $targetProject -Action uninstall
+powershell -NoProfile -ExecutionPolicy Bypass -File .\install.ps1 -Python $kitPython -Agent both -Scope user -Skills init -Action uninstall
 ```
 
 仅在安装中断、存在 pending 事务时恢复：
 
 ```powershell
-powershell -NoProfile -ExecutionPolicy Bypass -File .\install.ps1 -Python $kitPython -Agent both -Scope project -Project $targetProject -Action recover
+powershell -NoProfile -ExecutionPolicy Bypass -File .\install.ps1 -Python $kitPython -Agent both -Scope user -Skills init -Action recover
 ```
 
-用户级安装将 `-Scope project -Project $targetProject` 改成 `-Scope user`；单宿主安装保持原来的 `-Agent`。只安装过一个技能时，继续传入原来的 `-Skills init` 或 `-Skills dev`。
+其他布局保持其原来的 `-Agent`、`-Scope`、`-Project` 或 `-SkillsDir`。`install`/`uninstall` 用 `-Skills` 选择技能；`rollback`/`recover` 恢复该技能根的最后一次事务，**不会按 `-Skills` 筛选事务内的文件**。双宿主用户安装的两个根各有自己的历史。
 
 不要删除技能根 `.godot-agent-kit` 中的收据和恢复历史来解决冲突。旧版迁移、退出码和恢复边界见[迁移说明](migration.md)。
 
@@ -287,4 +311,4 @@ powershell -NoProfile -ExecutionPolicy Bypass -File .\install.ps1 -Python $kitPy
 | 初始化退出码为 3 | Desktop 流程尚待创建/绑定，由初始化技能继续完成，不能当成完成 |
 | headless 检查通过但画面/声音未确认 | 继续实际交互、画面和听感验收，未验证项应写入报告 |
 
-本工具包的实际测试版本、证据和未验证项见[验收记录](acceptance.md)。宿主发现规则参考 [Codex 官方技能说明](https://learn.chatgpt.com/docs/build-skills)及 [Harness 文件系统技能提供者](https://github.com/deepseek-ai/deepseek-harness/tree/master/packages/skill/skill-filesystem)。
+本工具包的实际测试版本、证据和未验证项见[2.0.1 验收记录](acceptance-2.0.1.md)。宿主发现规则参考 [Codex 官方技能说明](https://learn.chatgpt.com/docs/build-skills)及 [Harness 文件系统技能提供者](https://github.com/deepseek-ai/deepseek-harness/tree/master/packages/skill/skill-filesystem)。

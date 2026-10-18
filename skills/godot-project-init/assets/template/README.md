@@ -44,3 +44,5 @@
 资源制作见 [项目资源流程](docs/asset-pipeline.md)。只有 desktop-wai 预配置 WAI 文生图；其他图片、音乐与音效按实际模型和用途配置。游戏运行不需要 ComfyUI。
 
 开发技能包含按任务读取的专题资料；初始化会一并安装，无需逐个添加。专题和来源取舍见 [__SKILL_ROOT__/godot-dev/SKILL.md](__SKILL_ROOT__/godot-dev/SKILL.md)。它们不会预装组件框架、测试插件或通用管理器。
+
+推荐从用户级 `godot-project-init` 创建项目，在项目会话中使用这里生成的 `godot-dev`。本项目的 dev 是独立副本，可以随项目规则调整；更新或卸载用户级 init 不会自动改动它。项目级 init、用户级 dev 和独立 dev 也可按需使用。生成文件的更新归属由 `.bootstrap/state.json` 记录；更新项目 dev 前先审阅本项目修改。

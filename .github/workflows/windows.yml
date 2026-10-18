@@ -18,6 +18,9 @@ jobs:
       - run: python -B toolkit/validate.py
       - run: python -B tests/run.py
       - run: python -B toolkit/build.py
+      - run: |
+          $version = (Get-Content VERSION -Raw).Trim()
+          python -B tests/release_smoke.py "dist/godot-agent-kit-$version.zip"
       - uses: actions/upload-artifact@v4
         if: always()
         with:
@@ -26,5 +29,6 @@ jobs:
           path: |
             .local/validation.json
             .local/tests.json
+            .local/release-smoke.json
             dist/*.zip
             dist/*.sha256

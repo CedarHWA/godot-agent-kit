@@ -240,7 +240,7 @@ def run(args):
         # Identical unmanaged files remain unmanaged; future runs cannot claim them.
         state_path = safe_path(target, ".bootstrap/state.json")
         state_path.parent.mkdir(parents=True, exist_ok=True)
-        state_path.write_text(json.dumps({"schema": 1, "bootstrap_version": "2.0.0", "parameters": config, "files": files}, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        state_path.write_text(json.dumps({"schema": 1, "bootstrap_version": "2.0.1", "parameters": config, "files": files}, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
         if not counts["conflict"] and config["profile"] == "desktop-wai":
             command = [sys.executable, "-B", str(target / "tools/project_comfyui.py"), "setup"]
             if args.desktop_instance:

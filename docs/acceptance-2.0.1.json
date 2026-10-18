@@ -1,0 +1,136 @@
+{
+  "version": "2.0.1",
+  "date": "2026-10-17",
+  "platform": "Windows",
+  "versions": {
+    "python": "3.14.7",
+    "godot": "4.7.2",
+    "codex": "0.163.0-alpha.10.2",
+    "deepseek_harness": "0.2.0-rc.2"
+  },
+  "regressions": {
+    "passed": true,
+    "tests": 67,
+    "suite_counts": [
+      38,
+      12,
+      10,
+      7
+    ]
+  },
+  "host_discovery": {
+    "passed": true,
+    "cases": 14,
+    "recommended_cases": 8,
+    "model_requests": 0
+  },
+  "integration": {
+    "passed": true,
+    "checks": [
+      {
+        "name": "powershell-installer",
+        "passed": true,
+        "exit_code": 0
+      },
+      {
+        "name": "installed-init-new",
+        "passed": true,
+        "exit_code": 0
+      },
+      {
+        "name": "user-init-project-dev-layout",
+        "passed": true
+      },
+      {
+        "name": "installed-init-idempotence",
+        "passed": true,
+        "exit_code": 0
+      },
+      {
+        "name": "godot-checks",
+        "passed": true,
+        "exit_code": 0
+      },
+      {
+        "name": "godot-runtime-evidence",
+        "passed": true,
+        "checks": [
+          {
+            "name": "engine-version",
+            "passed": true
+          },
+          {
+            "name": "gdformat-0",
+            "passed": true
+          },
+          {
+            "name": "gdlint-0",
+            "passed": true
+          },
+          {
+            "name": "import",
+            "passed": true
+          },
+          {
+            "name": "editor-structure",
+            "passed": true
+          },
+          {
+            "name": "test-0",
+            "passed": true
+          },
+          {
+            "name": "runtime",
+            "passed": true
+          }
+        ]
+      },
+      {
+        "name": "offline-docs",
+        "passed": true,
+        "exit_code": 0
+      },
+      {
+        "name": "doctor-installed",
+        "passed": true,
+        "exit_code": 0
+      },
+      {
+        "name": "supplement-preserves-requirements",
+        "passed": true,
+        "exit_code": 0
+      },
+      {
+        "name": "supplement-reports-conflicts",
+        "passed": true,
+        "exit_code": 2
+      },
+      {
+        "name": "supplement-reviewed-keep",
+        "passed": true,
+        "exit_code": 0
+      },
+      {
+        "name": "harness-overlay",
+        "passed": true,
+        "exit_code": 0
+      }
+    ]
+  },
+  "offline_documentation": {
+    "passed": true,
+    "pages": 1596
+  },
+  "release": {
+    "passed": true,
+    "extracted_installer": true,
+    "installed_initializer": true,
+    "user_init_project_dev": true,
+    "project_ignore_markers": true,
+    "temporary_directories_removed": true
+  },
+  "limitations": [
+    "No independent agent game-development evaluation.",
+    "No new Desktop instance, generated media, GUI interaction or audio review."
+  ]
+}

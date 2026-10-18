@@ -2,6 +2,8 @@
 
 技能正文使用相同 Agent Skills 目录格式。两种宿主差异仅限发现路径、调用语法、项目名信息和 MCP 配置；不依赖 Codex 独有的项目列表、工具命名或子代理能力。
 
+推荐在下表的用户根只安装 `godot-project-init`，初始化时再按项目的 `--agent` 在项目根生成 `godot-dev`。安装时的 `-Agent` 选择哪些宿主能调用 init；初始化时的 `--agent` 决定目标项目的技能路径与 MCP 格式，两者可分别选择。表中所有范围仍支持 init、dev 或 both 的显式安装，不要求两个技能都全局安装。
+
 | 模式 | 项目技能根 | 用户技能根 | 显式调用 |
 | --- | --- | --- | --- |
 | Codex | `.agents/skills` | `$CODEX_HOME/skills`，默认 `~/.codex/skills` | `$godot-project-init` / `$godot-dev` |
@@ -22,6 +24,6 @@ dsh headless --patch .dsh/comfyui.cordis.yml --dump-config
 
 补丁不自动进入全局 profile。技能可先用项目 `tools/project_comfyui.py call` 调用真实 stdio 服务。新补丁生成不代表当前聊天已热加载。
 
-测试入口 `tests/host_smoke.py` 使用 Codex app-server 的 skills/list 和已安装 Harness 的 FileSystemSkillProvider，加载两个完整技能及资源；不发送模型请求。Harness Desktop 可用自身 Electron Node runtime 读取 app.asar 内模块；npm 安装可传 Node 和实际 module 路径。CLI 示例见 acceptance.md。
+测试入口 `tests/host_smoke.py` 使用 Codex app-server 的 skills/list 和已安装 Harness 的 FileSystemSkillProvider，核对推荐布局中用户 init 与项目 dev 的来源，同时保留项目双技能和用户双技能的加载验证；不发送模型请求。Harness Desktop 可用自身 Electron Node runtime 读取 app.asar 内模块；npm 安装可传 Node 和实际 module 路径。CLI 示例见 acceptance.md。
 
 来源：官方 [Codex Skills](https://developers.openai.com/codex/skills)、[Codex MCP](https://developers.openai.com/codex/mcp)、[Harness 文件系统技能提供者](https://github.com/deepseek-ai/deepseek-harness/tree/master/packages/skill/skill-filesystem)、[Harness MCP 客户端](https://github.com/deepseek-ai/deepseek-harness/tree/master/packages/mcp/mcp-client)、[官方 MCP overlay 示例](https://github.com/deepseek-ai/deepseek-harness/blob/master/docs/user/guide/mcp-memory.md)。版本实测记录见 acceptance.md；Harness 仍为 developer preview，后续版本应复验。

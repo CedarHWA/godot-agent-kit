@@ -246,10 +246,11 @@ def uninstall(root, selected, dry_run=False):
 
 
 def main():
-    parser = argparse.ArgumentParser(description=__doc__)
+    recommendation = "Recommended: install --agent <codex|deepseek-harness|both> --scope user --skills init; the initializer generates project-local godot-dev. Existing defaults remain unchanged."
+    parser = argparse.ArgumentParser(description=__doc__, epilog=recommendation)
     sub = parser.add_subparsers(dest="action", required=True)
     for action in ("install", "uninstall", "rollback", "recover"):
-        p = sub.add_parser(action)
+        p = sub.add_parser(action, epilog=recommendation if action == "install" else None)
         p.add_argument("--agent", choices=("codex", "deepseek-harness", "both"), default="codex")
         p.add_argument("--scope", choices=("project", "user"), default="project")
         p.add_argument("--project", type=Path)

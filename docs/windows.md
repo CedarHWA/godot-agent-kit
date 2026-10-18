@@ -3,7 +3,7 @@
 支持 Windows 10/11、PowerShell 5.1+、Python 3.11+；标准 Godot Windows 版按项目固定版本。测试使用 Python 3.14、Godot 4.7.2。不要把预装于某人机器的 Python 虚拟环境拷贝给其他用户。
 
 1. 把仓库放在已有的工作目录下。`setup.ps1 -Python <python.exe>` 创建仓库 `.venv` 并按 requirements.txt 安装检查/维护依赖。项目的 Godot 可放任意位置，通过 JSON 配置或 GODOT_PATH 指定。
-2. `install.ps1 -Python <python.exe> -Agent <codex|deepseek-harness|both> -Scope <project|user>` 安装完整技能目录。项目安装传 `-Project`；便携/旧版宿主可以用 `-SkillsDir` 指定实际技能根。脚本路径包含空格和中文可正常传参。
+2. 推荐 `install.ps1 -Python <python.exe> -Agent <codex|deepseek-harness|both> -Scope user -Skills init`：用户级 init 可复用于多个项目，初始化目标游戏时生成项目级 dev。其他布局仍支持 `-Scope project -Project <游戏目录>`、`-Skills dev/both` 或 `-SkillsDir <实际技能根>`。脚本路径包含空格和中文可正常传参。完整步骤见[安装与使用](install-and-use.md)。
 3. `doctor.ps1` 返回 JSON，required 失败退出 1；宿主 CLI 缺失是 warning，因为桌面版仍可能加载技能。图形、真实输入、听感始终单独标为未验证；安装 agent CLI 不会自动证明这些能力。
 
 配置示例中的空字符串表示未设置，不是有效文件。推荐明确配置 `godot`、`python`。环境变量支持 GODOT_PATH、GODOT_KIT_PYTHON、COMFY_DESKTOP_EXE、COMFY_DESKTOP_DATA、COMFY_MCP_EXE、COMFY_BIN。没有固定工具安装路径时让 doctor 报缺项，再填真实路径，不扫描盘符或猜用户名。

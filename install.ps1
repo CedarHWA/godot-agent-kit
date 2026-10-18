@@ -1,3 +1,14 @@
+<#
+.SYNOPSIS
+Install Godot skills for Codex or DeepSeek Harness.
+.DESCRIPTION
+Recommended: install the initializer at user scope; it generates godot-dev in each project.
+Existing defaults and all explicit scopes/skill selections remain compatible.
+.EXAMPLE
+powershell -NoProfile -ExecutionPolicy Bypass -File .\install.ps1 -Agent both -Scope user -Skills init
+.EXAMPLE
+powershell -NoProfile -ExecutionPolicy Bypass -File .\install.ps1 -Agent codex -Scope project -Project 'D:\Games\MyGame' -Skills dev
+#>
 [CmdletBinding()]
 param(
     [ValidateSet('codex','deepseek-harness','both')][string]$Agent = 'codex',

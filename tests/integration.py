@@ -35,15 +35,22 @@ def main():
                 raise ValueError(name + "\n" + completed.stdout + completed.stderr)
             return completed.stdout
 
-        skills = temp / "installed-skills"
+        env = dict(os.environ, DSH_HOME=str(temp / "dsh-home"), CODEX_HOME=str(temp / "codex-home"), PYTHONUTF8="1")
+        skills = temp / "dsh-home/skills"
         run("powershell-installer", ["powershell", "-NoProfile", "-ExecutionPolicy", "Bypass", "-File", str(ROOT / "install.ps1"),
-                                      "-Python", sys.executable, "-SkillsDir", str(skills), "-Skills", "init", "-Config", str(config)])
+                                      "-Python", sys.executable, "-Agent", "deepseek-harness", "-Scope", "user",
+                                      "-Skills", "init", "-Config", str(config)], env=env)
         installed = skills / "godot-project-init"
         project = temp / "Godot 空格项目"
         command = [sys.executable, "-B", str(installed / "scripts/init_project.py"), "--path", str(project), "--agent", "deepseek-harness"]
         first = json.loads(run("installed-init-new", command))
         if first["parameters"]["profile"] != "core":
             raise ValueError("New project profile mismatch")
+        if ((skills / "godot-dev/SKILL.md").exists()
+                or (project / ".dsh/skills/godot-project-init/SKILL.md").exists()
+                or not (project / ".dsh/skills/godot-dev/SKILL.md").is_file()):
+            raise ValueError("User init / project dev layout mismatch")
+        checks.append({"name": "user-init-project-dev-layout", "passed": True})
         second = json.loads(run("installed-init-idempotence", command))
         if any(second["counts"][key] for key in ("create", "update", "conflict")):
             raise ValueError("Idempotence failure: " + json.dumps(second))

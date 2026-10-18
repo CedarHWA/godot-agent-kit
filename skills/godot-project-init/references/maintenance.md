@@ -1,6 +1,8 @@
 # 维护
 
-初始化版本 2.0.0。受管理文件哈希保存在 .bootstrap/state.json；未修改文件可更新，用户修改保留并写入 .bootstrap/proposals/。退出码 2 表示冲突，3 表示已生成项目文件但等待普通 Desktop 实例创建/绑定，1 表示其他错误；desktop-wai 只有完成绑定与验收才能交付成功；core/endpoint 按各自配置档验收。dry-run 不写入。默认 --mode auto：存在 project.godot 时 supplement，否则 new；允许预先存在 Git、README、需求文档与临时工作目录，逐文件保护冲突。显式 --mode new 仍要求空目录或已有初始化状态。supplement 保留项目设置、主场景、测试与需求/架构。
+推荐用户级 init 生成项目级 dev；安装器的技能根 `.godot-agent-kit` 与游戏 `.bootstrap` 分别管理各自写入的文件。更新或卸载用户级 init 不遍历已有项目；项目 dev 保留为独立副本。显式更新目标项目时先看补齐计划并审阅用户定制，不能用安装器收据代替初始化归属。其他安装范围继续支持，不因推荐布局而自动迁移或删除同名技能。
+
+初始化版本 2.0.1。受管理文件哈希保存在 .bootstrap/state.json；未修改文件可更新，用户修改保留并写入 .bootstrap/proposals/。退出码 2 表示冲突，3 表示已生成项目文件但等待普通 Desktop 实例创建/绑定，1 表示其他错误；desktop-wai 只有完成绑定与验收才能交付成功；core/endpoint 按各自配置档验收。dry-run 不写入。默认 --mode auto：存在 project.godot 时 supplement，否则 new；允许预先存在 Git、README、需求文档与临时工作目录，逐文件保护冲突。显式 --mode new 仍要求空目录或已有初始化状态。supplement 保留项目设置、主场景、测试与需求/架构。
 
 对已经审阅/合并的冲突文件逐个使用 --keep-existing <相对路径>，脚本保留原件并移出受管理文件集合，不把合并后的用户文件冒充模板文件；再次初始化仍需审阅差异。未审阅的冲突不批量跳过。摘要中的 preserve 与 conflict 分别记录已决定保留和仍待处理的文件；完成后删除本轮已解决的 proposal，不留无用候选副本。
 

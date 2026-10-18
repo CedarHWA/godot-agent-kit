@@ -1,4 +1,4 @@
 interface:
   display_name: "Godot 项目初始化"
-  short_description: "初始化 Godot 规范、开发技能和官方文档，按配置接入 ComfyUI，验证并清理"
-  default_prompt: "使用 $godot-project-init，请帮我初始化这个项目，自动完成配置与验证，保持目录清晰，并清理本轮无用临时文件。"
+  short_description: "复用用户级初始化入口，为目标 Godot 项目生成开发技能、规范与文档"
+  default_prompt: "使用 $godot-project-init，初始化当前目标游戏项目，生成项目级 godot-dev，完成配置、验证与本轮临时文件清理，保留已有项目内容。"
