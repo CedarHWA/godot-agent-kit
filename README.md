@@ -2,6 +2,10 @@
 
 面向 **Windows 上的 Codex 和 DeepSeek Harness** 的可安装 Godot 技能仓库，版本 **2.0.0**。包含项目初始化与需求开发两个技能，支持单独安装、项目级/用户级安装、冲突保护、升级回滚和环境检查。
 
+**第一次使用？从 [安装与使用指南：Codex / DeepSeek Harness](docs/install-and-use.md) 开始。** 按步骤下载、配置 Godot、安装两个技能，再复制对应宿主的初始化和开发提示词。
+
+[下载 v2.0.0 安装包](https://github.com/CedarHWA/godot-agent-kit/releases/tag/v2.0.0) · [Windows 环境与 ComfyUI](docs/windows.md) · [已有技能迁移](docs/migration.md)
+
 ## 快速开始
 
 下载并解压发布包，或克隆本仓库，然后在仓库根目录打开 PowerShell。先准备 Python 3.11+ 和项目要求的 Godot。安装技能本身只用 Python 标准库；运行检查和维护工具建议建立隔离环境：
@@ -20,7 +24,7 @@ powershell -NoProfile -ExecutionPolicy Bypass -File .\install.ps1 -Python $pytho
 
 | 操作 | Codex | DeepSeek Harness |
 | --- | --- | --- |
-| 初始化 | `$godot-project-init 初始化当前项目，使用 core 配置档。` | `/godot-project-init 初始化当前项目，使用 core 配置档。` |
+| 初始化 | `$godot-project-init 初始化当前项目，使用 core 配置档、agent=both。` | `/godot-project-init 初始化当前项目，使用 core 配置档、agent=both。` |
 | 开发 | `$godot-dev 按 docs/requirements.md 完成功能与验收。` | `/godot-dev 按 docs/requirements.md 完成功能与验收。` |
 
 ## 配置和检查
