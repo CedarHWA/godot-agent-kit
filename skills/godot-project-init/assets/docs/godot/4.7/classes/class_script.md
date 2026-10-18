@@ -1,0 +1,261 @@
+> Source: https://docs.godotengine.org/en/4.7/classes/class_script.html
+> Godot documentation: 4.7; format-converted, not summarized.
+
+<a id="script"></a>
+
+<a id="class-script"></a>
+
+# Script
+
+**Inherits:** [Resource](class_resource.md#class-resource) **<** [RefCounted](class_refcounted.md#class-refcounted) **<** [Object](class_object.md#class-object)
+
+**Inherited By:** [CSharpScript](class_csharpscript.md#class-csharpscript), [GDScript](class_gdscript.md#class-gdscript), [ScriptExtension](class_scriptextension.md#class-scriptextension)
+
+A class stored as a resource.
+
+<a id="description"></a>
+
+## Description
+
+A class stored as a resource. A script extends the functionality of all objects that instantiate it.
+
+This is the base class for all scripts and should not be used directly. Trying to create a new script with this class will result in an error.
+
+The `new` method of a script subclass creates a new instance. [Object.set_script()](class_object.md#class-object-method-set-script) extends an existing object, if that object's class matches one of the script's base classes.
+
+<a id="tutorials"></a>
+
+## Tutorials
+
+- [Scripting documentation index](../tutorials/scripting/index.md)
+
+<a id="properties"></a>
+
+## Properties
+
+|  |  |
+| --- | --- |
+| [String](class_string.md#class-string) | [source_code](class_script.md#class-script-property-source-code) |
+
+<a id="methods"></a>
+
+## Methods
+
+|  |  |
+| --- | --- |
+| [bool](class_bool.md#class-bool) | [can_instantiate](class_script.md#class-script-method-can-instantiate)() const |
+| [Script](class_script.md#class-script) | [get_base_script](class_script.md#class-script-method-get-base-script)() const |
+| [StringName](class_stringname.md#class-stringname) | [get_global_name](class_script.md#class-script-method-get-global-name)() const |
+| [StringName](class_stringname.md#class-stringname) | [get_instance_base_type](class_script.md#class-script-method-get-instance-base-type)() const |
+| [Variant](class_variant.md#class-variant) | [get_property_default_value](class_script.md#class-script-method-get-property-default-value)(property: [StringName](class_stringname.md#class-stringname)) |
+| [Variant](class_variant.md#class-variant) | [get_rpc_config](class_script.md#class-script-method-get-rpc-config)() const |
+| [Dictionary](class_dictionary.md#class-dictionary) | [get_script_constant_map](class_script.md#class-script-method-get-script-constant-map)() |
+| [Array](class_array.md#class-array)[[Dictionary](class_dictionary.md#class-dictionary)] | [get_script_method_list](class_script.md#class-script-method-get-script-method-list)() |
+| [Array](class_array.md#class-array)[[Dictionary](class_dictionary.md#class-dictionary)] | [get_script_property_list](class_script.md#class-script-method-get-script-property-list)() |
+| [Array](class_array.md#class-array)[[Dictionary](class_dictionary.md#class-dictionary)] | [get_script_signal_list](class_script.md#class-script-method-get-script-signal-list)() |
+| [bool](class_bool.md#class-bool) | [has_script_method](class_script.md#class-script-method-has-script-method)(method_name: [StringName](class_stringname.md#class-stringname)) const |
+| [bool](class_bool.md#class-bool) | [has_script_signal](class_script.md#class-script-method-has-script-signal)(signal_name: [StringName](class_stringname.md#class-stringname)) const |
+| [bool](class_bool.md#class-bool) | [has_source_code](class_script.md#class-script-method-has-source-code)() const |
+| [bool](class_bool.md#class-bool) | [instance_has](class_script.md#class-script-method-instance-has)(base_object: [Object](class_object.md#class-object)) const |
+| [bool](class_bool.md#class-bool) | [is_abstract](class_script.md#class-script-method-is-abstract)() const |
+| [bool](class_bool.md#class-bool) | [is_tool](class_script.md#class-script-method-is-tool)() const |
+| [Error](class_@globalscope.md#enum-globalscope-error) | [reload](class_script.md#class-script-method-reload)(keep_state: [bool](class_bool.md#class-bool) = false) |
+
+---
+
+
+<a id="property-descriptions"></a>
+
+## Property Descriptions
+
+<a id="class-script-property-source-code"></a>
+
+[String](class_string.md#class-string) **source_code** [🔗](class_script.md#class-script-property-source-code)
+
+- void **set_source_code**(value: [String](class_string.md#class-string))
+- [String](class_string.md#class-string) **get_source_code**()
+
+The script source code or an empty string if source code is not available. When set, does not reload the class implementation automatically.
+
+---
+
+
+<a id="method-descriptions"></a>
+
+## Method Descriptions
+
+<a id="class-script-method-can-instantiate"></a>
+
+[bool](class_bool.md#class-bool) **can_instantiate**() const [🔗](class_script.md#class-script-method-can-instantiate)
+
+Returns `true` if the script can be instantiated.
+
+---
+
+
+<a id="class-script-method-get-base-script"></a>
+
+[Script](class_script.md#class-script) **get_base_script**() const [🔗](class_script.md#class-script-method-get-base-script)
+
+Returns the script directly inherited by this script.
+
+---
+
+
+<a id="class-script-method-get-global-name"></a>
+
+[StringName](class_stringname.md#class-stringname) **get_global_name**() const [🔗](class_script.md#class-script-method-get-global-name)
+
+Returns the class name associated with the script, if there is one. Returns an empty string otherwise.
+
+To give the script a global name, you can use the `class_name` keyword in GDScript and the `[GlobalClass]` attribute in C#.
+
+```gdscript
+class_name MyNode
+extends Node
+```
+
+```csharp
+using Godot;
+
+[GlobalClass]
+public partial class MyNode : Node
+{
+}
+```
+
+---
+
+
+<a id="class-script-method-get-instance-base-type"></a>
+
+[StringName](class_stringname.md#class-stringname) **get_instance_base_type**() const [🔗](class_script.md#class-script-method-get-instance-base-type)
+
+Returns the script's base type.
+
+---
+
+
+<a id="class-script-method-get-property-default-value"></a>
+
+[Variant](class_variant.md#class-variant) **get_property_default_value**(property: [StringName](class_stringname.md#class-stringname)) [🔗](class_script.md#class-script-method-get-property-default-value)
+
+Returns the default value of the specified property.
+
+---
+
+
+<a id="class-script-method-get-rpc-config"></a>
+
+[Variant](class_variant.md#class-variant) **get_rpc_config**() const [🔗](class_script.md#class-script-method-get-rpc-config)
+
+Returns a [Dictionary](class_dictionary.md#class-dictionary) mapping method names to their RPC configuration defined by this script.
+
+---
+
+
+<a id="class-script-method-get-script-constant-map"></a>
+
+[Dictionary](class_dictionary.md#class-dictionary) **get_script_constant_map**() [🔗](class_script.md#class-script-method-get-script-constant-map)
+
+Returns a dictionary containing constant names and their values.
+
+---
+
+
+<a id="class-script-method-get-script-method-list"></a>
+
+[Array](class_array.md#class-array)[[Dictionary](class_dictionary.md#class-dictionary)] **get_script_method_list**() [🔗](class_script.md#class-script-method-get-script-method-list)
+
+Returns the list of methods in this **Script**.
+
+**Note:** The dictionaries returned by this method are formatted identically to those returned by [Object.get_method_list()](class_object.md#class-object-method-get-method-list).
+
+---
+
+
+<a id="class-script-method-get-script-property-list"></a>
+
+[Array](class_array.md#class-array)[[Dictionary](class_dictionary.md#class-dictionary)] **get_script_property_list**() [🔗](class_script.md#class-script-method-get-script-property-list)
+
+Returns the list of properties in this **Script**.
+
+**Note:** The dictionaries returned by this method are formatted identically to those returned by [Object.get_property_list()](class_object.md#class-object-method-get-property-list).
+
+---
+
+
+<a id="class-script-method-get-script-signal-list"></a>
+
+[Array](class_array.md#class-array)[[Dictionary](class_dictionary.md#class-dictionary)] **get_script_signal_list**() [🔗](class_script.md#class-script-method-get-script-signal-list)
+
+Returns the list of signals defined in this **Script**.
+
+**Note:** The dictionaries returned by this method are formatted identically to those returned by [Object.get_signal_list()](class_object.md#class-object-method-get-signal-list).
+
+---
+
+
+<a id="class-script-method-has-script-method"></a>
+
+[bool](class_bool.md#class-bool) **has_script_method**(method_name: [StringName](class_stringname.md#class-stringname)) const [🔗](class_script.md#class-script-method-has-script-method)
+
+Returns `true` if the script, or a base class, defines a method with the given name.
+
+---
+
+
+<a id="class-script-method-has-script-signal"></a>
+
+[bool](class_bool.md#class-bool) **has_script_signal**(signal_name: [StringName](class_stringname.md#class-stringname)) const [🔗](class_script.md#class-script-method-has-script-signal)
+
+Returns `true` if the script, or a base class, defines a signal with the given name.
+
+---
+
+
+<a id="class-script-method-has-source-code"></a>
+
+[bool](class_bool.md#class-bool) **has_source_code**() const [🔗](class_script.md#class-script-method-has-source-code)
+
+Returns `true` if the script contains non-empty source code.
+
+**Note:** If a script does not have source code, this does not mean that it is invalid or unusable. For example, a [GDScript](class_gdscript.md#class-gdscript) that was exported with binary tokenization has no source code, but still behaves as expected and could be instantiated. This can be checked with [can_instantiate()](class_script.md#class-script-method-can-instantiate).
+
+---
+
+
+<a id="class-script-method-instance-has"></a>
+
+[bool](class_bool.md#class-bool) **instance_has**(base_object: [Object](class_object.md#class-object)) const [🔗](class_script.md#class-script-method-instance-has)
+
+**Deprecated:** Compare this script with [Object.get_script()](class_object.md#class-object-method-get-script) instead.
+
+Returns `true` if `base_object` is an instance of this script.
+
+---
+
+
+<a id="class-script-method-is-abstract"></a>
+
+[bool](class_bool.md#class-bool) **is_abstract**() const [🔗](class_script.md#class-script-method-is-abstract)
+
+Returns `true` if the script is an abstract script. An abstract script does not have a constructor and cannot be instantiated.
+
+---
+
+
+<a id="class-script-method-is-tool"></a>
+
+[bool](class_bool.md#class-bool) **is_tool**() const [🔗](class_script.md#class-script-method-is-tool)
+
+Returns `true` if the script is a tool script. A tool script can run in the editor.
+
+---
+
+
+<a id="class-script-method-reload"></a>
+
+[Error](class_@globalscope.md#enum-globalscope-error) **reload**(keep_state: [bool](class_bool.md#class-bool) = false) [🔗](class_script.md#class-script-method-reload)
+
+Reloads the script's class implementation. Returns an error code.

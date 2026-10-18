@@ -1,0 +1,6386 @@
+[
+  {
+    "title": "Page not found",
+    "path": "404.md"
+  },
+  {
+    "title": "Complying with licenses",
+    "path": "about/complying_with_licenses.md"
+  },
+  {
+    "title": "Documentation changelog",
+    "path": "about/docs_changelog.md"
+  },
+  {
+    "title": "Frequently asked questions",
+    "path": "about/faq.md"
+  },
+  {
+    "title": "Introduction",
+    "path": "about/introduction.md"
+  },
+  {
+    "title": "List of features",
+    "path": "about/list_of_features.md"
+  },
+  {
+    "title": "Godot release policy",
+    "path": "about/release_policy.md"
+  },
+  {
+    "title": "System requirements",
+    "path": "about/system_requirements.md"
+  },
+  {
+    "title": "@GDScript",
+    "path": "classes/class_@gdscript.md"
+  },
+  {
+    "title": "@GlobalScope",
+    "path": "classes/class_@globalscope.md"
+  },
+  {
+    "title": "AABB",
+    "path": "classes/class_aabb.md"
+  },
+  {
+    "title": "AcceptDialog",
+    "path": "classes/class_acceptdialog.md"
+  },
+  {
+    "title": "AccessibilityServer",
+    "path": "classes/class_accessibilityserver.md"
+  },
+  {
+    "title": "AESContext",
+    "path": "classes/class_aescontext.md"
+  },
+  {
+    "title": "AimModifier3D",
+    "path": "classes/class_aimmodifier3d.md"
+  },
+  {
+    "title": "AnimatableBody2D",
+    "path": "classes/class_animatablebody2d.md"
+  },
+  {
+    "title": "AnimatableBody3D",
+    "path": "classes/class_animatablebody3d.md"
+  },
+  {
+    "title": "AnimatedSprite2D",
+    "path": "classes/class_animatedsprite2d.md"
+  },
+  {
+    "title": "AnimatedSprite3D",
+    "path": "classes/class_animatedsprite3d.md"
+  },
+  {
+    "title": "AnimatedTexture",
+    "path": "classes/class_animatedtexture.md"
+  },
+  {
+    "title": "Animation",
+    "path": "classes/class_animation.md"
+  },
+  {
+    "title": "AnimationLibrary",
+    "path": "classes/class_animationlibrary.md"
+  },
+  {
+    "title": "AnimationMixer",
+    "path": "classes/class_animationmixer.md"
+  },
+  {
+    "title": "AnimationNode",
+    "path": "classes/class_animationnode.md"
+  },
+  {
+    "title": "AnimationNodeAdd2",
+    "path": "classes/class_animationnodeadd2.md"
+  },
+  {
+    "title": "AnimationNodeAdd3",
+    "path": "classes/class_animationnodeadd3.md"
+  },
+  {
+    "title": "AnimationNodeAnimation",
+    "path": "classes/class_animationnodeanimation.md"
+  },
+  {
+    "title": "AnimationNodeBlend2",
+    "path": "classes/class_animationnodeblend2.md"
+  },
+  {
+    "title": "AnimationNodeBlend3",
+    "path": "classes/class_animationnodeblend3.md"
+  },
+  {
+    "title": "AnimationNodeBlendSpace1D",
+    "path": "classes/class_animationnodeblendspace1d.md"
+  },
+  {
+    "title": "AnimationNodeBlendSpace2D",
+    "path": "classes/class_animationnodeblendspace2d.md"
+  },
+  {
+    "title": "AnimationNodeBlendTree",
+    "path": "classes/class_animationnodeblendtree.md"
+  },
+  {
+    "title": "AnimationNodeExtension",
+    "path": "classes/class_animationnodeextension.md"
+  },
+  {
+    "title": "AnimationNodeOneShot",
+    "path": "classes/class_animationnodeoneshot.md"
+  },
+  {
+    "title": "AnimationNodeOutput",
+    "path": "classes/class_animationnodeoutput.md"
+  },
+  {
+    "title": "AnimationNodeStateMachine",
+    "path": "classes/class_animationnodestatemachine.md"
+  },
+  {
+    "title": "AnimationNodeStateMachinePlayback",
+    "path": "classes/class_animationnodestatemachineplayback.md"
+  },
+  {
+    "title": "AnimationNodeStateMachineTransition",
+    "path": "classes/class_animationnodestatemachinetransition.md"
+  },
+  {
+    "title": "AnimationNodeSub2",
+    "path": "classes/class_animationnodesub2.md"
+  },
+  {
+    "title": "AnimationNodeSync",
+    "path": "classes/class_animationnodesync.md"
+  },
+  {
+    "title": "AnimationNodeTimeScale",
+    "path": "classes/class_animationnodetimescale.md"
+  },
+  {
+    "title": "AnimationNodeTimeSeek",
+    "path": "classes/class_animationnodetimeseek.md"
+  },
+  {
+    "title": "AnimationNodeTransition",
+    "path": "classes/class_animationnodetransition.md"
+  },
+  {
+    "title": "AnimationPlayer",
+    "path": "classes/class_animationplayer.md"
+  },
+  {
+    "title": "AnimationRootNode",
+    "path": "classes/class_animationrootnode.md"
+  },
+  {
+    "title": "AnimationTree",
+    "path": "classes/class_animationtree.md"
+  },
+  {
+    "title": "Area2D",
+    "path": "classes/class_area2d.md"
+  },
+  {
+    "title": "Area3D",
+    "path": "classes/class_area3d.md"
+  },
+  {
+    "title": "AreaLight3D",
+    "path": "classes/class_arealight3d.md"
+  },
+  {
+    "title": "Array",
+    "path": "classes/class_array.md"
+  },
+  {
+    "title": "ArrayMesh",
+    "path": "classes/class_arraymesh.md"
+  },
+  {
+    "title": "ArrayOccluder3D",
+    "path": "classes/class_arrayoccluder3d.md"
+  },
+  {
+    "title": "AspectRatioContainer",
+    "path": "classes/class_aspectratiocontainer.md"
+  },
+  {
+    "title": "AStar2D",
+    "path": "classes/class_astar2d.md"
+  },
+  {
+    "title": "AStar3D",
+    "path": "classes/class_astar3d.md"
+  },
+  {
+    "title": "AStarGrid2D",
+    "path": "classes/class_astargrid2d.md"
+  },
+  {
+    "title": "AtlasTexture",
+    "path": "classes/class_atlastexture.md"
+  },
+  {
+    "title": "AudioBusLayout",
+    "path": "classes/class_audiobuslayout.md"
+  },
+  {
+    "title": "AudioEffect",
+    "path": "classes/class_audioeffect.md"
+  },
+  {
+    "title": "AudioEffectAmplify",
+    "path": "classes/class_audioeffectamplify.md"
+  },
+  {
+    "title": "AudioEffectBandLimitFilter",
+    "path": "classes/class_audioeffectbandlimitfilter.md"
+  },
+  {
+    "title": "AudioEffectBandPassFilter",
+    "path": "classes/class_audioeffectbandpassfilter.md"
+  },
+  {
+    "title": "AudioEffectCapture",
+    "path": "classes/class_audioeffectcapture.md"
+  },
+  {
+    "title": "AudioEffectChorus",
+    "path": "classes/class_audioeffectchorus.md"
+  },
+  {
+    "title": "AudioEffectCompressor",
+    "path": "classes/class_audioeffectcompressor.md"
+  },
+  {
+    "title": "AudioEffectDelay",
+    "path": "classes/class_audioeffectdelay.md"
+  },
+  {
+    "title": "AudioEffectDistortion",
+    "path": "classes/class_audioeffectdistortion.md"
+  },
+  {
+    "title": "AudioEffectEQ",
+    "path": "classes/class_audioeffecteq.md"
+  },
+  {
+    "title": "AudioEffectEQ10",
+    "path": "classes/class_audioeffecteq10.md"
+  },
+  {
+    "title": "AudioEffectEQ21",
+    "path": "classes/class_audioeffecteq21.md"
+  },
+  {
+    "title": "AudioEffectEQ6",
+    "path": "classes/class_audioeffecteq6.md"
+  },
+  {
+    "title": "AudioEffectFilter",
+    "path": "classes/class_audioeffectfilter.md"
+  },
+  {
+    "title": "AudioEffectHardLimiter",
+    "path": "classes/class_audioeffecthardlimiter.md"
+  },
+  {
+    "title": "AudioEffectHighPassFilter",
+    "path": "classes/class_audioeffecthighpassfilter.md"
+  },
+  {
+    "title": "AudioEffectHighShelfFilter",
+    "path": "classes/class_audioeffecthighshelffilter.md"
+  },
+  {
+    "title": "AudioEffectInstance",
+    "path": "classes/class_audioeffectinstance.md"
+  },
+  {
+    "title": "AudioEffectLimiter",
+    "path": "classes/class_audioeffectlimiter.md"
+  },
+  {
+    "title": "AudioEffectLowPassFilter",
+    "path": "classes/class_audioeffectlowpassfilter.md"
+  },
+  {
+    "title": "AudioEffectLowShelfFilter",
+    "path": "classes/class_audioeffectlowshelffilter.md"
+  },
+  {
+    "title": "AudioEffectNotchFilter",
+    "path": "classes/class_audioeffectnotchfilter.md"
+  },
+  {
+    "title": "AudioEffectPanner",
+    "path": "classes/class_audioeffectpanner.md"
+  },
+  {
+    "title": "AudioEffectPhaser",
+    "path": "classes/class_audioeffectphaser.md"
+  },
+  {
+    "title": "AudioEffectPitchShift",
+    "path": "classes/class_audioeffectpitchshift.md"
+  },
+  {
+    "title": "AudioEffectRecord",
+    "path": "classes/class_audioeffectrecord.md"
+  },
+  {
+    "title": "AudioEffectReverb",
+    "path": "classes/class_audioeffectreverb.md"
+  },
+  {
+    "title": "AudioEffectSpectrumAnalyzer",
+    "path": "classes/class_audioeffectspectrumanalyzer.md"
+  },
+  {
+    "title": "AudioEffectSpectrumAnalyzerInstance",
+    "path": "classes/class_audioeffectspectrumanalyzerinstance.md"
+  },
+  {
+    "title": "AudioEffectStereoEnhance",
+    "path": "classes/class_audioeffectstereoenhance.md"
+  },
+  {
+    "title": "AudioListener2D",
+    "path": "classes/class_audiolistener2d.md"
+  },
+  {
+    "title": "AudioListener3D",
+    "path": "classes/class_audiolistener3d.md"
+  },
+  {
+    "title": "AudioSample",
+    "path": "classes/class_audiosample.md"
+  },
+  {
+    "title": "AudioSamplePlayback",
+    "path": "classes/class_audiosampleplayback.md"
+  },
+  {
+    "title": "AudioServer",
+    "path": "classes/class_audioserver.md"
+  },
+  {
+    "title": "AudioStream",
+    "path": "classes/class_audiostream.md"
+  },
+  {
+    "title": "AudioStreamGenerator",
+    "path": "classes/class_audiostreamgenerator.md"
+  },
+  {
+    "title": "AudioStreamGeneratorPlayback",
+    "path": "classes/class_audiostreamgeneratorplayback.md"
+  },
+  {
+    "title": "AudioStreamInteractive",
+    "path": "classes/class_audiostreaminteractive.md"
+  },
+  {
+    "title": "AudioStreamMicrophone",
+    "path": "classes/class_audiostreammicrophone.md"
+  },
+  {
+    "title": "AudioStreamMP3",
+    "path": "classes/class_audiostreammp3.md"
+  },
+  {
+    "title": "AudioStreamOggVorbis",
+    "path": "classes/class_audiostreamoggvorbis.md"
+  },
+  {
+    "title": "AudioStreamPlayback",
+    "path": "classes/class_audiostreamplayback.md"
+  },
+  {
+    "title": "AudioStreamPlaybackInteractive",
+    "path": "classes/class_audiostreamplaybackinteractive.md"
+  },
+  {
+    "title": "AudioStreamPlaybackOggVorbis",
+    "path": "classes/class_audiostreamplaybackoggvorbis.md"
+  },
+  {
+    "title": "AudioStreamPlaybackPlaylist",
+    "path": "classes/class_audiostreamplaybackplaylist.md"
+  },
+  {
+    "title": "AudioStreamPlaybackPolyphonic",
+    "path": "classes/class_audiostreamplaybackpolyphonic.md"
+  },
+  {
+    "title": "AudioStreamPlaybackResampled",
+    "path": "classes/class_audiostreamplaybackresampled.md"
+  },
+  {
+    "title": "AudioStreamPlaybackSynchronized",
+    "path": "classes/class_audiostreamplaybacksynchronized.md"
+  },
+  {
+    "title": "AudioStreamPlayer",
+    "path": "classes/class_audiostreamplayer.md"
+  },
+  {
+    "title": "AudioStreamPlayer2D",
+    "path": "classes/class_audiostreamplayer2d.md"
+  },
+  {
+    "title": "AudioStreamPlayer3D",
+    "path": "classes/class_audiostreamplayer3d.md"
+  },
+  {
+    "title": "AudioStreamPlaylist",
+    "path": "classes/class_audiostreamplaylist.md"
+  },
+  {
+    "title": "AudioStreamPolyphonic",
+    "path": "classes/class_audiostreampolyphonic.md"
+  },
+  {
+    "title": "AudioStreamRandomizer",
+    "path": "classes/class_audiostreamrandomizer.md"
+  },
+  {
+    "title": "AudioStreamSynchronized",
+    "path": "classes/class_audiostreamsynchronized.md"
+  },
+  {
+    "title": "AudioStreamWAV",
+    "path": "classes/class_audiostreamwav.md"
+  },
+  {
+    "title": "AwaitTweener",
+    "path": "classes/class_awaittweener.md"
+  },
+  {
+    "title": "BackBufferCopy",
+    "path": "classes/class_backbuffercopy.md"
+  },
+  {
+    "title": "BaseButton",
+    "path": "classes/class_basebutton.md"
+  },
+  {
+    "title": "BaseMaterial3D",
+    "path": "classes/class_basematerial3d.md"
+  },
+  {
+    "title": "Basis",
+    "path": "classes/class_basis.md"
+  },
+  {
+    "title": "BitMap",
+    "path": "classes/class_bitmap.md"
+  },
+  {
+    "title": "BlitMaterial",
+    "path": "classes/class_blitmaterial.md"
+  },
+  {
+    "title": "Bone2D",
+    "path": "classes/class_bone2d.md"
+  },
+  {
+    "title": "BoneAttachment3D",
+    "path": "classes/class_boneattachment3d.md"
+  },
+  {
+    "title": "BoneConstraint3D",
+    "path": "classes/class_boneconstraint3d.md"
+  },
+  {
+    "title": "BoneMap",
+    "path": "classes/class_bonemap.md"
+  },
+  {
+    "title": "BoneTwistDisperser3D",
+    "path": "classes/class_bonetwistdisperser3d.md"
+  },
+  {
+    "title": "bool",
+    "path": "classes/class_bool.md"
+  },
+  {
+    "title": "BoxContainer",
+    "path": "classes/class_boxcontainer.md"
+  },
+  {
+    "title": "BoxMesh",
+    "path": "classes/class_boxmesh.md"
+  },
+  {
+    "title": "BoxOccluder3D",
+    "path": "classes/class_boxoccluder3d.md"
+  },
+  {
+    "title": "BoxShape3D",
+    "path": "classes/class_boxshape3d.md"
+  },
+  {
+    "title": "Button",
+    "path": "classes/class_button.md"
+  },
+  {
+    "title": "ButtonGroup",
+    "path": "classes/class_buttongroup.md"
+  },
+  {
+    "title": "Callable",
+    "path": "classes/class_callable.md"
+  },
+  {
+    "title": "CallbackTweener",
+    "path": "classes/class_callbacktweener.md"
+  },
+  {
+    "title": "Camera2D",
+    "path": "classes/class_camera2d.md"
+  },
+  {
+    "title": "Camera3D",
+    "path": "classes/class_camera3d.md"
+  },
+  {
+    "title": "CameraAttributes",
+    "path": "classes/class_cameraattributes.md"
+  },
+  {
+    "title": "CameraAttributesPhysical",
+    "path": "classes/class_cameraattributesphysical.md"
+  },
+  {
+    "title": "CameraAttributesPractical",
+    "path": "classes/class_cameraattributespractical.md"
+  },
+  {
+    "title": "CameraFeed",
+    "path": "classes/class_camerafeed.md"
+  },
+  {
+    "title": "CameraServer",
+    "path": "classes/class_cameraserver.md"
+  },
+  {
+    "title": "CameraTexture",
+    "path": "classes/class_cameratexture.md"
+  },
+  {
+    "title": "CanvasGroup",
+    "path": "classes/class_canvasgroup.md"
+  },
+  {
+    "title": "CanvasItem",
+    "path": "classes/class_canvasitem.md"
+  },
+  {
+    "title": "CanvasItemMaterial",
+    "path": "classes/class_canvasitemmaterial.md"
+  },
+  {
+    "title": "CanvasLayer",
+    "path": "classes/class_canvaslayer.md"
+  },
+  {
+    "title": "CanvasModulate",
+    "path": "classes/class_canvasmodulate.md"
+  },
+  {
+    "title": "CanvasTexture",
+    "path": "classes/class_canvastexture.md"
+  },
+  {
+    "title": "CapsuleMesh",
+    "path": "classes/class_capsulemesh.md"
+  },
+  {
+    "title": "CapsuleShape2D",
+    "path": "classes/class_capsuleshape2d.md"
+  },
+  {
+    "title": "CapsuleShape3D",
+    "path": "classes/class_capsuleshape3d.md"
+  },
+  {
+    "title": "CCDIK3D",
+    "path": "classes/class_ccdik3d.md"
+  },
+  {
+    "title": "CenterContainer",
+    "path": "classes/class_centercontainer.md"
+  },
+  {
+    "title": "ChainIK3D",
+    "path": "classes/class_chainik3d.md"
+  },
+  {
+    "title": "CharacterBody2D",
+    "path": "classes/class_characterbody2d.md"
+  },
+  {
+    "title": "CharacterBody3D",
+    "path": "classes/class_characterbody3d.md"
+  },
+  {
+    "title": "CharFXTransform",
+    "path": "classes/class_charfxtransform.md"
+  },
+  {
+    "title": "CheckBox",
+    "path": "classes/class_checkbox.md"
+  },
+  {
+    "title": "CheckButton",
+    "path": "classes/class_checkbutton.md"
+  },
+  {
+    "title": "CircleShape2D",
+    "path": "classes/class_circleshape2d.md"
+  },
+  {
+    "title": "ClassDB",
+    "path": "classes/class_classdb.md"
+  },
+  {
+    "title": "CodeEdit",
+    "path": "classes/class_codeedit.md"
+  },
+  {
+    "title": "CodeHighlighter",
+    "path": "classes/class_codehighlighter.md"
+  },
+  {
+    "title": "CollisionObject2D",
+    "path": "classes/class_collisionobject2d.md"
+  },
+  {
+    "title": "CollisionObject3D",
+    "path": "classes/class_collisionobject3d.md"
+  },
+  {
+    "title": "CollisionPolygon2D",
+    "path": "classes/class_collisionpolygon2d.md"
+  },
+  {
+    "title": "CollisionPolygon3D",
+    "path": "classes/class_collisionpolygon3d.md"
+  },
+  {
+    "title": "CollisionShape2D",
+    "path": "classes/class_collisionshape2d.md"
+  },
+  {
+    "title": "CollisionShape3D",
+    "path": "classes/class_collisionshape3d.md"
+  },
+  {
+    "title": "Color",
+    "path": "classes/class_color.md"
+  },
+  {
+    "title": "ColorPalette",
+    "path": "classes/class_colorpalette.md"
+  },
+  {
+    "title": "ColorPicker",
+    "path": "classes/class_colorpicker.md"
+  },
+  {
+    "title": "ColorPickerButton",
+    "path": "classes/class_colorpickerbutton.md"
+  },
+  {
+    "title": "ColorRect",
+    "path": "classes/class_colorrect.md"
+  },
+  {
+    "title": "Compositor",
+    "path": "classes/class_compositor.md"
+  },
+  {
+    "title": "CompositorEffect",
+    "path": "classes/class_compositoreffect.md"
+  },
+  {
+    "title": "CompressedCubemap",
+    "path": "classes/class_compressedcubemap.md"
+  },
+  {
+    "title": "CompressedCubemapArray",
+    "path": "classes/class_compressedcubemaparray.md"
+  },
+  {
+    "title": "CompressedTexture2D",
+    "path": "classes/class_compressedtexture2d.md"
+  },
+  {
+    "title": "CompressedTexture2DArray",
+    "path": "classes/class_compressedtexture2darray.md"
+  },
+  {
+    "title": "CompressedTexture3D",
+    "path": "classes/class_compressedtexture3d.md"
+  },
+  {
+    "title": "CompressedTextureLayered",
+    "path": "classes/class_compressedtexturelayered.md"
+  },
+  {
+    "title": "ConcavePolygonShape2D",
+    "path": "classes/class_concavepolygonshape2d.md"
+  },
+  {
+    "title": "ConcavePolygonShape3D",
+    "path": "classes/class_concavepolygonshape3d.md"
+  },
+  {
+    "title": "ConeTwistJoint3D",
+    "path": "classes/class_conetwistjoint3d.md"
+  },
+  {
+    "title": "ConfigFile",
+    "path": "classes/class_configfile.md"
+  },
+  {
+    "title": "ConfirmationDialog",
+    "path": "classes/class_confirmationdialog.md"
+  },
+  {
+    "title": "Container",
+    "path": "classes/class_container.md"
+  },
+  {
+    "title": "Control",
+    "path": "classes/class_control.md"
+  },
+  {
+    "title": "ConvertTransformModifier3D",
+    "path": "classes/class_converttransformmodifier3d.md"
+  },
+  {
+    "title": "ConvexPolygonShape2D",
+    "path": "classes/class_convexpolygonshape2d.md"
+  },
+  {
+    "title": "ConvexPolygonShape3D",
+    "path": "classes/class_convexpolygonshape3d.md"
+  },
+  {
+    "title": "CopyTransformModifier3D",
+    "path": "classes/class_copytransformmodifier3d.md"
+  },
+  {
+    "title": "CPUParticles2D",
+    "path": "classes/class_cpuparticles2d.md"
+  },
+  {
+    "title": "CPUParticles3D",
+    "path": "classes/class_cpuparticles3d.md"
+  },
+  {
+    "title": "Crypto",
+    "path": "classes/class_crypto.md"
+  },
+  {
+    "title": "CryptoKey",
+    "path": "classes/class_cryptokey.md"
+  },
+  {
+    "title": "CSGBox3D",
+    "path": "classes/class_csgbox3d.md"
+  },
+  {
+    "title": "CSGCombiner3D",
+    "path": "classes/class_csgcombiner3d.md"
+  },
+  {
+    "title": "CSGCylinder3D",
+    "path": "classes/class_csgcylinder3d.md"
+  },
+  {
+    "title": "CSGMesh3D",
+    "path": "classes/class_csgmesh3d.md"
+  },
+  {
+    "title": "CSGPolygon3D",
+    "path": "classes/class_csgpolygon3d.md"
+  },
+  {
+    "title": "CSGPrimitive3D",
+    "path": "classes/class_csgprimitive3d.md"
+  },
+  {
+    "title": "CSGShape3D",
+    "path": "classes/class_csgshape3d.md"
+  },
+  {
+    "title": "CSGSphere3D",
+    "path": "classes/class_csgsphere3d.md"
+  },
+  {
+    "title": "CSGTorus3D",
+    "path": "classes/class_csgtorus3d.md"
+  },
+  {
+    "title": "CSharpScript",
+    "path": "classes/class_csharpscript.md"
+  },
+  {
+    "title": "Cubemap",
+    "path": "classes/class_cubemap.md"
+  },
+  {
+    "title": "CubemapArray",
+    "path": "classes/class_cubemaparray.md"
+  },
+  {
+    "title": "Curve",
+    "path": "classes/class_curve.md"
+  },
+  {
+    "title": "Curve2D",
+    "path": "classes/class_curve2d.md"
+  },
+  {
+    "title": "Curve3D",
+    "path": "classes/class_curve3d.md"
+  },
+  {
+    "title": "CurveTexture",
+    "path": "classes/class_curvetexture.md"
+  },
+  {
+    "title": "CurveXYZTexture",
+    "path": "classes/class_curvexyztexture.md"
+  },
+  {
+    "title": "CylinderMesh",
+    "path": "classes/class_cylindermesh.md"
+  },
+  {
+    "title": "CylinderShape3D",
+    "path": "classes/class_cylindershape3d.md"
+  },
+  {
+    "title": "DampedSpringJoint2D",
+    "path": "classes/class_dampedspringjoint2d.md"
+  },
+  {
+    "title": "Decal",
+    "path": "classes/class_decal.md"
+  },
+  {
+    "title": "Dictionary",
+    "path": "classes/class_dictionary.md"
+  },
+  {
+    "title": "DirAccess",
+    "path": "classes/class_diraccess.md"
+  },
+  {
+    "title": "DirectionalLight2D",
+    "path": "classes/class_directionallight2d.md"
+  },
+  {
+    "title": "DirectionalLight3D",
+    "path": "classes/class_directionallight3d.md"
+  },
+  {
+    "title": "DisplayServer",
+    "path": "classes/class_displayserver.md"
+  },
+  {
+    "title": "DPITexture",
+    "path": "classes/class_dpitexture.md"
+  },
+  {
+    "title": "DrawableTexture2D",
+    "path": "classes/class_drawabletexture2d.md"
+  },
+  {
+    "title": "DTLSServer",
+    "path": "classes/class_dtlsserver.md"
+  },
+  {
+    "title": "EditorCommandPalette",
+    "path": "classes/class_editorcommandpalette.md"
+  },
+  {
+    "title": "EditorContextMenuPlugin",
+    "path": "classes/class_editorcontextmenuplugin.md"
+  },
+  {
+    "title": "EditorDebuggerPlugin",
+    "path": "classes/class_editordebuggerplugin.md"
+  },
+  {
+    "title": "EditorDebuggerSession",
+    "path": "classes/class_editordebuggersession.md"
+  },
+  {
+    "title": "EditorDock",
+    "path": "classes/class_editordock.md"
+  },
+  {
+    "title": "EditorExportPlatform",
+    "path": "classes/class_editorexportplatform.md"
+  },
+  {
+    "title": "EditorExportPlatformAndroid",
+    "path": "classes/class_editorexportplatformandroid.md"
+  },
+  {
+    "title": "EditorExportPlatformAppleEmbedded",
+    "path": "classes/class_editorexportplatformappleembedded.md"
+  },
+  {
+    "title": "EditorExportPlatformExtension",
+    "path": "classes/class_editorexportplatformextension.md"
+  },
+  {
+    "title": "EditorExportPlatformIOS",
+    "path": "classes/class_editorexportplatformios.md"
+  },
+  {
+    "title": "EditorExportPlatformLinuxBSD",
+    "path": "classes/class_editorexportplatformlinuxbsd.md"
+  },
+  {
+    "title": "EditorExportPlatformMacOS",
+    "path": "classes/class_editorexportplatformmacos.md"
+  },
+  {
+    "title": "EditorExportPlatformPC",
+    "path": "classes/class_editorexportplatformpc.md"
+  },
+  {
+    "title": "EditorExportPlatformVisionOS",
+    "path": "classes/class_editorexportplatformvisionos.md"
+  },
+  {
+    "title": "EditorExportPlatformWeb",
+    "path": "classes/class_editorexportplatformweb.md"
+  },
+  {
+    "title": "EditorExportPlatformWindows",
+    "path": "classes/class_editorexportplatformwindows.md"
+  },
+  {
+    "title": "EditorExportPlugin",
+    "path": "classes/class_editorexportplugin.md"
+  },
+  {
+    "title": "EditorExportPreset",
+    "path": "classes/class_editorexportpreset.md"
+  },
+  {
+    "title": "EditorFeatureProfile",
+    "path": "classes/class_editorfeatureprofile.md"
+  },
+  {
+    "title": "EditorFileDialog",
+    "path": "classes/class_editorfiledialog.md"
+  },
+  {
+    "title": "EditorFileSystem",
+    "path": "classes/class_editorfilesystem.md"
+  },
+  {
+    "title": "EditorFileSystemDirectory",
+    "path": "classes/class_editorfilesystemdirectory.md"
+  },
+  {
+    "title": "EditorFileSystemImportFormatSupportQuery",
+    "path": "classes/class_editorfilesystemimportformatsupportquery.md"
+  },
+  {
+    "title": "EditorImportPlugin",
+    "path": "classes/class_editorimportplugin.md"
+  },
+  {
+    "title": "EditorInspector",
+    "path": "classes/class_editorinspector.md"
+  },
+  {
+    "title": "EditorInspectorPlugin",
+    "path": "classes/class_editorinspectorplugin.md"
+  },
+  {
+    "title": "EditorInterface",
+    "path": "classes/class_editorinterface.md"
+  },
+  {
+    "title": "EditorNode3DGizmo",
+    "path": "classes/class_editornode3dgizmo.md"
+  },
+  {
+    "title": "EditorNode3DGizmoPlugin",
+    "path": "classes/class_editornode3dgizmoplugin.md"
+  },
+  {
+    "title": "EditorPaths",
+    "path": "classes/class_editorpaths.md"
+  },
+  {
+    "title": "EditorPlugin",
+    "path": "classes/class_editorplugin.md"
+  },
+  {
+    "title": "EditorProperty",
+    "path": "classes/class_editorproperty.md"
+  },
+  {
+    "title": "EditorResourceConversionPlugin",
+    "path": "classes/class_editorresourceconversionplugin.md"
+  },
+  {
+    "title": "EditorResourcePicker",
+    "path": "classes/class_editorresourcepicker.md"
+  },
+  {
+    "title": "EditorResourcePreview",
+    "path": "classes/class_editorresourcepreview.md"
+  },
+  {
+    "title": "EditorResourcePreviewGenerator",
+    "path": "classes/class_editorresourcepreviewgenerator.md"
+  },
+  {
+    "title": "EditorResourceTooltipPlugin",
+    "path": "classes/class_editorresourcetooltipplugin.md"
+  },
+  {
+    "title": "EditorSceneFormatImporter",
+    "path": "classes/class_editorsceneformatimporter.md"
+  },
+  {
+    "title": "EditorSceneFormatImporterBlend",
+    "path": "classes/class_editorsceneformatimporterblend.md"
+  },
+  {
+    "title": "EditorSceneFormatImporterFBX2GLTF",
+    "path": "classes/class_editorsceneformatimporterfbx2gltf.md"
+  },
+  {
+    "title": "EditorSceneFormatImporterGLTF",
+    "path": "classes/class_editorsceneformatimportergltf.md"
+  },
+  {
+    "title": "EditorSceneFormatImporterUFBX",
+    "path": "classes/class_editorsceneformatimporterufbx.md"
+  },
+  {
+    "title": "EditorScenePostImport",
+    "path": "classes/class_editorscenepostimport.md"
+  },
+  {
+    "title": "EditorScenePostImportPlugin",
+    "path": "classes/class_editorscenepostimportplugin.md"
+  },
+  {
+    "title": "EditorScript",
+    "path": "classes/class_editorscript.md"
+  },
+  {
+    "title": "EditorScriptPicker",
+    "path": "classes/class_editorscriptpicker.md"
+  },
+  {
+    "title": "EditorSelection",
+    "path": "classes/class_editorselection.md"
+  },
+  {
+    "title": "EditorSettings",
+    "path": "classes/class_editorsettings.md"
+  },
+  {
+    "title": "EditorSpinSlider",
+    "path": "classes/class_editorspinslider.md"
+  },
+  {
+    "title": "EditorSyntaxHighlighter",
+    "path": "classes/class_editorsyntaxhighlighter.md"
+  },
+  {
+    "title": "EditorToaster",
+    "path": "classes/class_editortoaster.md"
+  },
+  {
+    "title": "EditorTranslationParserPlugin",
+    "path": "classes/class_editortranslationparserplugin.md"
+  },
+  {
+    "title": "EditorUndoRedoManager",
+    "path": "classes/class_editorundoredomanager.md"
+  },
+  {
+    "title": "EditorVCSInterface",
+    "path": "classes/class_editorvcsinterface.md"
+  },
+  {
+    "title": "EncodedObjectAsID",
+    "path": "classes/class_encodedobjectasid.md"
+  },
+  {
+    "title": "ENetConnection",
+    "path": "classes/class_enetconnection.md"
+  },
+  {
+    "title": "ENetMultiplayerPeer",
+    "path": "classes/class_enetmultiplayerpeer.md"
+  },
+  {
+    "title": "ENetPacketPeer",
+    "path": "classes/class_enetpacketpeer.md"
+  },
+  {
+    "title": "Engine",
+    "path": "classes/class_engine.md"
+  },
+  {
+    "title": "EngineDebugger",
+    "path": "classes/class_enginedebugger.md"
+  },
+  {
+    "title": "EngineProfiler",
+    "path": "classes/class_engineprofiler.md"
+  },
+  {
+    "title": "Environment",
+    "path": "classes/class_environment.md"
+  },
+  {
+    "title": "Expression",
+    "path": "classes/class_expression.md"
+  },
+  {
+    "title": "ExternalTexture",
+    "path": "classes/class_externaltexture.md"
+  },
+  {
+    "title": "FABRIK3D",
+    "path": "classes/class_fabrik3d.md"
+  },
+  {
+    "title": "FastNoiseLite",
+    "path": "classes/class_fastnoiselite.md"
+  },
+  {
+    "title": "FBXDocument",
+    "path": "classes/class_fbxdocument.md"
+  },
+  {
+    "title": "FBXState",
+    "path": "classes/class_fbxstate.md"
+  },
+  {
+    "title": "FileAccess",
+    "path": "classes/class_fileaccess.md"
+  },
+  {
+    "title": "FileDialog",
+    "path": "classes/class_filedialog.md"
+  },
+  {
+    "title": "FileSystemDock",
+    "path": "classes/class_filesystemdock.md"
+  },
+  {
+    "title": "float",
+    "path": "classes/class_float.md"
+  },
+  {
+    "title": "FlowContainer",
+    "path": "classes/class_flowcontainer.md"
+  },
+  {
+    "title": "FogMaterial",
+    "path": "classes/class_fogmaterial.md"
+  },
+  {
+    "title": "FogVolume",
+    "path": "classes/class_fogvolume.md"
+  },
+  {
+    "title": "FoldableContainer",
+    "path": "classes/class_foldablecontainer.md"
+  },
+  {
+    "title": "FoldableGroup",
+    "path": "classes/class_foldablegroup.md"
+  },
+  {
+    "title": "Font",
+    "path": "classes/class_font.md"
+  },
+  {
+    "title": "FontFile",
+    "path": "classes/class_fontfile.md"
+  },
+  {
+    "title": "FontVariation",
+    "path": "classes/class_fontvariation.md"
+  },
+  {
+    "title": "FramebufferCacheRD",
+    "path": "classes/class_framebuffercacherd.md"
+  },
+  {
+    "title": "GDExtension",
+    "path": "classes/class_gdextension.md"
+  },
+  {
+    "title": "GDExtensionManager",
+    "path": "classes/class_gdextensionmanager.md"
+  },
+  {
+    "title": "GDScript",
+    "path": "classes/class_gdscript.md"
+  },
+  {
+    "title": "GDScriptLanguageProtocol",
+    "path": "classes/class_gdscriptlanguageprotocol.md"
+  },
+  {
+    "title": "GDScriptSyntaxHighlighter",
+    "path": "classes/class_gdscriptsyntaxhighlighter.md"
+  },
+  {
+    "title": "GDScriptTextDocument",
+    "path": "classes/class_gdscripttextdocument.md"
+  },
+  {
+    "title": "GDScriptWorkspace",
+    "path": "classes/class_gdscriptworkspace.md"
+  },
+  {
+    "title": "Generic6DOFJoint3D",
+    "path": "classes/class_generic6dofjoint3d.md"
+  },
+  {
+    "title": "Geometry2D",
+    "path": "classes/class_geometry2d.md"
+  },
+  {
+    "title": "Geometry3D",
+    "path": "classes/class_geometry3d.md"
+  },
+  {
+    "title": "GeometryInstance3D",
+    "path": "classes/class_geometryinstance3d.md"
+  },
+  {
+    "title": "GLTFAccessor",
+    "path": "classes/class_gltfaccessor.md"
+  },
+  {
+    "title": "GLTFAnimation",
+    "path": "classes/class_gltfanimation.md"
+  },
+  {
+    "title": "GLTFBufferView",
+    "path": "classes/class_gltfbufferview.md"
+  },
+  {
+    "title": "GLTFCamera",
+    "path": "classes/class_gltfcamera.md"
+  },
+  {
+    "title": "GLTFDocument",
+    "path": "classes/class_gltfdocument.md"
+  },
+  {
+    "title": "GLTFDocumentExtension",
+    "path": "classes/class_gltfdocumentextension.md"
+  },
+  {
+    "title": "GLTFDocumentExtensionConvertImporterMesh",
+    "path": "classes/class_gltfdocumentextensionconvertimportermesh.md"
+  },
+  {
+    "title": "GLTFLight",
+    "path": "classes/class_gltflight.md"
+  },
+  {
+    "title": "GLTFMesh",
+    "path": "classes/class_gltfmesh.md"
+  },
+  {
+    "title": "GLTFNode",
+    "path": "classes/class_gltfnode.md"
+  },
+  {
+    "title": "GLTFObjectModelProperty",
+    "path": "classes/class_gltfobjectmodelproperty.md"
+  },
+  {
+    "title": "GLTFPhysicsBody",
+    "path": "classes/class_gltfphysicsbody.md"
+  },
+  {
+    "title": "GLTFPhysicsShape",
+    "path": "classes/class_gltfphysicsshape.md"
+  },
+  {
+    "title": "GLTFSkeleton",
+    "path": "classes/class_gltfskeleton.md"
+  },
+  {
+    "title": "GLTFSkin",
+    "path": "classes/class_gltfskin.md"
+  },
+  {
+    "title": "GLTFSpecGloss",
+    "path": "classes/class_gltfspecgloss.md"
+  },
+  {
+    "title": "GLTFState",
+    "path": "classes/class_gltfstate.md"
+  },
+  {
+    "title": "GLTFTexture",
+    "path": "classes/class_gltftexture.md"
+  },
+  {
+    "title": "GLTFTextureSampler",
+    "path": "classes/class_gltftexturesampler.md"
+  },
+  {
+    "title": "GodotInstance",
+    "path": "classes/class_godotinstance.md"
+  },
+  {
+    "title": "GPUParticles2D",
+    "path": "classes/class_gpuparticles2d.md"
+  },
+  {
+    "title": "GPUParticles3D",
+    "path": "classes/class_gpuparticles3d.md"
+  },
+  {
+    "title": "GPUParticlesAttractor3D",
+    "path": "classes/class_gpuparticlesattractor3d.md"
+  },
+  {
+    "title": "GPUParticlesAttractorBox3D",
+    "path": "classes/class_gpuparticlesattractorbox3d.md"
+  },
+  {
+    "title": "GPUParticlesAttractorSphere3D",
+    "path": "classes/class_gpuparticlesattractorsphere3d.md"
+  },
+  {
+    "title": "GPUParticlesAttractorVectorField3D",
+    "path": "classes/class_gpuparticlesattractorvectorfield3d.md"
+  },
+  {
+    "title": "GPUParticlesCollision3D",
+    "path": "classes/class_gpuparticlescollision3d.md"
+  },
+  {
+    "title": "GPUParticlesCollisionBox3D",
+    "path": "classes/class_gpuparticlescollisionbox3d.md"
+  },
+  {
+    "title": "GPUParticlesCollisionHeightField3D",
+    "path": "classes/class_gpuparticlescollisionheightfield3d.md"
+  },
+  {
+    "title": "GPUParticlesCollisionSDF3D",
+    "path": "classes/class_gpuparticlescollisionsdf3d.md"
+  },
+  {
+    "title": "GPUParticlesCollisionSphere3D",
+    "path": "classes/class_gpuparticlescollisionsphere3d.md"
+  },
+  {
+    "title": "Gradient",
+    "path": "classes/class_gradient.md"
+  },
+  {
+    "title": "GradientTexture1D",
+    "path": "classes/class_gradienttexture1d.md"
+  },
+  {
+    "title": "GradientTexture2D",
+    "path": "classes/class_gradienttexture2d.md"
+  },
+  {
+    "title": "GraphEdit",
+    "path": "classes/class_graphedit.md"
+  },
+  {
+    "title": "GraphElement",
+    "path": "classes/class_graphelement.md"
+  },
+  {
+    "title": "GraphFrame",
+    "path": "classes/class_graphframe.md"
+  },
+  {
+    "title": "GraphNode",
+    "path": "classes/class_graphnode.md"
+  },
+  {
+    "title": "GridContainer",
+    "path": "classes/class_gridcontainer.md"
+  },
+  {
+    "title": "GridMap",
+    "path": "classes/class_gridmap.md"
+  },
+  {
+    "title": "GridMapEditorPlugin",
+    "path": "classes/class_gridmapeditorplugin.md"
+  },
+  {
+    "title": "GrooveJoint2D",
+    "path": "classes/class_groovejoint2d.md"
+  },
+  {
+    "title": "HashingContext",
+    "path": "classes/class_hashingcontext.md"
+  },
+  {
+    "title": "HBoxContainer",
+    "path": "classes/class_hboxcontainer.md"
+  },
+  {
+    "title": "HeightMapShape3D",
+    "path": "classes/class_heightmapshape3d.md"
+  },
+  {
+    "title": "HFlowContainer",
+    "path": "classes/class_hflowcontainer.md"
+  },
+  {
+    "title": "HingeJoint3D",
+    "path": "classes/class_hingejoint3d.md"
+  },
+  {
+    "title": "HMACContext",
+    "path": "classes/class_hmaccontext.md"
+  },
+  {
+    "title": "HScrollBar",
+    "path": "classes/class_hscrollbar.md"
+  },
+  {
+    "title": "HSeparator",
+    "path": "classes/class_hseparator.md"
+  },
+  {
+    "title": "HSlider",
+    "path": "classes/class_hslider.md"
+  },
+  {
+    "title": "HSplitContainer",
+    "path": "classes/class_hsplitcontainer.md"
+  },
+  {
+    "title": "HTTPClient",
+    "path": "classes/class_httpclient.md"
+  },
+  {
+    "title": "HTTPRequest",
+    "path": "classes/class_httprequest.md"
+  },
+  {
+    "title": "IKModifier3D",
+    "path": "classes/class_ikmodifier3d.md"
+  },
+  {
+    "title": "Image",
+    "path": "classes/class_image.md"
+  },
+  {
+    "title": "ImageFormatLoader",
+    "path": "classes/class_imageformatloader.md"
+  },
+  {
+    "title": "ImageFormatLoaderExtension",
+    "path": "classes/class_imageformatloaderextension.md"
+  },
+  {
+    "title": "ImageTexture",
+    "path": "classes/class_imagetexture.md"
+  },
+  {
+    "title": "ImageTexture3D",
+    "path": "classes/class_imagetexture3d.md"
+  },
+  {
+    "title": "ImageTextureLayered",
+    "path": "classes/class_imagetexturelayered.md"
+  },
+  {
+    "title": "ImmediateMesh",
+    "path": "classes/class_immediatemesh.md"
+  },
+  {
+    "title": "ImporterMesh",
+    "path": "classes/class_importermesh.md"
+  },
+  {
+    "title": "ImporterMeshInstance3D",
+    "path": "classes/class_importermeshinstance3d.md"
+  },
+  {
+    "title": "Input",
+    "path": "classes/class_input.md"
+  },
+  {
+    "title": "InputEvent",
+    "path": "classes/class_inputevent.md"
+  },
+  {
+    "title": "InputEventAction",
+    "path": "classes/class_inputeventaction.md"
+  },
+  {
+    "title": "InputEventFromWindow",
+    "path": "classes/class_inputeventfromwindow.md"
+  },
+  {
+    "title": "InputEventGesture",
+    "path": "classes/class_inputeventgesture.md"
+  },
+  {
+    "title": "InputEventJoypadButton",
+    "path": "classes/class_inputeventjoypadbutton.md"
+  },
+  {
+    "title": "InputEventJoypadMotion",
+    "path": "classes/class_inputeventjoypadmotion.md"
+  },
+  {
+    "title": "InputEventKey",
+    "path": "classes/class_inputeventkey.md"
+  },
+  {
+    "title": "InputEventMagnifyGesture",
+    "path": "classes/class_inputeventmagnifygesture.md"
+  },
+  {
+    "title": "InputEventMIDI",
+    "path": "classes/class_inputeventmidi.md"
+  },
+  {
+    "title": "InputEventMouse",
+    "path": "classes/class_inputeventmouse.md"
+  },
+  {
+    "title": "InputEventMouseButton",
+    "path": "classes/class_inputeventmousebutton.md"
+  },
+  {
+    "title": "InputEventMouseMotion",
+    "path": "classes/class_inputeventmousemotion.md"
+  },
+  {
+    "title": "InputEventPanGesture",
+    "path": "classes/class_inputeventpangesture.md"
+  },
+  {
+    "title": "InputEventScreenDrag",
+    "path": "classes/class_inputeventscreendrag.md"
+  },
+  {
+    "title": "InputEventScreenTouch",
+    "path": "classes/class_inputeventscreentouch.md"
+  },
+  {
+    "title": "InputEventShortcut",
+    "path": "classes/class_inputeventshortcut.md"
+  },
+  {
+    "title": "InputEventWithModifiers",
+    "path": "classes/class_inputeventwithmodifiers.md"
+  },
+  {
+    "title": "InputMap",
+    "path": "classes/class_inputmap.md"
+  },
+  {
+    "title": "InstancePlaceholder",
+    "path": "classes/class_instanceplaceholder.md"
+  },
+  {
+    "title": "int",
+    "path": "classes/class_int.md"
+  },
+  {
+    "title": "IntervalTweener",
+    "path": "classes/class_intervaltweener.md"
+  },
+  {
+    "title": "IP",
+    "path": "classes/class_ip.md"
+  },
+  {
+    "title": "ItemList",
+    "path": "classes/class_itemlist.md"
+  },
+  {
+    "title": "IterateIK3D",
+    "path": "classes/class_iterateik3d.md"
+  },
+  {
+    "title": "JacobianIK3D",
+    "path": "classes/class_jacobianik3d.md"
+  },
+  {
+    "title": "JavaClass",
+    "path": "classes/class_javaclass.md"
+  },
+  {
+    "title": "JavaClassWrapper",
+    "path": "classes/class_javaclasswrapper.md"
+  },
+  {
+    "title": "JavaObject",
+    "path": "classes/class_javaobject.md"
+  },
+  {
+    "title": "JavaScriptBridge",
+    "path": "classes/class_javascriptbridge.md"
+  },
+  {
+    "title": "JavaScriptObject",
+    "path": "classes/class_javascriptobject.md"
+  },
+  {
+    "title": "JNISingleton",
+    "path": "classes/class_jnisingleton.md"
+  },
+  {
+    "title": "Joint2D",
+    "path": "classes/class_joint2d.md"
+  },
+  {
+    "title": "Joint3D",
+    "path": "classes/class_joint3d.md"
+  },
+  {
+    "title": "JointLimitation3D",
+    "path": "classes/class_jointlimitation3d.md"
+  },
+  {
+    "title": "JointLimitationCone3D",
+    "path": "classes/class_jointlimitationcone3d.md"
+  },
+  {
+    "title": "JSON",
+    "path": "classes/class_json.md"
+  },
+  {
+    "title": "JSONRPC",
+    "path": "classes/class_jsonrpc.md"
+  },
+  {
+    "title": "KinematicCollision2D",
+    "path": "classes/class_kinematiccollision2d.md"
+  },
+  {
+    "title": "KinematicCollision3D",
+    "path": "classes/class_kinematiccollision3d.md"
+  },
+  {
+    "title": "Label",
+    "path": "classes/class_label.md"
+  },
+  {
+    "title": "Label3D",
+    "path": "classes/class_label3d.md"
+  },
+  {
+    "title": "LabelSettings",
+    "path": "classes/class_labelsettings.md"
+  },
+  {
+    "title": "Light2D",
+    "path": "classes/class_light2d.md"
+  },
+  {
+    "title": "Light3D",
+    "path": "classes/class_light3d.md"
+  },
+  {
+    "title": "LightmapGI",
+    "path": "classes/class_lightmapgi.md"
+  },
+  {
+    "title": "LightmapGIData",
+    "path": "classes/class_lightmapgidata.md"
+  },
+  {
+    "title": "Lightmapper",
+    "path": "classes/class_lightmapper.md"
+  },
+  {
+    "title": "LightmapperRD",
+    "path": "classes/class_lightmapperrd.md"
+  },
+  {
+    "title": "LightmapProbe",
+    "path": "classes/class_lightmapprobe.md"
+  },
+  {
+    "title": "LightOccluder2D",
+    "path": "classes/class_lightoccluder2d.md"
+  },
+  {
+    "title": "LimitAngularVelocityModifier3D",
+    "path": "classes/class_limitangularvelocitymodifier3d.md"
+  },
+  {
+    "title": "Line2D",
+    "path": "classes/class_line2d.md"
+  },
+  {
+    "title": "LineEdit",
+    "path": "classes/class_lineedit.md"
+  },
+  {
+    "title": "LinkButton",
+    "path": "classes/class_linkbutton.md"
+  },
+  {
+    "title": "Logger",
+    "path": "classes/class_logger.md"
+  },
+  {
+    "title": "LookAtModifier3D",
+    "path": "classes/class_lookatmodifier3d.md"
+  },
+  {
+    "title": "MainLoop",
+    "path": "classes/class_mainloop.md"
+  },
+  {
+    "title": "MarginContainer",
+    "path": "classes/class_margincontainer.md"
+  },
+  {
+    "title": "Marker2D",
+    "path": "classes/class_marker2d.md"
+  },
+  {
+    "title": "Marker3D",
+    "path": "classes/class_marker3d.md"
+  },
+  {
+    "title": "Marshalls",
+    "path": "classes/class_marshalls.md"
+  },
+  {
+    "title": "Material",
+    "path": "classes/class_material.md"
+  },
+  {
+    "title": "MenuBar",
+    "path": "classes/class_menubar.md"
+  },
+  {
+    "title": "MenuButton",
+    "path": "classes/class_menubutton.md"
+  },
+  {
+    "title": "Mesh",
+    "path": "classes/class_mesh.md"
+  },
+  {
+    "title": "MeshConvexDecompositionSettings",
+    "path": "classes/class_meshconvexdecompositionsettings.md"
+  },
+  {
+    "title": "MeshDataTool",
+    "path": "classes/class_meshdatatool.md"
+  },
+  {
+    "title": "MeshInstance2D",
+    "path": "classes/class_meshinstance2d.md"
+  },
+  {
+    "title": "MeshInstance3D",
+    "path": "classes/class_meshinstance3d.md"
+  },
+  {
+    "title": "MeshLibrary",
+    "path": "classes/class_meshlibrary.md"
+  },
+  {
+    "title": "MeshTexture",
+    "path": "classes/class_meshtexture.md"
+  },
+  {
+    "title": "MethodTweener",
+    "path": "classes/class_methodtweener.md"
+  },
+  {
+    "title": "MissingNode",
+    "path": "classes/class_missingnode.md"
+  },
+  {
+    "title": "MissingResource",
+    "path": "classes/class_missingresource.md"
+  },
+  {
+    "title": "MobileVRInterface",
+    "path": "classes/class_mobilevrinterface.md"
+  },
+  {
+    "title": "ModifierBoneTarget3D",
+    "path": "classes/class_modifierbonetarget3d.md"
+  },
+  {
+    "title": "MovieWriter",
+    "path": "classes/class_moviewriter.md"
+  },
+  {
+    "title": "MultiMesh",
+    "path": "classes/class_multimesh.md"
+  },
+  {
+    "title": "MultiMeshInstance2D",
+    "path": "classes/class_multimeshinstance2d.md"
+  },
+  {
+    "title": "MultiMeshInstance3D",
+    "path": "classes/class_multimeshinstance3d.md"
+  },
+  {
+    "title": "MultiplayerAPI",
+    "path": "classes/class_multiplayerapi.md"
+  },
+  {
+    "title": "MultiplayerAPIExtension",
+    "path": "classes/class_multiplayerapiextension.md"
+  },
+  {
+    "title": "MultiplayerPeer",
+    "path": "classes/class_multiplayerpeer.md"
+  },
+  {
+    "title": "MultiplayerPeerExtension",
+    "path": "classes/class_multiplayerpeerextension.md"
+  },
+  {
+    "title": "MultiplayerSpawner",
+    "path": "classes/class_multiplayerspawner.md"
+  },
+  {
+    "title": "MultiplayerSynchronizer",
+    "path": "classes/class_multiplayersynchronizer.md"
+  },
+  {
+    "title": "Mutex",
+    "path": "classes/class_mutex.md"
+  },
+  {
+    "title": "NativeMenu",
+    "path": "classes/class_nativemenu.md"
+  },
+  {
+    "title": "NavigationAgent2D",
+    "path": "classes/class_navigationagent2d.md"
+  },
+  {
+    "title": "NavigationAgent3D",
+    "path": "classes/class_navigationagent3d.md"
+  },
+  {
+    "title": "NavigationLink2D",
+    "path": "classes/class_navigationlink2d.md"
+  },
+  {
+    "title": "NavigationLink3D",
+    "path": "classes/class_navigationlink3d.md"
+  },
+  {
+    "title": "NavigationMesh",
+    "path": "classes/class_navigationmesh.md"
+  },
+  {
+    "title": "NavigationMeshGenerator",
+    "path": "classes/class_navigationmeshgenerator.md"
+  },
+  {
+    "title": "NavigationMeshSourceGeometryData2D",
+    "path": "classes/class_navigationmeshsourcegeometrydata2d.md"
+  },
+  {
+    "title": "NavigationMeshSourceGeometryData3D",
+    "path": "classes/class_navigationmeshsourcegeometrydata3d.md"
+  },
+  {
+    "title": "NavigationObstacle2D",
+    "path": "classes/class_navigationobstacle2d.md"
+  },
+  {
+    "title": "NavigationObstacle3D",
+    "path": "classes/class_navigationobstacle3d.md"
+  },
+  {
+    "title": "NavigationPathQueryParameters2D",
+    "path": "classes/class_navigationpathqueryparameters2d.md"
+  },
+  {
+    "title": "NavigationPathQueryParameters3D",
+    "path": "classes/class_navigationpathqueryparameters3d.md"
+  },
+  {
+    "title": "NavigationPathQueryResult2D",
+    "path": "classes/class_navigationpathqueryresult2d.md"
+  },
+  {
+    "title": "NavigationPathQueryResult3D",
+    "path": "classes/class_navigationpathqueryresult3d.md"
+  },
+  {
+    "title": "NavigationPolygon",
+    "path": "classes/class_navigationpolygon.md"
+  },
+  {
+    "title": "NavigationRegion2D",
+    "path": "classes/class_navigationregion2d.md"
+  },
+  {
+    "title": "NavigationRegion3D",
+    "path": "classes/class_navigationregion3d.md"
+  },
+  {
+    "title": "NavigationServer2D",
+    "path": "classes/class_navigationserver2d.md"
+  },
+  {
+    "title": "NavigationServer2DManager",
+    "path": "classes/class_navigationserver2dmanager.md"
+  },
+  {
+    "title": "NavigationServer3D",
+    "path": "classes/class_navigationserver3d.md"
+  },
+  {
+    "title": "NavigationServer3DManager",
+    "path": "classes/class_navigationserver3dmanager.md"
+  },
+  {
+    "title": "NinePatchRect",
+    "path": "classes/class_ninepatchrect.md"
+  },
+  {
+    "title": "Node",
+    "path": "classes/class_node.md"
+  },
+  {
+    "title": "Node2D",
+    "path": "classes/class_node2d.md"
+  },
+  {
+    "title": "Node3D",
+    "path": "classes/class_node3d.md"
+  },
+  {
+    "title": "Node3DGizmo",
+    "path": "classes/class_node3dgizmo.md"
+  },
+  {
+    "title": "NodePath",
+    "path": "classes/class_nodepath.md"
+  },
+  {
+    "title": "Noise",
+    "path": "classes/class_noise.md"
+  },
+  {
+    "title": "NoiseTexture2D",
+    "path": "classes/class_noisetexture2d.md"
+  },
+  {
+    "title": "NoiseTexture3D",
+    "path": "classes/class_noisetexture3d.md"
+  },
+  {
+    "title": "Object",
+    "path": "classes/class_object.md"
+  },
+  {
+    "title": "Occluder3D",
+    "path": "classes/class_occluder3d.md"
+  },
+  {
+    "title": "OccluderInstance3D",
+    "path": "classes/class_occluderinstance3d.md"
+  },
+  {
+    "title": "OccluderPolygon2D",
+    "path": "classes/class_occluderpolygon2d.md"
+  },
+  {
+    "title": "OfflineMultiplayerPeer",
+    "path": "classes/class_offlinemultiplayerpeer.md"
+  },
+  {
+    "title": "OggPacketSequence",
+    "path": "classes/class_oggpacketsequence.md"
+  },
+  {
+    "title": "OggPacketSequencePlayback",
+    "path": "classes/class_oggpacketsequenceplayback.md"
+  },
+  {
+    "title": "OmniLight3D",
+    "path": "classes/class_omnilight3d.md"
+  },
+  {
+    "title": "OpenXRAction",
+    "path": "classes/class_openxraction.md"
+  },
+  {
+    "title": "OpenXRActionBindingModifier",
+    "path": "classes/class_openxractionbindingmodifier.md"
+  },
+  {
+    "title": "OpenXRActionMap",
+    "path": "classes/class_openxractionmap.md"
+  },
+  {
+    "title": "OpenXRActionSet",
+    "path": "classes/class_openxractionset.md"
+  },
+  {
+    "title": "OpenXRAnalogThresholdModifier",
+    "path": "classes/class_openxranalogthresholdmodifier.md"
+  },
+  {
+    "title": "OpenXRAnchorTracker",
+    "path": "classes/class_openxranchortracker.md"
+  },
+  {
+    "title": "OpenXRAndroidThreadSettingsExtension",
+    "path": "classes/class_openxrandroidthreadsettingsextension.md"
+  },
+  {
+    "title": "OpenXRAPIExtension",
+    "path": "classes/class_openxrapiextension.md"
+  },
+  {
+    "title": "OpenXRBindingModifier",
+    "path": "classes/class_openxrbindingmodifier.md"
+  },
+  {
+    "title": "OpenXRBindingModifierEditor",
+    "path": "classes/class_openxrbindingmodifiereditor.md"
+  },
+  {
+    "title": "OpenXRCompositionLayer",
+    "path": "classes/class_openxrcompositionlayer.md"
+  },
+  {
+    "title": "OpenXRCompositionLayerCylinder",
+    "path": "classes/class_openxrcompositionlayercylinder.md"
+  },
+  {
+    "title": "OpenXRCompositionLayerEquirect",
+    "path": "classes/class_openxrcompositionlayerequirect.md"
+  },
+  {
+    "title": "OpenXRCompositionLayerQuad",
+    "path": "classes/class_openxrcompositionlayerquad.md"
+  },
+  {
+    "title": "OpenXRDpadBindingModifier",
+    "path": "classes/class_openxrdpadbindingmodifier.md"
+  },
+  {
+    "title": "OpenXRExtensionWrapper",
+    "path": "classes/class_openxrextensionwrapper.md"
+  },
+  {
+    "title": "OpenXRExtensionWrapperExtension",
+    "path": "classes/class_openxrextensionwrapperextension.md"
+  },
+  {
+    "title": "OpenXRFrameSynthesisExtension",
+    "path": "classes/class_openxrframesynthesisextension.md"
+  },
+  {
+    "title": "OpenXRFutureExtension",
+    "path": "classes/class_openxrfutureextension.md"
+  },
+  {
+    "title": "OpenXRFutureResult",
+    "path": "classes/class_openxrfutureresult.md"
+  },
+  {
+    "title": "OpenXRHand",
+    "path": "classes/class_openxrhand.md"
+  },
+  {
+    "title": "OpenXRHapticBase",
+    "path": "classes/class_openxrhapticbase.md"
+  },
+  {
+    "title": "OpenXRHapticVibration",
+    "path": "classes/class_openxrhapticvibration.md"
+  },
+  {
+    "title": "OpenXRInteractionProfile",
+    "path": "classes/class_openxrinteractionprofile.md"
+  },
+  {
+    "title": "OpenXRInteractionProfileEditor",
+    "path": "classes/class_openxrinteractionprofileeditor.md"
+  },
+  {
+    "title": "OpenXRInteractionProfileEditorBase",
+    "path": "classes/class_openxrinteractionprofileeditorbase.md"
+  },
+  {
+    "title": "OpenXRInteractionProfileMetadata",
+    "path": "classes/class_openxrinteractionprofilemetadata.md"
+  },
+  {
+    "title": "OpenXRInterface",
+    "path": "classes/class_openxrinterface.md"
+  },
+  {
+    "title": "OpenXRIPBinding",
+    "path": "classes/class_openxripbinding.md"
+  },
+  {
+    "title": "OpenXRIPBindingModifier",
+    "path": "classes/class_openxripbindingmodifier.md"
+  },
+  {
+    "title": "OpenXRMarkerTracker",
+    "path": "classes/class_openxrmarkertracker.md"
+  },
+  {
+    "title": "OpenXRPlaneTracker",
+    "path": "classes/class_openxrplanetracker.md"
+  },
+  {
+    "title": "OpenXRRenderModel",
+    "path": "classes/class_openxrrendermodel.md"
+  },
+  {
+    "title": "OpenXRRenderModelExtension",
+    "path": "classes/class_openxrrendermodelextension.md"
+  },
+  {
+    "title": "OpenXRRenderModelManager",
+    "path": "classes/class_openxrrendermodelmanager.md"
+  },
+  {
+    "title": "OpenXRSpatialAnchorCapability",
+    "path": "classes/class_openxrspatialanchorcapability.md"
+  },
+  {
+    "title": "OpenXRSpatialCapabilityConfigurationAnchor",
+    "path": "classes/class_openxrspatialcapabilityconfigurationanchor.md"
+  },
+  {
+    "title": "OpenXRSpatialCapabilityConfigurationAprilTag",
+    "path": "classes/class_openxrspatialcapabilityconfigurationapriltag.md"
+  },
+  {
+    "title": "OpenXRSpatialCapabilityConfigurationAruco",
+    "path": "classes/class_openxrspatialcapabilityconfigurationaruco.md"
+  },
+  {
+    "title": "OpenXRSpatialCapabilityConfigurationBaseHeader",
+    "path": "classes/class_openxrspatialcapabilityconfigurationbaseheader.md"
+  },
+  {
+    "title": "OpenXRSpatialCapabilityConfigurationMicroQrCode",
+    "path": "classes/class_openxrspatialcapabilityconfigurationmicroqrcode.md"
+  },
+  {
+    "title": "OpenXRSpatialCapabilityConfigurationPlaneTracking",
+    "path": "classes/class_openxrspatialcapabilityconfigurationplanetracking.md"
+  },
+  {
+    "title": "OpenXRSpatialCapabilityConfigurationQrCode",
+    "path": "classes/class_openxrspatialcapabilityconfigurationqrcode.md"
+  },
+  {
+    "title": "OpenXRSpatialComponentAnchorList",
+    "path": "classes/class_openxrspatialcomponentanchorlist.md"
+  },
+  {
+    "title": "OpenXRSpatialComponentBounded2DList",
+    "path": "classes/class_openxrspatialcomponentbounded2dlist.md"
+  },
+  {
+    "title": "OpenXRSpatialComponentBounded3DList",
+    "path": "classes/class_openxrspatialcomponentbounded3dlist.md"
+  },
+  {
+    "title": "OpenXRSpatialComponentData",
+    "path": "classes/class_openxrspatialcomponentdata.md"
+  },
+  {
+    "title": "OpenXRSpatialComponentMarkerList",
+    "path": "classes/class_openxrspatialcomponentmarkerlist.md"
+  },
+  {
+    "title": "OpenXRSpatialComponentMesh2DList",
+    "path": "classes/class_openxrspatialcomponentmesh2dlist.md"
+  },
+  {
+    "title": "OpenXRSpatialComponentMesh3DList",
+    "path": "classes/class_openxrspatialcomponentmesh3dlist.md"
+  },
+  {
+    "title": "OpenXRSpatialComponentParentList",
+    "path": "classes/class_openxrspatialcomponentparentlist.md"
+  },
+  {
+    "title": "OpenXRSpatialComponentPersistenceList",
+    "path": "classes/class_openxrspatialcomponentpersistencelist.md"
+  },
+  {
+    "title": "OpenXRSpatialComponentPlaneAlignmentList",
+    "path": "classes/class_openxrspatialcomponentplanealignmentlist.md"
+  },
+  {
+    "title": "OpenXRSpatialComponentPlaneSemanticLabelList",
+    "path": "classes/class_openxrspatialcomponentplanesemanticlabellist.md"
+  },
+  {
+    "title": "OpenXRSpatialComponentPolygon2DList",
+    "path": "classes/class_openxrspatialcomponentpolygon2dlist.md"
+  },
+  {
+    "title": "OpenXRSpatialContextPersistenceConfig",
+    "path": "classes/class_openxrspatialcontextpersistenceconfig.md"
+  },
+  {
+    "title": "OpenXRSpatialEntityExtension",
+    "path": "classes/class_openxrspatialentityextension.md"
+  },
+  {
+    "title": "OpenXRSpatialEntityTracker",
+    "path": "classes/class_openxrspatialentitytracker.md"
+  },
+  {
+    "title": "OpenXRSpatialMarkerTrackingCapability",
+    "path": "classes/class_openxrspatialmarkertrackingcapability.md"
+  },
+  {
+    "title": "OpenXRSpatialPlaneTrackingCapability",
+    "path": "classes/class_openxrspatialplanetrackingcapability.md"
+  },
+  {
+    "title": "OpenXRSpatialQueryResultData",
+    "path": "classes/class_openxrspatialqueryresultdata.md"
+  },
+  {
+    "title": "OpenXRStructureBase",
+    "path": "classes/class_openxrstructurebase.md"
+  },
+  {
+    "title": "OpenXRVisibilityMask",
+    "path": "classes/class_openxrvisibilitymask.md"
+  },
+  {
+    "title": "OptimizedTranslation",
+    "path": "classes/class_optimizedtranslation.md"
+  },
+  {
+    "title": "OptionButton",
+    "path": "classes/class_optionbutton.md"
+  },
+  {
+    "title": "ORMMaterial3D",
+    "path": "classes/class_ormmaterial3d.md"
+  },
+  {
+    "title": "OS",
+    "path": "classes/class_os.md"
+  },
+  {
+    "title": "PackedByteArray",
+    "path": "classes/class_packedbytearray.md"
+  },
+  {
+    "title": "PackedColorArray",
+    "path": "classes/class_packedcolorarray.md"
+  },
+  {
+    "title": "PackedDataContainer",
+    "path": "classes/class_packeddatacontainer.md"
+  },
+  {
+    "title": "PackedDataContainerRef",
+    "path": "classes/class_packeddatacontainerref.md"
+  },
+  {
+    "title": "PackedFloat32Array",
+    "path": "classes/class_packedfloat32array.md"
+  },
+  {
+    "title": "PackedFloat64Array",
+    "path": "classes/class_packedfloat64array.md"
+  },
+  {
+    "title": "PackedInt32Array",
+    "path": "classes/class_packedint32array.md"
+  },
+  {
+    "title": "PackedInt64Array",
+    "path": "classes/class_packedint64array.md"
+  },
+  {
+    "title": "PackedScene",
+    "path": "classes/class_packedscene.md"
+  },
+  {
+    "title": "PackedStringArray",
+    "path": "classes/class_packedstringarray.md"
+  },
+  {
+    "title": "PackedVector2Array",
+    "path": "classes/class_packedvector2array.md"
+  },
+  {
+    "title": "PackedVector3Array",
+    "path": "classes/class_packedvector3array.md"
+  },
+  {
+    "title": "PackedVector4Array",
+    "path": "classes/class_packedvector4array.md"
+  },
+  {
+    "title": "PacketPeer",
+    "path": "classes/class_packetpeer.md"
+  },
+  {
+    "title": "PacketPeerDTLS",
+    "path": "classes/class_packetpeerdtls.md"
+  },
+  {
+    "title": "PacketPeerExtension",
+    "path": "classes/class_packetpeerextension.md"
+  },
+  {
+    "title": "PacketPeerStream",
+    "path": "classes/class_packetpeerstream.md"
+  },
+  {
+    "title": "PacketPeerUDP",
+    "path": "classes/class_packetpeerudp.md"
+  },
+  {
+    "title": "Panel",
+    "path": "classes/class_panel.md"
+  },
+  {
+    "title": "PanelContainer",
+    "path": "classes/class_panelcontainer.md"
+  },
+  {
+    "title": "PanoramaSkyMaterial",
+    "path": "classes/class_panoramaskymaterial.md"
+  },
+  {
+    "title": "Parallax2D",
+    "path": "classes/class_parallax2d.md"
+  },
+  {
+    "title": "ParallaxBackground",
+    "path": "classes/class_parallaxbackground.md"
+  },
+  {
+    "title": "ParallaxLayer",
+    "path": "classes/class_parallaxlayer.md"
+  },
+  {
+    "title": "ParticleProcessMaterial",
+    "path": "classes/class_particleprocessmaterial.md"
+  },
+  {
+    "title": "Path2D",
+    "path": "classes/class_path2d.md"
+  },
+  {
+    "title": "Path3D",
+    "path": "classes/class_path3d.md"
+  },
+  {
+    "title": "PathFollow2D",
+    "path": "classes/class_pathfollow2d.md"
+  },
+  {
+    "title": "PathFollow3D",
+    "path": "classes/class_pathfollow3d.md"
+  },
+  {
+    "title": "PCKPacker",
+    "path": "classes/class_pckpacker.md"
+  },
+  {
+    "title": "Performance",
+    "path": "classes/class_performance.md"
+  },
+  {
+    "title": "PhysicalBone2D",
+    "path": "classes/class_physicalbone2d.md"
+  },
+  {
+    "title": "PhysicalBone3D",
+    "path": "classes/class_physicalbone3d.md"
+  },
+  {
+    "title": "PhysicalBoneSimulator3D",
+    "path": "classes/class_physicalbonesimulator3d.md"
+  },
+  {
+    "title": "PhysicalSkyMaterial",
+    "path": "classes/class_physicalskymaterial.md"
+  },
+  {
+    "title": "PhysicsBody2D",
+    "path": "classes/class_physicsbody2d.md"
+  },
+  {
+    "title": "PhysicsBody3D",
+    "path": "classes/class_physicsbody3d.md"
+  },
+  {
+    "title": "PhysicsDirectBodyState2D",
+    "path": "classes/class_physicsdirectbodystate2d.md"
+  },
+  {
+    "title": "PhysicsDirectBodyState2DExtension",
+    "path": "classes/class_physicsdirectbodystate2dextension.md"
+  },
+  {
+    "title": "PhysicsDirectBodyState3D",
+    "path": "classes/class_physicsdirectbodystate3d.md"
+  },
+  {
+    "title": "PhysicsDirectBodyState3DExtension",
+    "path": "classes/class_physicsdirectbodystate3dextension.md"
+  },
+  {
+    "title": "PhysicsDirectSpaceState2D",
+    "path": "classes/class_physicsdirectspacestate2d.md"
+  },
+  {
+    "title": "PhysicsDirectSpaceState2DExtension",
+    "path": "classes/class_physicsdirectspacestate2dextension.md"
+  },
+  {
+    "title": "PhysicsDirectSpaceState3D",
+    "path": "classes/class_physicsdirectspacestate3d.md"
+  },
+  {
+    "title": "PhysicsDirectSpaceState3DExtension",
+    "path": "classes/class_physicsdirectspacestate3dextension.md"
+  },
+  {
+    "title": "PhysicsMaterial",
+    "path": "classes/class_physicsmaterial.md"
+  },
+  {
+    "title": "PhysicsPointQueryParameters2D",
+    "path": "classes/class_physicspointqueryparameters2d.md"
+  },
+  {
+    "title": "PhysicsPointQueryParameters3D",
+    "path": "classes/class_physicspointqueryparameters3d.md"
+  },
+  {
+    "title": "PhysicsRayQueryParameters2D",
+    "path": "classes/class_physicsrayqueryparameters2d.md"
+  },
+  {
+    "title": "PhysicsRayQueryParameters3D",
+    "path": "classes/class_physicsrayqueryparameters3d.md"
+  },
+  {
+    "title": "PhysicsServer2D",
+    "path": "classes/class_physicsserver2d.md"
+  },
+  {
+    "title": "PhysicsServer2DExtension",
+    "path": "classes/class_physicsserver2dextension.md"
+  },
+  {
+    "title": "PhysicsServer2DManager",
+    "path": "classes/class_physicsserver2dmanager.md"
+  },
+  {
+    "title": "PhysicsServer3D",
+    "path": "classes/class_physicsserver3d.md"
+  },
+  {
+    "title": "PhysicsServer3DExtension",
+    "path": "classes/class_physicsserver3dextension.md"
+  },
+  {
+    "title": "PhysicsServer3DManager",
+    "path": "classes/class_physicsserver3dmanager.md"
+  },
+  {
+    "title": "PhysicsServer3DRenderingServerHandler",
+    "path": "classes/class_physicsserver3drenderingserverhandler.md"
+  },
+  {
+    "title": "PhysicsShapeQueryParameters2D",
+    "path": "classes/class_physicsshapequeryparameters2d.md"
+  },
+  {
+    "title": "PhysicsShapeQueryParameters3D",
+    "path": "classes/class_physicsshapequeryparameters3d.md"
+  },
+  {
+    "title": "PhysicsTestMotionParameters2D",
+    "path": "classes/class_physicstestmotionparameters2d.md"
+  },
+  {
+    "title": "PhysicsTestMotionParameters3D",
+    "path": "classes/class_physicstestmotionparameters3d.md"
+  },
+  {
+    "title": "PhysicsTestMotionResult2D",
+    "path": "classes/class_physicstestmotionresult2d.md"
+  },
+  {
+    "title": "PhysicsTestMotionResult3D",
+    "path": "classes/class_physicstestmotionresult3d.md"
+  },
+  {
+    "title": "PinJoint2D",
+    "path": "classes/class_pinjoint2d.md"
+  },
+  {
+    "title": "PinJoint3D",
+    "path": "classes/class_pinjoint3d.md"
+  },
+  {
+    "title": "PlaceholderCubemap",
+    "path": "classes/class_placeholdercubemap.md"
+  },
+  {
+    "title": "PlaceholderCubemapArray",
+    "path": "classes/class_placeholdercubemaparray.md"
+  },
+  {
+    "title": "PlaceholderMaterial",
+    "path": "classes/class_placeholdermaterial.md"
+  },
+  {
+    "title": "PlaceholderMesh",
+    "path": "classes/class_placeholdermesh.md"
+  },
+  {
+    "title": "PlaceholderTexture2D",
+    "path": "classes/class_placeholdertexture2d.md"
+  },
+  {
+    "title": "PlaceholderTexture2DArray",
+    "path": "classes/class_placeholdertexture2darray.md"
+  },
+  {
+    "title": "PlaceholderTexture3D",
+    "path": "classes/class_placeholdertexture3d.md"
+  },
+  {
+    "title": "PlaceholderTextureLayered",
+    "path": "classes/class_placeholdertexturelayered.md"
+  },
+  {
+    "title": "Plane",
+    "path": "classes/class_plane.md"
+  },
+  {
+    "title": "PlaneMesh",
+    "path": "classes/class_planemesh.md"
+  },
+  {
+    "title": "PointLight2D",
+    "path": "classes/class_pointlight2d.md"
+  },
+  {
+    "title": "PointMesh",
+    "path": "classes/class_pointmesh.md"
+  },
+  {
+    "title": "Polygon2D",
+    "path": "classes/class_polygon2d.md"
+  },
+  {
+    "title": "PolygonOccluder3D",
+    "path": "classes/class_polygonoccluder3d.md"
+  },
+  {
+    "title": "PolygonPathFinder",
+    "path": "classes/class_polygonpathfinder.md"
+  },
+  {
+    "title": "Popup",
+    "path": "classes/class_popup.md"
+  },
+  {
+    "title": "PopupMenu",
+    "path": "classes/class_popupmenu.md"
+  },
+  {
+    "title": "PopupPanel",
+    "path": "classes/class_popuppanel.md"
+  },
+  {
+    "title": "PortableCompressedTexture2D",
+    "path": "classes/class_portablecompressedtexture2d.md"
+  },
+  {
+    "title": "PrimitiveMesh",
+    "path": "classes/class_primitivemesh.md"
+  },
+  {
+    "title": "PrismMesh",
+    "path": "classes/class_prismmesh.md"
+  },
+  {
+    "title": "ProceduralSkyMaterial",
+    "path": "classes/class_proceduralskymaterial.md"
+  },
+  {
+    "title": "ProgressBar",
+    "path": "classes/class_progressbar.md"
+  },
+  {
+    "title": "Projection",
+    "path": "classes/class_projection.md"
+  },
+  {
+    "title": "ProjectSettings",
+    "path": "classes/class_projectsettings.md"
+  },
+  {
+    "title": "PropertyTweener",
+    "path": "classes/class_propertytweener.md"
+  },
+  {
+    "title": "QuadMesh",
+    "path": "classes/class_quadmesh.md"
+  },
+  {
+    "title": "QuadOccluder3D",
+    "path": "classes/class_quadoccluder3d.md"
+  },
+  {
+    "title": "Quaternion",
+    "path": "classes/class_quaternion.md"
+  },
+  {
+    "title": "RandomNumberGenerator",
+    "path": "classes/class_randomnumbergenerator.md"
+  },
+  {
+    "title": "Range",
+    "path": "classes/class_range.md"
+  },
+  {
+    "title": "RayCast2D",
+    "path": "classes/class_raycast2d.md"
+  },
+  {
+    "title": "RayCast3D",
+    "path": "classes/class_raycast3d.md"
+  },
+  {
+    "title": "RDAccelerationStructureGeometry",
+    "path": "classes/class_rdaccelerationstructuregeometry.md"
+  },
+  {
+    "title": "RDAccelerationStructureInstance",
+    "path": "classes/class_rdaccelerationstructureinstance.md"
+  },
+  {
+    "title": "RDAttachmentFormat",
+    "path": "classes/class_rdattachmentformat.md"
+  },
+  {
+    "title": "RDFramebufferPass",
+    "path": "classes/class_rdframebufferpass.md"
+  },
+  {
+    "title": "RDHitGroup",
+    "path": "classes/class_rdhitgroup.md"
+  },
+  {
+    "title": "RDPipelineColorBlendState",
+    "path": "classes/class_rdpipelinecolorblendstate.md"
+  },
+  {
+    "title": "RDPipelineColorBlendStateAttachment",
+    "path": "classes/class_rdpipelinecolorblendstateattachment.md"
+  },
+  {
+    "title": "RDPipelineDepthStencilState",
+    "path": "classes/class_rdpipelinedepthstencilstate.md"
+  },
+  {
+    "title": "RDPipelineMultisampleState",
+    "path": "classes/class_rdpipelinemultisamplestate.md"
+  },
+  {
+    "title": "RDPipelineRasterizationState",
+    "path": "classes/class_rdpipelinerasterizationstate.md"
+  },
+  {
+    "title": "RDPipelineShader",
+    "path": "classes/class_rdpipelineshader.md"
+  },
+  {
+    "title": "RDPipelineSpecializationConstant",
+    "path": "classes/class_rdpipelinespecializationconstant.md"
+  },
+  {
+    "title": "RDSamplerState",
+    "path": "classes/class_rdsamplerstate.md"
+  },
+  {
+    "title": "RDShaderFile",
+    "path": "classes/class_rdshaderfile.md"
+  },
+  {
+    "title": "RDShaderSource",
+    "path": "classes/class_rdshadersource.md"
+  },
+  {
+    "title": "RDShaderSPIRV",
+    "path": "classes/class_rdshaderspirv.md"
+  },
+  {
+    "title": "RDTextureFormat",
+    "path": "classes/class_rdtextureformat.md"
+  },
+  {
+    "title": "RDTextureView",
+    "path": "classes/class_rdtextureview.md"
+  },
+  {
+    "title": "RDUniform",
+    "path": "classes/class_rduniform.md"
+  },
+  {
+    "title": "RDVertexAttribute",
+    "path": "classes/class_rdvertexattribute.md"
+  },
+  {
+    "title": "Rect2",
+    "path": "classes/class_rect2.md"
+  },
+  {
+    "title": "Rect2i",
+    "path": "classes/class_rect2i.md"
+  },
+  {
+    "title": "RectangleShape2D",
+    "path": "classes/class_rectangleshape2d.md"
+  },
+  {
+    "title": "RefCounted",
+    "path": "classes/class_refcounted.md"
+  },
+  {
+    "title": "ReferenceRect",
+    "path": "classes/class_referencerect.md"
+  },
+  {
+    "title": "ReflectionProbe",
+    "path": "classes/class_reflectionprobe.md"
+  },
+  {
+    "title": "RegEx",
+    "path": "classes/class_regex.md"
+  },
+  {
+    "title": "RegExMatch",
+    "path": "classes/class_regexmatch.md"
+  },
+  {
+    "title": "RemoteTransform2D",
+    "path": "classes/class_remotetransform2d.md"
+  },
+  {
+    "title": "RemoteTransform3D",
+    "path": "classes/class_remotetransform3d.md"
+  },
+  {
+    "title": "RenderData",
+    "path": "classes/class_renderdata.md"
+  },
+  {
+    "title": "RenderDataExtension",
+    "path": "classes/class_renderdataextension.md"
+  },
+  {
+    "title": "RenderDataRD",
+    "path": "classes/class_renderdatard.md"
+  },
+  {
+    "title": "RenderingDevice",
+    "path": "classes/class_renderingdevice.md"
+  },
+  {
+    "title": "RenderingServer",
+    "path": "classes/class_renderingserver.md"
+  },
+  {
+    "title": "RenderSceneBuffers",
+    "path": "classes/class_renderscenebuffers.md"
+  },
+  {
+    "title": "RenderSceneBuffersConfiguration",
+    "path": "classes/class_renderscenebuffersconfiguration.md"
+  },
+  {
+    "title": "RenderSceneBuffersExtension",
+    "path": "classes/class_renderscenebuffersextension.md"
+  },
+  {
+    "title": "RenderSceneBuffersRD",
+    "path": "classes/class_renderscenebuffersrd.md"
+  },
+  {
+    "title": "RenderSceneData",
+    "path": "classes/class_renderscenedata.md"
+  },
+  {
+    "title": "RenderSceneDataExtension",
+    "path": "classes/class_renderscenedataextension.md"
+  },
+  {
+    "title": "RenderSceneDataRD",
+    "path": "classes/class_renderscenedatard.md"
+  },
+  {
+    "title": "Resource",
+    "path": "classes/class_resource.md"
+  },
+  {
+    "title": "ResourceFormatLoader",
+    "path": "classes/class_resourceformatloader.md"
+  },
+  {
+    "title": "ResourceFormatSaver",
+    "path": "classes/class_resourceformatsaver.md"
+  },
+  {
+    "title": "ResourceImporter",
+    "path": "classes/class_resourceimporter.md"
+  },
+  {
+    "title": "ResourceImporterBitMap",
+    "path": "classes/class_resourceimporterbitmap.md"
+  },
+  {
+    "title": "ResourceImporterBMFont",
+    "path": "classes/class_resourceimporterbmfont.md"
+  },
+  {
+    "title": "ResourceImporterCSVTranslation",
+    "path": "classes/class_resourceimportercsvtranslation.md"
+  },
+  {
+    "title": "ResourceImporterDynamicFont",
+    "path": "classes/class_resourceimporterdynamicfont.md"
+  },
+  {
+    "title": "ResourceImporterImage",
+    "path": "classes/class_resourceimporterimage.md"
+  },
+  {
+    "title": "ResourceImporterImageFont",
+    "path": "classes/class_resourceimporterimagefont.md"
+  },
+  {
+    "title": "ResourceImporterLayeredTexture",
+    "path": "classes/class_resourceimporterlayeredtexture.md"
+  },
+  {
+    "title": "ResourceImporterMP3",
+    "path": "classes/class_resourceimportermp3.md"
+  },
+  {
+    "title": "ResourceImporterOBJ",
+    "path": "classes/class_resourceimporterobj.md"
+  },
+  {
+    "title": "ResourceImporterOggVorbis",
+    "path": "classes/class_resourceimporteroggvorbis.md"
+  },
+  {
+    "title": "ResourceImporterScene",
+    "path": "classes/class_resourceimporterscene.md"
+  },
+  {
+    "title": "ResourceImporterShaderFile",
+    "path": "classes/class_resourceimportershaderfile.md"
+  },
+  {
+    "title": "ResourceImporterSVG",
+    "path": "classes/class_resourceimportersvg.md"
+  },
+  {
+    "title": "ResourceImporterTexture",
+    "path": "classes/class_resourceimportertexture.md"
+  },
+  {
+    "title": "ResourceImporterTextureAtlas",
+    "path": "classes/class_resourceimportertextureatlas.md"
+  },
+  {
+    "title": "ResourceImporterWAV",
+    "path": "classes/class_resourceimporterwav.md"
+  },
+  {
+    "title": "ResourceLoader",
+    "path": "classes/class_resourceloader.md"
+  },
+  {
+    "title": "ResourcePreloader",
+    "path": "classes/class_resourcepreloader.md"
+  },
+  {
+    "title": "ResourceSaver",
+    "path": "classes/class_resourcesaver.md"
+  },
+  {
+    "title": "ResourceUID",
+    "path": "classes/class_resourceuid.md"
+  },
+  {
+    "title": "RetargetModifier3D",
+    "path": "classes/class_retargetmodifier3d.md"
+  },
+  {
+    "title": "RibbonTrailMesh",
+    "path": "classes/class_ribbontrailmesh.md"
+  },
+  {
+    "title": "RichTextEffect",
+    "path": "classes/class_richtexteffect.md"
+  },
+  {
+    "title": "RichTextLabel",
+    "path": "classes/class_richtextlabel.md"
+  },
+  {
+    "title": "RID",
+    "path": "classes/class_rid.md"
+  },
+  {
+    "title": "RigidBody2D",
+    "path": "classes/class_rigidbody2d.md"
+  },
+  {
+    "title": "RigidBody3D",
+    "path": "classes/class_rigidbody3d.md"
+  },
+  {
+    "title": "RootMotionView",
+    "path": "classes/class_rootmotionview.md"
+  },
+  {
+    "title": "SceneMultiplayer",
+    "path": "classes/class_scenemultiplayer.md"
+  },
+  {
+    "title": "SceneReplicationConfig",
+    "path": "classes/class_scenereplicationconfig.md"
+  },
+  {
+    "title": "SceneState",
+    "path": "classes/class_scenestate.md"
+  },
+  {
+    "title": "SceneTree",
+    "path": "classes/class_scenetree.md"
+  },
+  {
+    "title": "SceneTreeTimer",
+    "path": "classes/class_scenetreetimer.md"
+  },
+  {
+    "title": "Script",
+    "path": "classes/class_script.md"
+  },
+  {
+    "title": "ScriptBacktrace",
+    "path": "classes/class_scriptbacktrace.md"
+  },
+  {
+    "title": "ScriptCreateDialog",
+    "path": "classes/class_scriptcreatedialog.md"
+  },
+  {
+    "title": "ScriptEditor",
+    "path": "classes/class_scripteditor.md"
+  },
+  {
+    "title": "ScriptEditorBase",
+    "path": "classes/class_scripteditorbase.md"
+  },
+  {
+    "title": "ScriptExtension",
+    "path": "classes/class_scriptextension.md"
+  },
+  {
+    "title": "ScriptLanguage",
+    "path": "classes/class_scriptlanguage.md"
+  },
+  {
+    "title": "ScriptLanguageExtension",
+    "path": "classes/class_scriptlanguageextension.md"
+  },
+  {
+    "title": "ScrollBar",
+    "path": "classes/class_scrollbar.md"
+  },
+  {
+    "title": "ScrollContainer",
+    "path": "classes/class_scrollcontainer.md"
+  },
+  {
+    "title": "SegmentShape2D",
+    "path": "classes/class_segmentshape2d.md"
+  },
+  {
+    "title": "Semaphore",
+    "path": "classes/class_semaphore.md"
+  },
+  {
+    "title": "SeparationRayShape2D",
+    "path": "classes/class_separationrayshape2d.md"
+  },
+  {
+    "title": "SeparationRayShape3D",
+    "path": "classes/class_separationrayshape3d.md"
+  },
+  {
+    "title": "Separator",
+    "path": "classes/class_separator.md"
+  },
+  {
+    "title": "Shader",
+    "path": "classes/class_shader.md"
+  },
+  {
+    "title": "ShaderGlobalsOverride",
+    "path": "classes/class_shaderglobalsoverride.md"
+  },
+  {
+    "title": "ShaderInclude",
+    "path": "classes/class_shaderinclude.md"
+  },
+  {
+    "title": "ShaderIncludeDB",
+    "path": "classes/class_shaderincludedb.md"
+  },
+  {
+    "title": "ShaderMaterial",
+    "path": "classes/class_shadermaterial.md"
+  },
+  {
+    "title": "Shape2D",
+    "path": "classes/class_shape2d.md"
+  },
+  {
+    "title": "Shape3D",
+    "path": "classes/class_shape3d.md"
+  },
+  {
+    "title": "ShapeCast2D",
+    "path": "classes/class_shapecast2d.md"
+  },
+  {
+    "title": "ShapeCast3D",
+    "path": "classes/class_shapecast3d.md"
+  },
+  {
+    "title": "Shortcut",
+    "path": "classes/class_shortcut.md"
+  },
+  {
+    "title": "Signal",
+    "path": "classes/class_signal.md"
+  },
+  {
+    "title": "Skeleton2D",
+    "path": "classes/class_skeleton2d.md"
+  },
+  {
+    "title": "Skeleton3D",
+    "path": "classes/class_skeleton3d.md"
+  },
+  {
+    "title": "SkeletonIK3D",
+    "path": "classes/class_skeletonik3d.md"
+  },
+  {
+    "title": "SkeletonModification2D",
+    "path": "classes/class_skeletonmodification2d.md"
+  },
+  {
+    "title": "SkeletonModification2DCCDIK",
+    "path": "classes/class_skeletonmodification2dccdik.md"
+  },
+  {
+    "title": "SkeletonModification2DFABRIK",
+    "path": "classes/class_skeletonmodification2dfabrik.md"
+  },
+  {
+    "title": "SkeletonModification2DJiggle",
+    "path": "classes/class_skeletonmodification2djiggle.md"
+  },
+  {
+    "title": "SkeletonModification2DLookAt",
+    "path": "classes/class_skeletonmodification2dlookat.md"
+  },
+  {
+    "title": "SkeletonModification2DPhysicalBones",
+    "path": "classes/class_skeletonmodification2dphysicalbones.md"
+  },
+  {
+    "title": "SkeletonModification2DStackHolder",
+    "path": "classes/class_skeletonmodification2dstackholder.md"
+  },
+  {
+    "title": "SkeletonModification2DTwoBoneIK",
+    "path": "classes/class_skeletonmodification2dtwoboneik.md"
+  },
+  {
+    "title": "SkeletonModificationStack2D",
+    "path": "classes/class_skeletonmodificationstack2d.md"
+  },
+  {
+    "title": "SkeletonModifier3D",
+    "path": "classes/class_skeletonmodifier3d.md"
+  },
+  {
+    "title": "SkeletonProfile",
+    "path": "classes/class_skeletonprofile.md"
+  },
+  {
+    "title": "SkeletonProfileHumanoid",
+    "path": "classes/class_skeletonprofilehumanoid.md"
+  },
+  {
+    "title": "Skin",
+    "path": "classes/class_skin.md"
+  },
+  {
+    "title": "SkinReference",
+    "path": "classes/class_skinreference.md"
+  },
+  {
+    "title": "Sky",
+    "path": "classes/class_sky.md"
+  },
+  {
+    "title": "Slider",
+    "path": "classes/class_slider.md"
+  },
+  {
+    "title": "SliderJoint3D",
+    "path": "classes/class_sliderjoint3d.md"
+  },
+  {
+    "title": "SocketServer",
+    "path": "classes/class_socketserver.md"
+  },
+  {
+    "title": "SoftBody3D",
+    "path": "classes/class_softbody3d.md"
+  },
+  {
+    "title": "SphereMesh",
+    "path": "classes/class_spheremesh.md"
+  },
+  {
+    "title": "SphereOccluder3D",
+    "path": "classes/class_sphereoccluder3d.md"
+  },
+  {
+    "title": "SphereShape3D",
+    "path": "classes/class_sphereshape3d.md"
+  },
+  {
+    "title": "SpinBox",
+    "path": "classes/class_spinbox.md"
+  },
+  {
+    "title": "SplineIK3D",
+    "path": "classes/class_splineik3d.md"
+  },
+  {
+    "title": "SplitContainer",
+    "path": "classes/class_splitcontainer.md"
+  },
+  {
+    "title": "SpotLight3D",
+    "path": "classes/class_spotlight3d.md"
+  },
+  {
+    "title": "SpringArm3D",
+    "path": "classes/class_springarm3d.md"
+  },
+  {
+    "title": "SpringBoneCollision3D",
+    "path": "classes/class_springbonecollision3d.md"
+  },
+  {
+    "title": "SpringBoneCollisionCapsule3D",
+    "path": "classes/class_springbonecollisioncapsule3d.md"
+  },
+  {
+    "title": "SpringBoneCollisionPlane3D",
+    "path": "classes/class_springbonecollisionplane3d.md"
+  },
+  {
+    "title": "SpringBoneCollisionSphere3D",
+    "path": "classes/class_springbonecollisionsphere3d.md"
+  },
+  {
+    "title": "SpringBoneSimulator3D",
+    "path": "classes/class_springbonesimulator3d.md"
+  },
+  {
+    "title": "Sprite2D",
+    "path": "classes/class_sprite2d.md"
+  },
+  {
+    "title": "Sprite3D",
+    "path": "classes/class_sprite3d.md"
+  },
+  {
+    "title": "SpriteBase3D",
+    "path": "classes/class_spritebase3d.md"
+  },
+  {
+    "title": "SpriteFrames",
+    "path": "classes/class_spriteframes.md"
+  },
+  {
+    "title": "StandardMaterial3D",
+    "path": "classes/class_standardmaterial3d.md"
+  },
+  {
+    "title": "StaticBody2D",
+    "path": "classes/class_staticbody2d.md"
+  },
+  {
+    "title": "StaticBody3D",
+    "path": "classes/class_staticbody3d.md"
+  },
+  {
+    "title": "StatusIndicator",
+    "path": "classes/class_statusindicator.md"
+  },
+  {
+    "title": "StreamPeer",
+    "path": "classes/class_streampeer.md"
+  },
+  {
+    "title": "StreamPeerBuffer",
+    "path": "classes/class_streampeerbuffer.md"
+  },
+  {
+    "title": "StreamPeerExtension",
+    "path": "classes/class_streampeerextension.md"
+  },
+  {
+    "title": "StreamPeerGZIP",
+    "path": "classes/class_streampeergzip.md"
+  },
+  {
+    "title": "StreamPeerSocket",
+    "path": "classes/class_streampeersocket.md"
+  },
+  {
+    "title": "StreamPeerTCP",
+    "path": "classes/class_streampeertcp.md"
+  },
+  {
+    "title": "StreamPeerTLS",
+    "path": "classes/class_streampeertls.md"
+  },
+  {
+    "title": "StreamPeerUDS",
+    "path": "classes/class_streampeeruds.md"
+  },
+  {
+    "title": "String",
+    "path": "classes/class_string.md"
+  },
+  {
+    "title": "StringName",
+    "path": "classes/class_stringname.md"
+  },
+  {
+    "title": "StyleBox",
+    "path": "classes/class_stylebox.md"
+  },
+  {
+    "title": "StyleBoxEmpty",
+    "path": "classes/class_styleboxempty.md"
+  },
+  {
+    "title": "StyleBoxFlat",
+    "path": "classes/class_styleboxflat.md"
+  },
+  {
+    "title": "StyleBoxLine",
+    "path": "classes/class_styleboxline.md"
+  },
+  {
+    "title": "StyleBoxTexture",
+    "path": "classes/class_styleboxtexture.md"
+  },
+  {
+    "title": "SubtweenTweener",
+    "path": "classes/class_subtweentweener.md"
+  },
+  {
+    "title": "SubViewport",
+    "path": "classes/class_subviewport.md"
+  },
+  {
+    "title": "SubViewportContainer",
+    "path": "classes/class_subviewportcontainer.md"
+  },
+  {
+    "title": "SurfaceTool",
+    "path": "classes/class_surfacetool.md"
+  },
+  {
+    "title": "SyntaxHighlighter",
+    "path": "classes/class_syntaxhighlighter.md"
+  },
+  {
+    "title": "SystemFont",
+    "path": "classes/class_systemfont.md"
+  },
+  {
+    "title": "TabBar",
+    "path": "classes/class_tabbar.md"
+  },
+  {
+    "title": "TabContainer",
+    "path": "classes/class_tabcontainer.md"
+  },
+  {
+    "title": "TCPServer",
+    "path": "classes/class_tcpserver.md"
+  },
+  {
+    "title": "TextEdit",
+    "path": "classes/class_textedit.md"
+  },
+  {
+    "title": "TextLine",
+    "path": "classes/class_textline.md"
+  },
+  {
+    "title": "TextMesh",
+    "path": "classes/class_textmesh.md"
+  },
+  {
+    "title": "TextParagraph",
+    "path": "classes/class_textparagraph.md"
+  },
+  {
+    "title": "TextServer",
+    "path": "classes/class_textserver.md"
+  },
+  {
+    "title": "TextServerAdvanced",
+    "path": "classes/class_textserveradvanced.md"
+  },
+  {
+    "title": "TextServerDummy",
+    "path": "classes/class_textserverdummy.md"
+  },
+  {
+    "title": "TextServerExtension",
+    "path": "classes/class_textserverextension.md"
+  },
+  {
+    "title": "TextServerFallback",
+    "path": "classes/class_textserverfallback.md"
+  },
+  {
+    "title": "TextServerManager",
+    "path": "classes/class_textservermanager.md"
+  },
+  {
+    "title": "Texture",
+    "path": "classes/class_texture.md"
+  },
+  {
+    "title": "Texture2D",
+    "path": "classes/class_texture2d.md"
+  },
+  {
+    "title": "Texture2DArray",
+    "path": "classes/class_texture2darray.md"
+  },
+  {
+    "title": "Texture2DArrayRD",
+    "path": "classes/class_texture2darrayrd.md"
+  },
+  {
+    "title": "Texture2DRD",
+    "path": "classes/class_texture2drd.md"
+  },
+  {
+    "title": "Texture3D",
+    "path": "classes/class_texture3d.md"
+  },
+  {
+    "title": "Texture3DRD",
+    "path": "classes/class_texture3drd.md"
+  },
+  {
+    "title": "TextureButton",
+    "path": "classes/class_texturebutton.md"
+  },
+  {
+    "title": "TextureCubemapArrayRD",
+    "path": "classes/class_texturecubemaparrayrd.md"
+  },
+  {
+    "title": "TextureCubemapRD",
+    "path": "classes/class_texturecubemaprd.md"
+  },
+  {
+    "title": "TextureLayered",
+    "path": "classes/class_texturelayered.md"
+  },
+  {
+    "title": "TextureLayeredRD",
+    "path": "classes/class_texturelayeredrd.md"
+  },
+  {
+    "title": "TextureProgressBar",
+    "path": "classes/class_textureprogressbar.md"
+  },
+  {
+    "title": "TextureRect",
+    "path": "classes/class_texturerect.md"
+  },
+  {
+    "title": "Theme",
+    "path": "classes/class_theme.md"
+  },
+  {
+    "title": "ThemeDB",
+    "path": "classes/class_themedb.md"
+  },
+  {
+    "title": "Thread",
+    "path": "classes/class_thread.md"
+  },
+  {
+    "title": "TileData",
+    "path": "classes/class_tiledata.md"
+  },
+  {
+    "title": "TileMap",
+    "path": "classes/class_tilemap.md"
+  },
+  {
+    "title": "TileMapLayer",
+    "path": "classes/class_tilemaplayer.md"
+  },
+  {
+    "title": "TileMapPattern",
+    "path": "classes/class_tilemappattern.md"
+  },
+  {
+    "title": "TileSet",
+    "path": "classes/class_tileset.md"
+  },
+  {
+    "title": "TileSetAtlasSource",
+    "path": "classes/class_tilesetatlassource.md"
+  },
+  {
+    "title": "TileSetScenesCollectionSource",
+    "path": "classes/class_tilesetscenescollectionsource.md"
+  },
+  {
+    "title": "TileSetSource",
+    "path": "classes/class_tilesetsource.md"
+  },
+  {
+    "title": "Time",
+    "path": "classes/class_time.md"
+  },
+  {
+    "title": "Timer",
+    "path": "classes/class_timer.md"
+  },
+  {
+    "title": "TLSOptions",
+    "path": "classes/class_tlsoptions.md"
+  },
+  {
+    "title": "TorusMesh",
+    "path": "classes/class_torusmesh.md"
+  },
+  {
+    "title": "TouchScreenButton",
+    "path": "classes/class_touchscreenbutton.md"
+  },
+  {
+    "title": "Transform2D",
+    "path": "classes/class_transform2d.md"
+  },
+  {
+    "title": "Transform3D",
+    "path": "classes/class_transform3d.md"
+  },
+  {
+    "title": "Translation",
+    "path": "classes/class_translation.md"
+  },
+  {
+    "title": "TranslationDomain",
+    "path": "classes/class_translationdomain.md"
+  },
+  {
+    "title": "TranslationServer",
+    "path": "classes/class_translationserver.md"
+  },
+  {
+    "title": "Tree",
+    "path": "classes/class_tree.md"
+  },
+  {
+    "title": "TreeItem",
+    "path": "classes/class_treeitem.md"
+  },
+  {
+    "title": "TriangleMesh",
+    "path": "classes/class_trianglemesh.md"
+  },
+  {
+    "title": "TubeTrailMesh",
+    "path": "classes/class_tubetrailmesh.md"
+  },
+  {
+    "title": "Tween",
+    "path": "classes/class_tween.md"
+  },
+  {
+    "title": "Tweener",
+    "path": "classes/class_tweener.md"
+  },
+  {
+    "title": "TwoBoneIK3D",
+    "path": "classes/class_twoboneik3d.md"
+  },
+  {
+    "title": "UDPServer",
+    "path": "classes/class_udpserver.md"
+  },
+  {
+    "title": "UDSServer",
+    "path": "classes/class_udsserver.md"
+  },
+  {
+    "title": "UndoRedo",
+    "path": "classes/class_undoredo.md"
+  },
+  {
+    "title": "UniformSetCacheRD",
+    "path": "classes/class_uniformsetcacherd.md"
+  },
+  {
+    "title": "UPNP",
+    "path": "classes/class_upnp.md"
+  },
+  {
+    "title": "UPNPDevice",
+    "path": "classes/class_upnpdevice.md"
+  },
+  {
+    "title": "Variant",
+    "path": "classes/class_variant.md"
+  },
+  {
+    "title": "VBoxContainer",
+    "path": "classes/class_vboxcontainer.md"
+  },
+  {
+    "title": "Vector2",
+    "path": "classes/class_vector2.md"
+  },
+  {
+    "title": "Vector2i",
+    "path": "classes/class_vector2i.md"
+  },
+  {
+    "title": "Vector3",
+    "path": "classes/class_vector3.md"
+  },
+  {
+    "title": "Vector3i",
+    "path": "classes/class_vector3i.md"
+  },
+  {
+    "title": "Vector4",
+    "path": "classes/class_vector4.md"
+  },
+  {
+    "title": "Vector4i",
+    "path": "classes/class_vector4i.md"
+  },
+  {
+    "title": "VehicleBody3D",
+    "path": "classes/class_vehiclebody3d.md"
+  },
+  {
+    "title": "VehicleWheel3D",
+    "path": "classes/class_vehiclewheel3d.md"
+  },
+  {
+    "title": "VFlowContainer",
+    "path": "classes/class_vflowcontainer.md"
+  },
+  {
+    "title": "VideoStream",
+    "path": "classes/class_videostream.md"
+  },
+  {
+    "title": "VideoStreamPlayback",
+    "path": "classes/class_videostreamplayback.md"
+  },
+  {
+    "title": "VideoStreamPlayer",
+    "path": "classes/class_videostreamplayer.md"
+  },
+  {
+    "title": "VideoStreamTheora",
+    "path": "classes/class_videostreamtheora.md"
+  },
+  {
+    "title": "Viewport",
+    "path": "classes/class_viewport.md"
+  },
+  {
+    "title": "ViewportTexture",
+    "path": "classes/class_viewporttexture.md"
+  },
+  {
+    "title": "VirtualJoystick",
+    "path": "classes/class_virtualjoystick.md"
+  },
+  {
+    "title": "VisibleOnScreenEnabler2D",
+    "path": "classes/class_visibleonscreenenabler2d.md"
+  },
+  {
+    "title": "VisibleOnScreenEnabler3D",
+    "path": "classes/class_visibleonscreenenabler3d.md"
+  },
+  {
+    "title": "VisibleOnScreenNotifier2D",
+    "path": "classes/class_visibleonscreennotifier2d.md"
+  },
+  {
+    "title": "VisibleOnScreenNotifier3D",
+    "path": "classes/class_visibleonscreennotifier3d.md"
+  },
+  {
+    "title": "VisualInstance3D",
+    "path": "classes/class_visualinstance3d.md"
+  },
+  {
+    "title": "VisualShader",
+    "path": "classes/class_visualshader.md"
+  },
+  {
+    "title": "VisualShaderNode",
+    "path": "classes/class_visualshadernode.md"
+  },
+  {
+    "title": "VisualShaderNodeBillboard",
+    "path": "classes/class_visualshadernodebillboard.md"
+  },
+  {
+    "title": "VisualShaderNodeBooleanConstant",
+    "path": "classes/class_visualshadernodebooleanconstant.md"
+  },
+  {
+    "title": "VisualShaderNodeBooleanParameter",
+    "path": "classes/class_visualshadernodebooleanparameter.md"
+  },
+  {
+    "title": "VisualShaderNodeClamp",
+    "path": "classes/class_visualshadernodeclamp.md"
+  },
+  {
+    "title": "VisualShaderNodeColorConstant",
+    "path": "classes/class_visualshadernodecolorconstant.md"
+  },
+  {
+    "title": "VisualShaderNodeColorFunc",
+    "path": "classes/class_visualshadernodecolorfunc.md"
+  },
+  {
+    "title": "VisualShaderNodeColorOp",
+    "path": "classes/class_visualshadernodecolorop.md"
+  },
+  {
+    "title": "VisualShaderNodeColorParameter",
+    "path": "classes/class_visualshadernodecolorparameter.md"
+  },
+  {
+    "title": "VisualShaderNodeComment",
+    "path": "classes/class_visualshadernodecomment.md"
+  },
+  {
+    "title": "VisualShaderNodeCompare",
+    "path": "classes/class_visualshadernodecompare.md"
+  },
+  {
+    "title": "VisualShaderNodeConstant",
+    "path": "classes/class_visualshadernodeconstant.md"
+  },
+  {
+    "title": "VisualShaderNodeCubemap",
+    "path": "classes/class_visualshadernodecubemap.md"
+  },
+  {
+    "title": "VisualShaderNodeCubemapParameter",
+    "path": "classes/class_visualshadernodecubemapparameter.md"
+  },
+  {
+    "title": "VisualShaderNodeCurveTexture",
+    "path": "classes/class_visualshadernodecurvetexture.md"
+  },
+  {
+    "title": "VisualShaderNodeCurveXYZTexture",
+    "path": "classes/class_visualshadernodecurvexyztexture.md"
+  },
+  {
+    "title": "VisualShaderNodeCustom",
+    "path": "classes/class_visualshadernodecustom.md"
+  },
+  {
+    "title": "VisualShaderNodeDerivativeFunc",
+    "path": "classes/class_visualshadernodederivativefunc.md"
+  },
+  {
+    "title": "VisualShaderNodeDeterminant",
+    "path": "classes/class_visualshadernodedeterminant.md"
+  },
+  {
+    "title": "VisualShaderNodeDistanceFade",
+    "path": "classes/class_visualshadernodedistancefade.md"
+  },
+  {
+    "title": "VisualShaderNodeDotProduct",
+    "path": "classes/class_visualshadernodedotproduct.md"
+  },
+  {
+    "title": "VisualShaderNodeExpression",
+    "path": "classes/class_visualshadernodeexpression.md"
+  },
+  {
+    "title": "VisualShaderNodeFaceForward",
+    "path": "classes/class_visualshadernodefaceforward.md"
+  },
+  {
+    "title": "VisualShaderNodeFloatConstant",
+    "path": "classes/class_visualshadernodefloatconstant.md"
+  },
+  {
+    "title": "VisualShaderNodeFloatFunc",
+    "path": "classes/class_visualshadernodefloatfunc.md"
+  },
+  {
+    "title": "VisualShaderNodeFloatOp",
+    "path": "classes/class_visualshadernodefloatop.md"
+  },
+  {
+    "title": "VisualShaderNodeFloatParameter",
+    "path": "classes/class_visualshadernodefloatparameter.md"
+  },
+  {
+    "title": "VisualShaderNodeFrame",
+    "path": "classes/class_visualshadernodeframe.md"
+  },
+  {
+    "title": "VisualShaderNodeFresnel",
+    "path": "classes/class_visualshadernodefresnel.md"
+  },
+  {
+    "title": "VisualShaderNodeGlobalExpression",
+    "path": "classes/class_visualshadernodeglobalexpression.md"
+  },
+  {
+    "title": "VisualShaderNodeGroupBase",
+    "path": "classes/class_visualshadernodegroupbase.md"
+  },
+  {
+    "title": "VisualShaderNodeIf",
+    "path": "classes/class_visualshadernodeif.md"
+  },
+  {
+    "title": "VisualShaderNodeInput",
+    "path": "classes/class_visualshadernodeinput.md"
+  },
+  {
+    "title": "VisualShaderNodeIntConstant",
+    "path": "classes/class_visualshadernodeintconstant.md"
+  },
+  {
+    "title": "VisualShaderNodeIntFunc",
+    "path": "classes/class_visualshadernodeintfunc.md"
+  },
+  {
+    "title": "VisualShaderNodeIntOp",
+    "path": "classes/class_visualshadernodeintop.md"
+  },
+  {
+    "title": "VisualShaderNodeIntParameter",
+    "path": "classes/class_visualshadernodeintparameter.md"
+  },
+  {
+    "title": "VisualShaderNodeIs",
+    "path": "classes/class_visualshadernodeis.md"
+  },
+  {
+    "title": "VisualShaderNodeLinearSceneDepth",
+    "path": "classes/class_visualshadernodelinearscenedepth.md"
+  },
+  {
+    "title": "VisualShaderNodeMix",
+    "path": "classes/class_visualshadernodemix.md"
+  },
+  {
+    "title": "VisualShaderNodeMultiplyAdd",
+    "path": "classes/class_visualshadernodemultiplyadd.md"
+  },
+  {
+    "title": "VisualShaderNodeOuterProduct",
+    "path": "classes/class_visualshadernodeouterproduct.md"
+  },
+  {
+    "title": "VisualShaderNodeOutput",
+    "path": "classes/class_visualshadernodeoutput.md"
+  },
+  {
+    "title": "VisualShaderNodeParameter",
+    "path": "classes/class_visualshadernodeparameter.md"
+  },
+  {
+    "title": "VisualShaderNodeParameterRef",
+    "path": "classes/class_visualshadernodeparameterref.md"
+  },
+  {
+    "title": "VisualShaderNodeParticleAccelerator",
+    "path": "classes/class_visualshadernodeparticleaccelerator.md"
+  },
+  {
+    "title": "VisualShaderNodeParticleBoxEmitter",
+    "path": "classes/class_visualshadernodeparticleboxemitter.md"
+  },
+  {
+    "title": "VisualShaderNodeParticleConeVelocity",
+    "path": "classes/class_visualshadernodeparticleconevelocity.md"
+  },
+  {
+    "title": "VisualShaderNodeParticleEmit",
+    "path": "classes/class_visualshadernodeparticleemit.md"
+  },
+  {
+    "title": "VisualShaderNodeParticleEmitter",
+    "path": "classes/class_visualshadernodeparticleemitter.md"
+  },
+  {
+    "title": "VisualShaderNodeParticleMeshEmitter",
+    "path": "classes/class_visualshadernodeparticlemeshemitter.md"
+  },
+  {
+    "title": "VisualShaderNodeParticleMultiplyByAxisAngle",
+    "path": "classes/class_visualshadernodeparticlemultiplybyaxisangle.md"
+  },
+  {
+    "title": "VisualShaderNodeParticleOutput",
+    "path": "classes/class_visualshadernodeparticleoutput.md"
+  },
+  {
+    "title": "VisualShaderNodeParticleRandomness",
+    "path": "classes/class_visualshadernodeparticlerandomness.md"
+  },
+  {
+    "title": "VisualShaderNodeParticleRingEmitter",
+    "path": "classes/class_visualshadernodeparticleringemitter.md"
+  },
+  {
+    "title": "VisualShaderNodeParticleSphereEmitter",
+    "path": "classes/class_visualshadernodeparticlesphereemitter.md"
+  },
+  {
+    "title": "VisualShaderNodeProximityFade",
+    "path": "classes/class_visualshadernodeproximityfade.md"
+  },
+  {
+    "title": "VisualShaderNodeRandomRange",
+    "path": "classes/class_visualshadernoderandomrange.md"
+  },
+  {
+    "title": "VisualShaderNodeRemap",
+    "path": "classes/class_visualshadernoderemap.md"
+  },
+  {
+    "title": "VisualShaderNodeReroute",
+    "path": "classes/class_visualshadernodereroute.md"
+  },
+  {
+    "title": "VisualShaderNodeResizableBase",
+    "path": "classes/class_visualshadernoderesizablebase.md"
+  },
+  {
+    "title": "VisualShaderNodeRotationByAxis",
+    "path": "classes/class_visualshadernoderotationbyaxis.md"
+  },
+  {
+    "title": "VisualShaderNodeSample3D",
+    "path": "classes/class_visualshadernodesample3d.md"
+  },
+  {
+    "title": "VisualShaderNodeScreenNormalWorldSpace",
+    "path": "classes/class_visualshadernodescreennormalworldspace.md"
+  },
+  {
+    "title": "VisualShaderNodeScreenUVToSDF",
+    "path": "classes/class_visualshadernodescreenuvtosdf.md"
+  },
+  {
+    "title": "VisualShaderNodeSDFRaymarch",
+    "path": "classes/class_visualshadernodesdfraymarch.md"
+  },
+  {
+    "title": "VisualShaderNodeSDFToScreenUV",
+    "path": "classes/class_visualshadernodesdftoscreenuv.md"
+  },
+  {
+    "title": "VisualShaderNodeSmoothStep",
+    "path": "classes/class_visualshadernodesmoothstep.md"
+  },
+  {
+    "title": "VisualShaderNodeStep",
+    "path": "classes/class_visualshadernodestep.md"
+  },
+  {
+    "title": "VisualShaderNodeSwitch",
+    "path": "classes/class_visualshadernodeswitch.md"
+  },
+  {
+    "title": "VisualShaderNodeTexture",
+    "path": "classes/class_visualshadernodetexture.md"
+  },
+  {
+    "title": "VisualShaderNodeTexture2DArray",
+    "path": "classes/class_visualshadernodetexture2darray.md"
+  },
+  {
+    "title": "VisualShaderNodeTexture2DArrayParameter",
+    "path": "classes/class_visualshadernodetexture2darrayparameter.md"
+  },
+  {
+    "title": "VisualShaderNodeTexture2DParameter",
+    "path": "classes/class_visualshadernodetexture2dparameter.md"
+  },
+  {
+    "title": "VisualShaderNodeTexture3D",
+    "path": "classes/class_visualshadernodetexture3d.md"
+  },
+  {
+    "title": "VisualShaderNodeTexture3DParameter",
+    "path": "classes/class_visualshadernodetexture3dparameter.md"
+  },
+  {
+    "title": "VisualShaderNodeTextureParameter",
+    "path": "classes/class_visualshadernodetextureparameter.md"
+  },
+  {
+    "title": "VisualShaderNodeTextureParameterTriplanar",
+    "path": "classes/class_visualshadernodetextureparametertriplanar.md"
+  },
+  {
+    "title": "VisualShaderNodeTextureSDF",
+    "path": "classes/class_visualshadernodetexturesdf.md"
+  },
+  {
+    "title": "VisualShaderNodeTextureSDFNormal",
+    "path": "classes/class_visualshadernodetexturesdfnormal.md"
+  },
+  {
+    "title": "VisualShaderNodeTransformCompose",
+    "path": "classes/class_visualshadernodetransformcompose.md"
+  },
+  {
+    "title": "VisualShaderNodeTransformConstant",
+    "path": "classes/class_visualshadernodetransformconstant.md"
+  },
+  {
+    "title": "VisualShaderNodeTransformDecompose",
+    "path": "classes/class_visualshadernodetransformdecompose.md"
+  },
+  {
+    "title": "VisualShaderNodeTransformFunc",
+    "path": "classes/class_visualshadernodetransformfunc.md"
+  },
+  {
+    "title": "VisualShaderNodeTransformOp",
+    "path": "classes/class_visualshadernodetransformop.md"
+  },
+  {
+    "title": "VisualShaderNodeTransformParameter",
+    "path": "classes/class_visualshadernodetransformparameter.md"
+  },
+  {
+    "title": "VisualShaderNodeTransformVecMult",
+    "path": "classes/class_visualshadernodetransformvecmult.md"
+  },
+  {
+    "title": "VisualShaderNodeUIntConstant",
+    "path": "classes/class_visualshadernodeuintconstant.md"
+  },
+  {
+    "title": "VisualShaderNodeUIntFunc",
+    "path": "classes/class_visualshadernodeuintfunc.md"
+  },
+  {
+    "title": "VisualShaderNodeUIntOp",
+    "path": "classes/class_visualshadernodeuintop.md"
+  },
+  {
+    "title": "VisualShaderNodeUIntParameter",
+    "path": "classes/class_visualshadernodeuintparameter.md"
+  },
+  {
+    "title": "VisualShaderNodeUVFunc",
+    "path": "classes/class_visualshadernodeuvfunc.md"
+  },
+  {
+    "title": "VisualShaderNodeUVPolarCoord",
+    "path": "classes/class_visualshadernodeuvpolarcoord.md"
+  },
+  {
+    "title": "VisualShaderNodeVarying",
+    "path": "classes/class_visualshadernodevarying.md"
+  },
+  {
+    "title": "VisualShaderNodeVaryingGetter",
+    "path": "classes/class_visualshadernodevaryinggetter.md"
+  },
+  {
+    "title": "VisualShaderNodeVaryingSetter",
+    "path": "classes/class_visualshadernodevaryingsetter.md"
+  },
+  {
+    "title": "VisualShaderNodeVec2Constant",
+    "path": "classes/class_visualshadernodevec2constant.md"
+  },
+  {
+    "title": "VisualShaderNodeVec2Parameter",
+    "path": "classes/class_visualshadernodevec2parameter.md"
+  },
+  {
+    "title": "VisualShaderNodeVec3Constant",
+    "path": "classes/class_visualshadernodevec3constant.md"
+  },
+  {
+    "title": "VisualShaderNodeVec3Parameter",
+    "path": "classes/class_visualshadernodevec3parameter.md"
+  },
+  {
+    "title": "VisualShaderNodeVec4Constant",
+    "path": "classes/class_visualshadernodevec4constant.md"
+  },
+  {
+    "title": "VisualShaderNodeVec4Parameter",
+    "path": "classes/class_visualshadernodevec4parameter.md"
+  },
+  {
+    "title": "VisualShaderNodeVectorBase",
+    "path": "classes/class_visualshadernodevectorbase.md"
+  },
+  {
+    "title": "VisualShaderNodeVectorCompose",
+    "path": "classes/class_visualshadernodevectorcompose.md"
+  },
+  {
+    "title": "VisualShaderNodeVectorDecompose",
+    "path": "classes/class_visualshadernodevectordecompose.md"
+  },
+  {
+    "title": "VisualShaderNodeVectorDistance",
+    "path": "classes/class_visualshadernodevectordistance.md"
+  },
+  {
+    "title": "VisualShaderNodeVectorFunc",
+    "path": "classes/class_visualshadernodevectorfunc.md"
+  },
+  {
+    "title": "VisualShaderNodeVectorLen",
+    "path": "classes/class_visualshadernodevectorlen.md"
+  },
+  {
+    "title": "VisualShaderNodeVectorOp",
+    "path": "classes/class_visualshadernodevectorop.md"
+  },
+  {
+    "title": "VisualShaderNodeVectorRefract",
+    "path": "classes/class_visualshadernodevectorrefract.md"
+  },
+  {
+    "title": "VisualShaderNodeWorldPositionFromDepth",
+    "path": "classes/class_visualshadernodeworldpositionfromdepth.md"
+  },
+  {
+    "title": "VoxelGI",
+    "path": "classes/class_voxelgi.md"
+  },
+  {
+    "title": "VoxelGIData",
+    "path": "classes/class_voxelgidata.md"
+  },
+  {
+    "title": "VScrollBar",
+    "path": "classes/class_vscrollbar.md"
+  },
+  {
+    "title": "VSeparator",
+    "path": "classes/class_vseparator.md"
+  },
+  {
+    "title": "VSlider",
+    "path": "classes/class_vslider.md"
+  },
+  {
+    "title": "VSplitContainer",
+    "path": "classes/class_vsplitcontainer.md"
+  },
+  {
+    "title": "WeakRef",
+    "path": "classes/class_weakref.md"
+  },
+  {
+    "title": "WebRTCDataChannel",
+    "path": "classes/class_webrtcdatachannel.md"
+  },
+  {
+    "title": "WebRTCDataChannelExtension",
+    "path": "classes/class_webrtcdatachannelextension.md"
+  },
+  {
+    "title": "WebRTCMultiplayerPeer",
+    "path": "classes/class_webrtcmultiplayerpeer.md"
+  },
+  {
+    "title": "WebRTCPeerConnection",
+    "path": "classes/class_webrtcpeerconnection.md"
+  },
+  {
+    "title": "WebRTCPeerConnectionExtension",
+    "path": "classes/class_webrtcpeerconnectionextension.md"
+  },
+  {
+    "title": "WebSocketMultiplayerPeer",
+    "path": "classes/class_websocketmultiplayerpeer.md"
+  },
+  {
+    "title": "WebSocketPeer",
+    "path": "classes/class_websocketpeer.md"
+  },
+  {
+    "title": "WebXRInterface",
+    "path": "classes/class_webxrinterface.md"
+  },
+  {
+    "title": "Window",
+    "path": "classes/class_window.md"
+  },
+  {
+    "title": "WorkerThreadPool",
+    "path": "classes/class_workerthreadpool.md"
+  },
+  {
+    "title": "World2D",
+    "path": "classes/class_world2d.md"
+  },
+  {
+    "title": "World3D",
+    "path": "classes/class_world3d.md"
+  },
+  {
+    "title": "WorldBoundaryShape2D",
+    "path": "classes/class_worldboundaryshape2d.md"
+  },
+  {
+    "title": "WorldBoundaryShape3D",
+    "path": "classes/class_worldboundaryshape3d.md"
+  },
+  {
+    "title": "WorldEnvironment",
+    "path": "classes/class_worldenvironment.md"
+  },
+  {
+    "title": "X509Certificate",
+    "path": "classes/class_x509certificate.md"
+  },
+  {
+    "title": "XMLParser",
+    "path": "classes/class_xmlparser.md"
+  },
+  {
+    "title": "XRAnchor3D",
+    "path": "classes/class_xranchor3d.md"
+  },
+  {
+    "title": "XRBodyModifier3D",
+    "path": "classes/class_xrbodymodifier3d.md"
+  },
+  {
+    "title": "XRBodyTracker",
+    "path": "classes/class_xrbodytracker.md"
+  },
+  {
+    "title": "XRCamera3D",
+    "path": "classes/class_xrcamera3d.md"
+  },
+  {
+    "title": "XRController3D",
+    "path": "classes/class_xrcontroller3d.md"
+  },
+  {
+    "title": "XRControllerTracker",
+    "path": "classes/class_xrcontrollertracker.md"
+  },
+  {
+    "title": "XRFaceModifier3D",
+    "path": "classes/class_xrfacemodifier3d.md"
+  },
+  {
+    "title": "XRFaceTracker",
+    "path": "classes/class_xrfacetracker.md"
+  },
+  {
+    "title": "XRHandModifier3D",
+    "path": "classes/class_xrhandmodifier3d.md"
+  },
+  {
+    "title": "XRHandTracker",
+    "path": "classes/class_xrhandtracker.md"
+  },
+  {
+    "title": "XRInterface",
+    "path": "classes/class_xrinterface.md"
+  },
+  {
+    "title": "XRInterfaceExtension",
+    "path": "classes/class_xrinterfaceextension.md"
+  },
+  {
+    "title": "XRNode3D",
+    "path": "classes/class_xrnode3d.md"
+  },
+  {
+    "title": "XROrigin3D",
+    "path": "classes/class_xrorigin3d.md"
+  },
+  {
+    "title": "XRPose",
+    "path": "classes/class_xrpose.md"
+  },
+  {
+    "title": "XRPositionalTracker",
+    "path": "classes/class_xrpositionaltracker.md"
+  },
+  {
+    "title": "XRServer",
+    "path": "classes/class_xrserver.md"
+  },
+  {
+    "title": "XRTracker",
+    "path": "classes/class_xrtracker.md"
+  },
+  {
+    "title": "XRVRS",
+    "path": "classes/class_xrvrs.md"
+  },
+  {
+    "title": "ZIPPacker",
+    "path": "classes/class_zippacker.md"
+  },
+  {
+    "title": "ZIPReader",
+    "path": "classes/class_zipreader.md"
+  },
+  {
+    "title": "All classes",
+    "path": "classes/index.md"
+  },
+  {
+    "title": "Asset Library",
+    "path": "community/asset_library/index.md"
+  },
+  {
+    "title": "Submitting to the Asset Library",
+    "path": "community/asset_library/submitting_to_assetlib.md"
+  },
+  {
+    "title": "Using the Asset Library",
+    "path": "community/asset_library/using_assetlib.md"
+  },
+  {
+    "title": "About the Asset Library",
+    "path": "community/asset_library/what_is_assetlib.md"
+  },
+  {
+    "title": "Frequently asked questions",
+    "path": "community/asset_store/faq.md"
+  },
+  {
+    "title": "Asset Store",
+    "path": "community/asset_store/index.md"
+  },
+  {
+    "title": "Submitting to the Asset Store",
+    "path": "community/asset_store/submitting_to_asset_store.md"
+  },
+  {
+    "title": "Using the Asset Store Website",
+    "path": "community/asset_store/using_asset_store_website.md"
+  },
+  {
+    "title": "Using the Asset Store in the Engine",
+    "path": "community/asset_store/using_in_editor.md"
+  },
+  {
+    "title": "About the Asset Store",
+    "path": "community/asset_store/what_is_asset_store.md"
+  },
+  {
+    "title": "Community channels",
+    "path": "community/channels.md"
+  },
+  {
+    "title": "Tutorials and resources",
+    "path": "community/tutorials.md"
+  },
+  {
+    "title": "2D coordinate systems and 2D transforms",
+    "path": "engine_details/architecture/2d_coordinate_systems.md"
+  },
+  {
+    "title": "Common engine methods and macros",
+    "path": "engine_details/architecture/common_engine_methods_and_macros.md"
+  },
+  {
+    "title": "Core types",
+    "path": "engine_details/architecture/core_types.md"
+  },
+  {
+    "title": "Godot's architecture overview",
+    "path": "engine_details/architecture/godot_architecture_diagram.md"
+  },
+  {
+    "title": "Engine architecture",
+    "path": "engine_details/architecture/index.md"
+  },
+  {
+    "title": "Inheritance class tree",
+    "path": "engine_details/architecture/inheritance_class_tree.md"
+  },
+  {
+    "title": "Internal rendering architecture",
+    "path": "engine_details/architecture/internal_rendering_architecture.md"
+  },
+  {
+    "title": "Object class",
+    "path": "engine_details/architecture/object_class.md"
+  },
+  {
+    "title": "Unit testing",
+    "path": "engine_details/architecture/unit_testing.md"
+  },
+  {
+    "title": "Variant class",
+    "path": "engine_details/architecture/variant_class.md"
+  },
+  {
+    "title": "Class reference primer",
+    "path": "engine_details/class_reference/index.md"
+  },
+  {
+    "title": "Compiling for Android",
+    "path": "engine_details/development/compiling/compiling_for_android.md"
+  },
+  {
+    "title": "Compiling for iOS",
+    "path": "engine_details/development/compiling/compiling_for_ios.md"
+  },
+  {
+    "title": "Compiling for Linux, *BSD",
+    "path": "engine_details/development/compiling/compiling_for_linuxbsd.md"
+  },
+  {
+    "title": "Compiling for macOS",
+    "path": "engine_details/development/compiling/compiling_for_macos.md"
+  },
+  {
+    "title": "Compiling for visionOS",
+    "path": "engine_details/development/compiling/compiling_for_visionos.md"
+  },
+  {
+    "title": "Compiling for the Web",
+    "path": "engine_details/development/compiling/compiling_for_web.md"
+  },
+  {
+    "title": "Compiling for Windows",
+    "path": "engine_details/development/compiling/compiling_for_windows.md"
+  },
+  {
+    "title": "Compiling with .NET",
+    "path": "engine_details/development/compiling/compiling_with_dotnet.md"
+  },
+  {
+    "title": "Compiling with PCK encryption key",
+    "path": "engine_details/development/compiling/compiling_with_script_encryption_key.md"
+  },
+  {
+    "title": "Cross-compiling for iOS on Linux",
+    "path": "engine_details/development/compiling/cross-compiling_for_ios_on_linux.md"
+  },
+  {
+    "title": "Getting the source",
+    "path": "engine_details/development/compiling/getting_source.md"
+  },
+  {
+    "title": "Building from source",
+    "path": "engine_details/development/compiling/index.md"
+  },
+  {
+    "title": "Introduction to the buildsystem",
+    "path": "engine_details/development/compiling/introduction_to_the_buildsystem.md"
+  },
+  {
+    "title": "Optimizing a build for size",
+    "path": "engine_details/development/compiling/optimizing_for_size.md"
+  },
+  {
+    "title": "Android Studio",
+    "path": "engine_details/development/configuring_an_ide/android_studio.md"
+  },
+  {
+    "title": "CLion",
+    "path": "engine_details/development/configuring_an_ide/clion.md"
+  },
+  {
+    "title": "Code::Blocks",
+    "path": "engine_details/development/configuring_an_ide/code_blocks.md"
+  },
+  {
+    "title": "Configuring an IDE",
+    "path": "engine_details/development/configuring_an_ide/index.md"
+  },
+  {
+    "title": "KDevelop",
+    "path": "engine_details/development/configuring_an_ide/kdevelop.md"
+  },
+  {
+    "title": "Qt Creator",
+    "path": "engine_details/development/configuring_an_ide/qt_creator.md"
+  },
+  {
+    "title": "JetBrains Rider",
+    "path": "engine_details/development/configuring_an_ide/rider.md"
+  },
+  {
+    "title": "Visual Studio",
+    "path": "engine_details/development/configuring_an_ide/visual_studio.md"
+  },
+  {
+    "title": "Visual Studio Code",
+    "path": "engine_details/development/configuring_an_ide/visual_studio_code.md"
+  },
+  {
+    "title": "Xcode",
+    "path": "engine_details/development/configuring_an_ide/xcode.md"
+  },
+  {
+    "title": "Debugging",
+    "path": "engine_details/development/debugging/index.md"
+  },
+  {
+    "title": "Debugging on macOS",
+    "path": "engine_details/development/debugging/macos_debug.md"
+  },
+  {
+    "title": "Using sanitizers",
+    "path": "engine_details/development/debugging/using_sanitizers.md"
+  },
+  {
+    "title": "Vulkan",
+    "path": "engine_details/development/debugging/vulkan/index.md"
+  },
+  {
+    "title": "Validation layers",
+    "path": "engine_details/development/debugging/vulkan/vulkan_validation_layers.md"
+  },
+  {
+    "title": "Handling compatibility breakages",
+    "path": "engine_details/development/handling_compatibility_breakages.md"
+  },
+  {
+    "title": "Engine development",
+    "path": "engine_details/development/index.md"
+  },
+  {
+    "title": "Hotspot",
+    "path": "engine_details/development/profiling/hotspot.md"
+  },
+  {
+    "title": "Using C++ profilers",
+    "path": "engine_details/development/profiling/index.md"
+  },
+  {
+    "title": "Instruments",
+    "path": "engine_details/development/profiling/instruments.md"
+  },
+  {
+    "title": "Perfetto",
+    "path": "engine_details/development/profiling/perfetto.md"
+  },
+  {
+    "title": "Tracy",
+    "path": "engine_details/development/profiling/tracy.md"
+  },
+  {
+    "title": "VerySleepy",
+    "path": "engine_details/development/profiling/very_sleepy.md"
+  },
+  {
+    "title": "Editor icons",
+    "path": "engine_details/editor/creating_icons.md"
+  },
+  {
+    "title": "Editor development",
+    "path": "engine_details/editor/index.md"
+  },
+  {
+    "title": "Introduction to editor development",
+    "path": "engine_details/editor/introduction_to_editor_development.md"
+  },
+  {
+    "title": "Binding to external libraries",
+    "path": "engine_details/engine_api/binding_to_external_libraries.md"
+  },
+  {
+    "title": "Custom AudioStreams",
+    "path": "engine_details/engine_api/custom_audiostreams.md"
+  },
+  {
+    "title": "Custom modules in C++",
+    "path": "engine_details/engine_api/custom_modules_in_cpp.md"
+  },
+  {
+    "title": "Custom platform ports",
+    "path": "engine_details/engine_api/custom_platform_ports.md"
+  },
+  {
+    "title": "Custom resource format loaders",
+    "path": "engine_details/engine_api/custom_resource_format_loaders.md"
+  },
+  {
+    "title": "GDExtension C example",
+    "path": "engine_details/engine_api/gdextension/gdextension_c_example.md"
+  },
+  {
+    "title": "The .gdextension file",
+    "path": "engine_details/engine_api/gdextension/gdextension_file.md"
+  },
+  {
+    "title": "The C interface JSON file",
+    "path": "engine_details/engine_api/gdextension/gdextension_interface_json_file.md"
+  },
+  {
+    "title": "The GDExtension system",
+    "path": "engine_details/engine_api/gdextension/index.md"
+  },
+  {
+    "title": "What is GDExtension?",
+    "path": "engine_details/engine_api/gdextension/what_is_gdextension.md"
+  },
+  {
+    "title": "Engine extension APIs",
+    "path": "engine_details/engine_api/index.md"
+  },
+  {
+    "title": "Vendor Runtime Module",
+    "path": "engine_details/engine_api/vendor_runtime_module.md"
+  },
+  {
+    "title": "Godot file formats",
+    "path": "engine_details/file_formats/index.md"
+  },
+  {
+    "title": "TSCN file format",
+    "path": "engine_details/file_formats/tscn.md"
+  },
+  {
+    "title": "Setting up the project",
+    "path": "getting_started/first_2d_game/01.project_setup.md"
+  },
+  {
+    "title": "Creating the player scene",
+    "path": "getting_started/first_2d_game/02.player_scene.md"
+  },
+  {
+    "title": "Coding the player",
+    "path": "getting_started/first_2d_game/03.coding_the_player.md"
+  },
+  {
+    "title": "Creating the enemy",
+    "path": "getting_started/first_2d_game/04.creating_the_enemy.md"
+  },
+  {
+    "title": "The main game scene",
+    "path": "getting_started/first_2d_game/05.the_main_game_scene.md"
+  },
+  {
+    "title": "Heads up display",
+    "path": "getting_started/first_2d_game/06.heads_up_display.md"
+  },
+  {
+    "title": "Finishing up",
+    "path": "getting_started/first_2d_game/07.finishing-up.md"
+  },
+  {
+    "title": "Your first 2D game",
+    "path": "getting_started/first_2d_game/index.md"
+  },
+  {
+    "title": "Setting up the game area",
+    "path": "getting_started/first_3d_game/01.game_setup.md"
+  },
+  {
+    "title": "Player scene and input actions",
+    "path": "getting_started/first_3d_game/02.player_input.md"
+  },
+  {
+    "title": "Moving the player with code",
+    "path": "getting_started/first_3d_game/03.player_movement_code.md"
+  },
+  {
+    "title": "Designing the mob scene",
+    "path": "getting_started/first_3d_game/04.mob_scene.md"
+  },
+  {
+    "title": "Spawning monsters",
+    "path": "getting_started/first_3d_game/05.spawning_mobs.md"
+  },
+  {
+    "title": "Jumping and squashing monsters",
+    "path": "getting_started/first_3d_game/06.jump_and_squash.md"
+  },
+  {
+    "title": "Killing the player",
+    "path": "getting_started/first_3d_game/07.killing_player.md"
+  },
+  {
+    "title": "Score and replay",
+    "path": "getting_started/first_3d_game/08.score_and_replay.md"
+  },
+  {
+    "title": "Character animation",
+    "path": "getting_started/first_3d_game/09.adding_animations.md"
+  },
+  {
+    "title": "Going further",
+    "path": "getting_started/first_3d_game/going_further.md"
+  },
+  {
+    "title": "Your first 3D game",
+    "path": "getting_started/first_3d_game/index.md"
+  },
+  {
+    "title": "First look at Godot's interface",
+    "path": "getting_started/introduction/first_look_at_the_editor.md"
+  },
+  {
+    "title": "Godot's design philosophy",
+    "path": "getting_started/introduction/godot_design_philosophy.md"
+  },
+  {
+    "title": "Introduction",
+    "path": "getting_started/introduction/index.md"
+  },
+  {
+    "title": "Introduction to Godot",
+    "path": "getting_started/introduction/introduction_to_godot.md"
+  },
+  {
+    "title": "Overview of Godot's key concepts",
+    "path": "getting_started/introduction/key_concepts_overview.md"
+  },
+  {
+    "title": "Learn to code with GDScript",
+    "path": "getting_started/introduction/learn_to_code_with_gdscript.md"
+  },
+  {
+    "title": "Learning new features",
+    "path": "getting_started/introduction/learning_new_features.md"
+  },
+  {
+    "title": "Step by step",
+    "path": "getting_started/step_by_step/index.md"
+  },
+  {
+    "title": "Creating instances",
+    "path": "getting_started/step_by_step/instancing.md"
+  },
+  {
+    "title": "Nodes and Scenes",
+    "path": "getting_started/step_by_step/nodes_and_scenes.md"
+  },
+  {
+    "title": "Creating your first script",
+    "path": "getting_started/step_by_step/scripting_first_script.md"
+  },
+  {
+    "title": "Scripting languages",
+    "path": "getting_started/step_by_step/scripting_languages.md"
+  },
+  {
+    "title": "Listening to player input",
+    "path": "getting_started/step_by_step/scripting_player_input.md"
+  },
+  {
+    "title": "Using signals",
+    "path": "getting_started/step_by_step/signals.md"
+  },
+  {
+    "title": "Godot Docs – 4.7 branch",
+    "path": "index.md"
+  },
+  {
+    "title": "2D antialiasing",
+    "path": "tutorials/2d/2d_antialiasing.md"
+  },
+  {
+    "title": "2D lights and shadows",
+    "path": "tutorials/2d/2d_lights_and_shadows.md"
+  },
+  {
+    "title": "2D meshes",
+    "path": "tutorials/2d/2d_meshes.md"
+  },
+  {
+    "title": "2D movement overview",
+    "path": "tutorials/2d/2d_movement.md"
+  },
+  {
+    "title": "2D Parallax",
+    "path": "tutorials/2d/2d_parallax.md"
+  },
+  {
+    "title": "2D sprite animation",
+    "path": "tutorials/2d/2d_sprite_animation.md"
+  },
+  {
+    "title": "Viewport and canvas transforms",
+    "path": "tutorials/2d/2d_transforms.md"
+  },
+  {
+    "title": "Canvas layers",
+    "path": "tutorials/2d/canvas_layers.md"
+  },
+  {
+    "title": "Custom drawing in 2D",
+    "path": "tutorials/2d/custom_drawing_in_2d.md"
+  },
+  {
+    "title": "2D",
+    "path": "tutorials/2d/index.md"
+  },
+  {
+    "title": "Introduction to 2D",
+    "path": "tutorials/2d/introduction_to_2d.md"
+  },
+  {
+    "title": "ParticleProcessMaterial 2D Usage",
+    "path": "tutorials/2d/particle_process_material_2d.md"
+  },
+  {
+    "title": "2D particle systems",
+    "path": "tutorials/2d/particle_systems_2d.md"
+  },
+  {
+    "title": "Using TileMaps",
+    "path": "tutorials/2d/using_tilemaps.md"
+  },
+  {
+    "title": "Using TileSets",
+    "path": "tutorials/2d/using_tilesets.md"
+  },
+  {
+    "title": "3D antialiasing",
+    "path": "tutorials/3d/3d_antialiasing.md"
+  },
+  {
+    "title": "3D rendering limitations",
+    "path": "tutorials/3d/3d_rendering_limitations.md"
+  },
+  {
+    "title": "3D text",
+    "path": "tutorials/3d/3d_text.md"
+  },
+  {
+    "title": "Prototyping levels with CSG",
+    "path": "tutorials/3d/csg_tools.md"
+  },
+  {
+    "title": "Environment and post-processing",
+    "path": "tutorials/3d/environment_and_post_processing.md"
+  },
+  {
+    "title": "Faking global illumination",
+    "path": "tutorials/3d/global_illumination/faking_global_illumination.md"
+  },
+  {
+    "title": "Global illumination",
+    "path": "tutorials/3d/global_illumination/index.md"
+  },
+  {
+    "title": "Introduction to global illumination",
+    "path": "tutorials/3d/global_illumination/introduction_to_global_illumination.md"
+  },
+  {
+    "title": "Reflection probes",
+    "path": "tutorials/3d/global_illumination/reflection_probes.md"
+  },
+  {
+    "title": "Using Lightmap global illumination",
+    "path": "tutorials/3d/global_illumination/using_lightmap_gi.md"
+  },
+  {
+    "title": "Signed distance field global illumination (SDFGI)",
+    "path": "tutorials/3d/global_illumination/using_sdfgi.md"
+  },
+  {
+    "title": "Using Voxel global illumination",
+    "path": "tutorials/3d/global_illumination/using_voxel_gi.md"
+  },
+  {
+    "title": "High dynamic range lighting",
+    "path": "tutorials/3d/high_dynamic_range.md"
+  },
+  {
+    "title": "3D",
+    "path": "tutorials/3d/index.md"
+  },
+  {
+    "title": "Introduction to 3D",
+    "path": "tutorials/3d/introduction_to_3d.md"
+  },
+  {
+    "title": "3D lights and shadows",
+    "path": "tutorials/3d/lights_and_shadows.md"
+  },
+  {
+    "title": "Mesh level of detail (LOD)",
+    "path": "tutorials/3d/mesh_lod.md"
+  },
+  {
+    "title": "Occlusion culling",
+    "path": "tutorials/3d/occlusion_culling.md"
+  },
+  {
+    "title": "3D Particle attractors",
+    "path": "tutorials/3d/particles/attractors.md"
+  },
+  {
+    "title": "3D Particle collisions",
+    "path": "tutorials/3d/particles/collision.md"
+  },
+  {
+    "title": "Complex emission shapes",
+    "path": "tutorials/3d/particles/complex_shapes.md"
+  },
+  {
+    "title": "Creating a 3D particle system",
+    "path": "tutorials/3d/particles/creating_a_3d_particle_system.md"
+  },
+  {
+    "title": "Particle systems (3D)",
+    "path": "tutorials/3d/particles/index.md"
+  },
+  {
+    "title": "Process material properties",
+    "path": "tutorials/3d/particles/process_material_properties.md"
+  },
+  {
+    "title": "3D Particle system properties",
+    "path": "tutorials/3d/particles/properties.md"
+  },
+  {
+    "title": "Particle sub-emitters",
+    "path": "tutorials/3d/particles/subemitters.md"
+  },
+  {
+    "title": "3D Particle trails",
+    "path": "tutorials/3d/particles/trails.md"
+  },
+  {
+    "title": "Particle turbulence",
+    "path": "tutorials/3d/particles/turbulence.md"
+  },
+  {
+    "title": "Physical light and camera units",
+    "path": "tutorials/3d/physical_light_and_camera_units.md"
+  },
+  {
+    "title": "Using the ArrayMesh",
+    "path": "tutorials/3d/procedural_geometry/arraymesh.md"
+  },
+  {
+    "title": "Using ImmediateMesh",
+    "path": "tutorials/3d/procedural_geometry/immediatemesh.md"
+  },
+  {
+    "title": "Procedural geometry",
+    "path": "tutorials/3d/procedural_geometry/index.md"
+  },
+  {
+    "title": "Using the MeshDataTool",
+    "path": "tutorials/3d/procedural_geometry/meshdatatool.md"
+  },
+  {
+    "title": "Using the SurfaceTool",
+    "path": "tutorials/3d/procedural_geometry/surfacetool.md"
+  },
+  {
+    "title": "Resolution scaling",
+    "path": "tutorials/3d/resolution_scaling.md"
+  },
+  {
+    "title": "Third-person camera with spring arm",
+    "path": "tutorials/3d/spring_arm.md"
+  },
+  {
+    "title": "Standard Material 3D and ORM Material 3D",
+    "path": "tutorials/3d/standard_material_3d.md"
+  },
+  {
+    "title": "Using decals",
+    "path": "tutorials/3d/using_decals.md"
+  },
+  {
+    "title": "Using GridMaps",
+    "path": "tutorials/3d/using_gridmaps.md"
+  },
+  {
+    "title": "Using MultiMeshInstance3D",
+    "path": "tutorials/3d/using_multi_mesh_instance.md"
+  },
+  {
+    "title": "Using 3D transforms",
+    "path": "tutorials/3d/using_transforms.md"
+  },
+  {
+    "title": "Variable rate shading",
+    "path": "tutorials/3d/variable_rate_shading.md"
+  },
+  {
+    "title": "Visibility ranges (HLOD)",
+    "path": "tutorials/3d/visibility_ranges.md"
+  },
+  {
+    "title": "Volumetric fog and fog volumes",
+    "path": "tutorials/3d/volumetric_fog.md"
+  },
+  {
+    "title": "2D skeletons",
+    "path": "tutorials/animation/2d_skeletons.md"
+  },
+  {
+    "title": "Animation Track types",
+    "path": "tutorials/animation/animation_track_types.md"
+  },
+  {
+    "title": "Using AnimationTree",
+    "path": "tutorials/animation/animation_tree.md"
+  },
+  {
+    "title": "Creating movies",
+    "path": "tutorials/animation/creating_movies.md"
+  },
+  {
+    "title": "Cutout animation",
+    "path": "tutorials/animation/cutout_animation.md"
+  },
+  {
+    "title": "Animation",
+    "path": "tutorials/animation/index.md"
+  },
+  {
+    "title": "Introduction to the animation features",
+    "path": "tutorials/animation/introduction.md"
+  },
+  {
+    "title": "Playing videos",
+    "path": "tutorials/animation/playing_videos.md"
+  },
+  {
+    "title": "Blender ESCN exporter",
+    "path": "tutorials/assets_pipeline/escn_exporter/index.md"
+  },
+  {
+    "title": "Exporting 3D scenes",
+    "path": "tutorials/assets_pipeline/exporting_3d_scenes.md"
+  },
+  {
+    "title": "Import process",
+    "path": "tutorials/assets_pipeline/import_process.md"
+  },
+  {
+    "title": "Advanced Import Settings",
+    "path": "tutorials/assets_pipeline/importing_3d_scenes/advanced_import_settings.md"
+  },
+  {
+    "title": "Available 3D formats",
+    "path": "tutorials/assets_pipeline/importing_3d_scenes/available_formats.md"
+  },
+  {
+    "title": "Import configuration",
+    "path": "tutorials/assets_pipeline/importing_3d_scenes/import_configuration.md"
+  },
+  {
+    "title": "Importing 3D scenes",
+    "path": "tutorials/assets_pipeline/importing_3d_scenes/index.md"
+  },
+  {
+    "title": "Model export considerations",
+    "path": "tutorials/assets_pipeline/importing_3d_scenes/model_export_considerations.md"
+  },
+  {
+    "title": "Node type customization using name suffixes",
+    "path": "tutorials/assets_pipeline/importing_3d_scenes/node_type_customization.md"
+  },
+  {
+    "title": "Importing audio samples",
+    "path": "tutorials/assets_pipeline/importing_audio_samples.md"
+  },
+  {
+    "title": "Importing images",
+    "path": "tutorials/assets_pipeline/importing_images.md"
+  },
+  {
+    "title": "Importing translations",
+    "path": "tutorials/assets_pipeline/importing_translations.md"
+  },
+  {
+    "title": "Assets pipeline",
+    "path": "tutorials/assets_pipeline/index.md"
+  },
+  {
+    "title": "Retargeting 3D Skeletons",
+    "path": "tutorials/assets_pipeline/retargeting_3d_skeletons.md"
+  },
+  {
+    "title": "Audio buses",
+    "path": "tutorials/audio/audio_buses.md"
+  },
+  {
+    "title": "Audio effects",
+    "path": "tutorials/audio/audio_effects.md"
+  },
+  {
+    "title": "Audio streams",
+    "path": "tutorials/audio/audio_streams.md"
+  },
+  {
+    "title": "Audio",
+    "path": "tutorials/audio/index.md"
+  },
+  {
+    "title": "Recording with microphone",
+    "path": "tutorials/audio/recording_with_microphone.md"
+  },
+  {
+    "title": "Sync the gameplay with audio and music",
+    "path": "tutorials/audio/sync_with_audio.md"
+  },
+  {
+    "title": "Text to speech",
+    "path": "tutorials/audio/text_to_speech.md"
+  },
+  {
+    "title": "Autoloads versus regular nodes",
+    "path": "tutorials/best_practices/autoloads_versus_regular_nodes.md"
+  },
+  {
+    "title": "Data preferences",
+    "path": "tutorials/best_practices/data_preferences.md"
+  },
+  {
+    "title": "Godot interfaces",
+    "path": "tutorials/best_practices/godot_interfaces.md"
+  },
+  {
+    "title": "Godot notifications",
+    "path": "tutorials/best_practices/godot_notifications.md"
+  },
+  {
+    "title": "Best practices",
+    "path": "tutorials/best_practices/index.md"
+  },
+  {
+    "title": "Introduction",
+    "path": "tutorials/best_practices/introduction_best_practices.md"
+  },
+  {
+    "title": "Logic preferences",
+    "path": "tutorials/best_practices/logic_preferences.md"
+  },
+  {
+    "title": "When and how to avoid using nodes for everything",
+    "path": "tutorials/best_practices/node_alternatives.md"
+  },
+  {
+    "title": "Project organization",
+    "path": "tutorials/best_practices/project_organization.md"
+  },
+  {
+    "title": "Scene organization",
+    "path": "tutorials/best_practices/scene_organization.md"
+  },
+  {
+    "title": "When to use scenes versus scripts",
+    "path": "tutorials/best_practices/scenes_versus_scripts.md"
+  },
+  {
+    "title": "Version control systems",
+    "path": "tutorials/best_practices/version_control_systems.md"
+  },
+  {
+    "title": "Applying object-oriented principles in Godot",
+    "path": "tutorials/best_practices/what_are_godot_classes.md"
+  },
+  {
+    "title": "Command line tutorial",
+    "path": "tutorials/editor/command_line_tutorial.md"
+  },
+  {
+    "title": "Customizing the interface",
+    "path": "tutorials/editor/customizing_editor.md"
+  },
+  {
+    "title": "Using an external text editor",
+    "path": "tutorials/editor/external_editor.md"
+  },
+  {
+    "title": "Game embedding",
+    "path": "tutorials/editor/game_embedding.md"
+  },
+  {
+    "title": "Editor introduction",
+    "path": "tutorials/editor/index.md"
+  },
+  {
+    "title": "Inspector Dock",
+    "path": "tutorials/editor/inspector_dock.md"
+  },
+  {
+    "title": "Managing editor features",
+    "path": "tutorials/editor/managing_editor_features.md"
+  },
+  {
+    "title": "Using the Project Manager",
+    "path": "tutorials/editor/project_manager.md"
+  },
+  {
+    "title": "Project Settings",
+    "path": "tutorials/editor/project_settings.md"
+  },
+  {
+    "title": "Script Editor",
+    "path": "tutorials/editor/script_editor.md"
+  },
+  {
+    "title": "Using the engine compilation configuration editor",
+    "path": "tutorials/editor/using_engine_compilation_configuration_editor.md"
+  },
+  {
+    "title": "Using the Android editor",
+    "path": "tutorials/editor/using_the_android_editor.md"
+  },
+  {
+    "title": "Using the Web editor",
+    "path": "tutorials/editor/using_the_web_editor.md"
+  },
+  {
+    "title": "Using the XR editor",
+    "path": "tutorials/editor/using_the_xr_editor.md"
+  },
+  {
+    "title": "Gradle builds for Android",
+    "path": "tutorials/export/android_gradle_build.md"
+  },
+  {
+    "title": "Manually changing application icon for Windows",
+    "path": "tutorials/export/changing_application_icon_for_windows.md"
+  },
+  {
+    "title": "Exporting for Android",
+    "path": "tutorials/export/exporting_for_android.md"
+  },
+  {
+    "title": "Exporting for dedicated servers",
+    "path": "tutorials/export/exporting_for_dedicated_servers.md"
+  },
+  {
+    "title": "Exporting for iOS",
+    "path": "tutorials/export/exporting_for_ios.md"
+  },
+  {
+    "title": "Exporting for Linux",
+    "path": "tutorials/export/exporting_for_linux.md"
+  },
+  {
+    "title": "Exporting for macOS",
+    "path": "tutorials/export/exporting_for_macos.md"
+  },
+  {
+    "title": "Exporting for visionOS",
+    "path": "tutorials/export/exporting_for_visionos.md"
+  },
+  {
+    "title": "Exporting for the Web",
+    "path": "tutorials/export/exporting_for_web.md"
+  },
+  {
+    "title": "Exporting for Windows",
+    "path": "tutorials/export/exporting_for_windows.md"
+  },
+  {
+    "title": "Exporting packs, patches, and mods",
+    "path": "tutorials/export/exporting_pcks.md"
+  },
+  {
+    "title": "Exporting projects",
+    "path": "tutorials/export/exporting_projects.md"
+  },
+  {
+    "title": "Feature tags",
+    "path": "tutorials/export/feature_tags.md"
+  },
+  {
+    "title": "Export",
+    "path": "tutorials/export/index.md"
+  },
+  {
+    "title": "One-click deploy",
+    "path": "tutorials/export/one-click_deploy.md"
+  },
+  {
+    "title": "Running Godot apps on macOS",
+    "path": "tutorials/export/running_on_macos.md"
+  },
+  {
+    "title": "Internationalization",
+    "path": "tutorials/i18n/index.md"
+  },
+  {
+    "title": "Internationalizing games",
+    "path": "tutorials/i18n/internationalizing_games.md"
+  },
+  {
+    "title": "Locale codes",
+    "path": "tutorials/i18n/locales.md"
+  },
+  {
+    "title": "Localization using gettext (PO files)",
+    "path": "tutorials/i18n/localization_using_gettext.md"
+  },
+  {
+    "title": "Localization using spreadsheets",
+    "path": "tutorials/i18n/localization_using_spreadsheets.md"
+  },
+  {
+    "title": "Pseudolocalization",
+    "path": "tutorials/i18n/pseudolocalization.md"
+  },
+  {
+    "title": "Tutorials",
+    "path": "tutorials/index.md"
+  },
+  {
+    "title": "Controller features",
+    "path": "tutorials/inputs/controller_features.md"
+  },
+  {
+    "title": "Controllers, gamepads, and joysticks",
+    "path": "tutorials/inputs/controllers_gamepads_joysticks.md"
+  },
+  {
+    "title": "Customizing the mouse cursor",
+    "path": "tutorials/inputs/custom_mouse_cursor.md"
+  },
+  {
+    "title": "Handling quit requests",
+    "path": "tutorials/inputs/handling_quit_requests.md"
+  },
+  {
+    "title": "Input handling",
+    "path": "tutorials/inputs/index.md"
+  },
+  {
+    "title": "Input examples",
+    "path": "tutorials/inputs/input_examples.md"
+  },
+  {
+    "title": "Using InputEvent",
+    "path": "tutorials/inputs/inputevent.md"
+  },
+  {
+    "title": "Mouse and input coordinates",
+    "path": "tutorials/inputs/mouse_and_input_coordinates.md"
+  },
+  {
+    "title": "Background loading",
+    "path": "tutorials/io/background_loading.md"
+  },
+  {
+    "title": "Binary serialization API",
+    "path": "tutorials/io/binary_serialization_api.md"
+  },
+  {
+    "title": "File paths in Godot projects",
+    "path": "tutorials/io/data_paths.md"
+  },
+  {
+    "title": "File and data I/O",
+    "path": "tutorials/io/index.md"
+  },
+  {
+    "title": "Runtime file loading and saving",
+    "path": "tutorials/io/runtime_file_loading_and_saving.md"
+  },
+  {
+    "title": "Saving games",
+    "path": "tutorials/io/saving_games.md"
+  },
+  {
+    "title": "Beziers, curves and paths",
+    "path": "tutorials/math/beziers_and_curves.md"
+  },
+  {
+    "title": "Math",
+    "path": "tutorials/math/index.md"
+  },
+  {
+    "title": "Interpolation",
+    "path": "tutorials/math/interpolation.md"
+  },
+  {
+    "title": "Matrices and transforms",
+    "path": "tutorials/math/matrices_and_transforms.md"
+  },
+  {
+    "title": "Random number generation",
+    "path": "tutorials/math/random_number_generation.md"
+  },
+  {
+    "title": "Vector math",
+    "path": "tutorials/math/vector_math.md"
+  },
+  {
+    "title": "Advanced vector math",
+    "path": "tutorials/math/vectors_advanced.md"
+  },
+  {
+    "title": "Migrating to a new version",
+    "path": "tutorials/migrating/index.md"
+  },
+  {
+    "title": "Upgrading from Godot 4.0 to Godot 4.1",
+    "path": "tutorials/migrating/upgrading_to_godot_4.1.md"
+  },
+  {
+    "title": "Upgrading from Godot 4.1 to Godot 4.2",
+    "path": "tutorials/migrating/upgrading_to_godot_4.2.md"
+  },
+  {
+    "title": "Upgrading from Godot 4.2 to Godot 4.3",
+    "path": "tutorials/migrating/upgrading_to_godot_4.3.md"
+  },
+  {
+    "title": "Upgrading from Godot 4.3 to Godot 4.4",
+    "path": "tutorials/migrating/upgrading_to_godot_4.4.md"
+  },
+  {
+    "title": "Upgrading from Godot 4.4 to Godot 4.5",
+    "path": "tutorials/migrating/upgrading_to_godot_4.5.md"
+  },
+  {
+    "title": "Upgrading from Godot 4.5 to Godot 4.6",
+    "path": "tutorials/migrating/upgrading_to_godot_4.6.md"
+  },
+  {
+    "title": "Upgrading from Godot 4.6 to Godot 4.7",
+    "path": "tutorials/migrating/upgrading_to_godot_4.7.md"
+  },
+  {
+    "title": "Upgrading from Godot 3 to Godot 4",
+    "path": "tutorials/migrating/upgrading_to_godot_4.md"
+  },
+  {
+    "title": "Navigation",
+    "path": "tutorials/navigation/index.md"
+  },
+  {
+    "title": "Connecting navigation meshes",
+    "path": "tutorials/navigation/navigation_connecting_navmesh.md"
+  },
+  {
+    "title": "Navigation debug tools",
+    "path": "tutorials/navigation/navigation_debug_tools.md"
+  },
+  {
+    "title": "Support different actor area access",
+    "path": "tutorials/navigation/navigation_different_actor_area_access.md"
+  },
+  {
+    "title": "Support different actor locomotion",
+    "path": "tutorials/navigation/navigation_different_actor_locomotion.md"
+  },
+  {
+    "title": "Support different actor types",
+    "path": "tutorials/navigation/navigation_different_actor_types.md"
+  },
+  {
+    "title": "2D navigation overview",
+    "path": "tutorials/navigation/navigation_introduction_2d.md"
+  },
+  {
+    "title": "3D navigation overview",
+    "path": "tutorials/navigation/navigation_introduction_3d.md"
+  },
+  {
+    "title": "Optimizing Navigation Performance",
+    "path": "tutorials/navigation/navigation_optimizing_performance.md"
+  },
+  {
+    "title": "Using NavigationAgents",
+    "path": "tutorials/navigation/navigation_using_navigationagents.md"
+  },
+  {
+    "title": "Using NavigationLayers",
+    "path": "tutorials/navigation/navigation_using_navigationlayers.md"
+  },
+  {
+    "title": "Using NavigationLinks",
+    "path": "tutorials/navigation/navigation_using_navigationlinks.md"
+  },
+  {
+    "title": "Using NavigationMaps",
+    "path": "tutorials/navigation/navigation_using_navigationmaps.md"
+  },
+  {
+    "title": "Using navigation meshes",
+    "path": "tutorials/navigation/navigation_using_navigationmeshes.md"
+  },
+  {
+    "title": "Using NavigationObstacles",
+    "path": "tutorials/navigation/navigation_using_navigationobstacles.md"
+  },
+  {
+    "title": "Using NavigationPathQueryObjects",
+    "path": "tutorials/navigation/navigation_using_navigationpathqueryobjects.md"
+  },
+  {
+    "title": "Using NavigationPaths",
+    "path": "tutorials/navigation/navigation_using_navigationpaths.md"
+  },
+  {
+    "title": "Using NavigationRegions",
+    "path": "tutorials/navigation/navigation_using_navigationregions.md"
+  },
+  {
+    "title": "Using NavigationServer",
+    "path": "tutorials/navigation/navigation_using_navigationservers.md"
+  },
+  {
+    "title": "High-level multiplayer",
+    "path": "tutorials/networking/high_level_multiplayer.md"
+  },
+  {
+    "title": "HTTP client class",
+    "path": "tutorials/networking/http_client_class.md"
+  },
+  {
+    "title": "Making HTTP requests",
+    "path": "tutorials/networking/http_request_class.md"
+  },
+  {
+    "title": "Networking",
+    "path": "tutorials/networking/index.md"
+  },
+  {
+    "title": "TLS/SSL certificates",
+    "path": "tutorials/networking/ssl_certificates.md"
+  },
+  {
+    "title": "WebRTC",
+    "path": "tutorials/networking/webrtc.md"
+  },
+  {
+    "title": "Using WebSockets",
+    "path": "tutorials/networking/websocket.md"
+  },
+  {
+    "title": "CPU optimization",
+    "path": "tutorials/performance/cpu_optimization.md"
+  },
+  {
+    "title": "General optimization tips",
+    "path": "tutorials/performance/general_optimization.md"
+  },
+  {
+    "title": "GPU optimization",
+    "path": "tutorials/performance/gpu_optimization.md"
+  },
+  {
+    "title": "Performance",
+    "path": "tutorials/performance/index.md"
+  },
+  {
+    "title": "Optimizing 3D performance",
+    "path": "tutorials/performance/optimizing_3d_performance.md"
+  },
+  {
+    "title": "Reducing stutter from shader (pipeline) compilations",
+    "path": "tutorials/performance/pipeline_compilations.md"
+  },
+  {
+    "title": "Thread-safe APIs",
+    "path": "tutorials/performance/thread_safe_apis.md"
+  },
+  {
+    "title": "Optimization using MultiMeshes",
+    "path": "tutorials/performance/using_multimesh.md"
+  },
+  {
+    "title": "Using multiple threads",
+    "path": "tutorials/performance/using_multiple_threads.md"
+  },
+  {
+    "title": "Optimization using Servers",
+    "path": "tutorials/performance/using_servers.md"
+  },
+  {
+    "title": "Animating thousands of fish with MultiMeshInstance3D",
+    "path": "tutorials/performance/vertex_animation/animating_thousands_of_fish.md"
+  },
+  {
+    "title": "Controlling thousands of fish with Particles",
+    "path": "tutorials/performance/vertex_animation/controlling_thousands_of_fish.md"
+  },
+  {
+    "title": "Animating thousands of objects",
+    "path": "tutorials/performance/vertex_animation/index.md"
+  },
+  {
+    "title": "Collision shapes (2D)",
+    "path": "tutorials/physics/collision_shapes_2d.md"
+  },
+  {
+    "title": "Collision shapes (3D)",
+    "path": "tutorials/physics/collision_shapes_3d.md"
+  },
+  {
+    "title": "Physics",
+    "path": "tutorials/physics/index.md"
+  },
+  {
+    "title": "2D and 3D physics interpolation",
+    "path": "tutorials/physics/interpolation/2d_and_3d_physics_interpolation.md"
+  },
+  {
+    "title": "Advanced physics interpolation",
+    "path": "tutorials/physics/interpolation/advanced_physics_interpolation.md"
+  },
+  {
+    "title": "Physics Interpolation",
+    "path": "tutorials/physics/interpolation/index.md"
+  },
+  {
+    "title": "Introduction",
+    "path": "tutorials/physics/interpolation/physics_interpolation_introduction.md"
+  },
+  {
+    "title": "Quick start guide",
+    "path": "tutorials/physics/interpolation/physics_interpolation_quick_start_guide.md"
+  },
+  {
+    "title": "Using physics interpolation",
+    "path": "tutorials/physics/interpolation/using_physics_interpolation.md"
+  },
+  {
+    "title": "Kinematic character (2D)",
+    "path": "tutorials/physics/kinematic_character_2d.md"
+  },
+  {
+    "title": "Large world coordinates",
+    "path": "tutorials/physics/large_world_coordinates.md"
+  },
+  {
+    "title": "Physics introduction",
+    "path": "tutorials/physics/physics_introduction.md"
+  },
+  {
+    "title": "Ragdoll system",
+    "path": "tutorials/physics/ragdoll_system.md"
+  },
+  {
+    "title": "Ray-casting",
+    "path": "tutorials/physics/ray-casting.md"
+  },
+  {
+    "title": "Using RigidBody",
+    "path": "tutorials/physics/rigid_body.md"
+  },
+  {
+    "title": "Using SoftBody3D",
+    "path": "tutorials/physics/soft_body.md"
+  },
+  {
+    "title": "Troubleshooting physics issues",
+    "path": "tutorials/physics/troubleshooting_physics_issues.md"
+  },
+  {
+    "title": "Using Area2D",
+    "path": "tutorials/physics/using_area_2d.md"
+  },
+  {
+    "title": "Using CharacterBody2D/3D",
+    "path": "tutorials/physics/using_character_body_2d.md"
+  },
+  {
+    "title": "Using Jolt Physics",
+    "path": "tutorials/physics/using_jolt_physics.md"
+  },
+  {
+    "title": "Android in-app purchases",
+    "path": "tutorials/platform/android/android_in_app_purchases.md"
+  },
+  {
+    "title": "Godot Android library",
+    "path": "tutorials/platform/android/android_library.md"
+  },
+  {
+    "title": "Godot Android plugins",
+    "path": "tutorials/platform/android/android_plugin.md"
+  },
+  {
+    "title": "Android",
+    "path": "tutorials/platform/android/index.md"
+  },
+  {
+    "title": "Integrating with Android APIs",
+    "path": "tutorials/platform/android/javaclasswrapper_and_androidruntimeplugin.md"
+  },
+  {
+    "title": "Resolving crashes on Android",
+    "path": "tutorials/platform/android/resolving_crashes_on_android.md"
+  },
+  {
+    "title": "Platform-specific",
+    "path": "tutorials/platform/index.md"
+  },
+  {
+    "title": "iOS plugins",
+    "path": "tutorials/platform/ios/index.md"
+  },
+  {
+    "title": "Creating iOS plugins",
+    "path": "tutorials/platform/ios/ios_plugin.md"
+  },
+  {
+    "title": "Linux",
+    "path": "tutorials/platform/linux/index.md"
+  },
+  {
+    "title": "Wayland/X11",
+    "path": "tutorials/platform/linux/wayland_x11.md"
+  },
+  {
+    "title": "Custom HTML page for Web export",
+    "path": "tutorials/platform/web/customizing_html5_shell.md"
+  },
+  {
+    "title": "HTML5 shell class reference",
+    "path": "tutorials/platform/web/html5_shell_classref.md"
+  },
+  {
+    "title": "Web",
+    "path": "tutorials/platform/web/index.md"
+  },
+  {
+    "title": "The JavaScriptBridge singleton",
+    "path": "tutorials/platform/web/javascript_bridge.md"
+  },
+  {
+    "title": "3D gizmo plugins",
+    "path": "tutorials/plugins/editor/3d_gizmos.md"
+  },
+  {
+    "title": "Import plugins",
+    "path": "tutorials/plugins/editor/import_plugins.md"
+  },
+  {
+    "title": "Editor plugins",
+    "path": "tutorials/plugins/editor/index.md"
+  },
+  {
+    "title": "Inspector plugins",
+    "path": "tutorials/plugins/editor/inspector_plugins.md"
+  },
+  {
+    "title": "Installing plugins",
+    "path": "tutorials/plugins/editor/installing_plugins.md"
+  },
+  {
+    "title": "Internationalizing plugins",
+    "path": "tutorials/plugins/editor/internationalizing_plugins.md"
+  },
+  {
+    "title": "Making main screen plugins",
+    "path": "tutorials/plugins/editor/making_main_screen_plugins.md"
+  },
+  {
+    "title": "Making plugins",
+    "path": "tutorials/plugins/editor/making_plugins.md"
+  },
+  {
+    "title": "Visual Shader plugins",
+    "path": "tutorials/plugins/editor/visual_shader_plugins.md"
+  },
+  {
+    "title": "Plugins",
+    "path": "tutorials/plugins/index.md"
+  },
+  {
+    "title": "Running code in the editor",
+    "path": "tutorials/plugins/running_code_in_the_editor.md"
+  },
+  {
+    "title": "The Compositor",
+    "path": "tutorials/rendering/compositor.md"
+  },
+  {
+    "title": "Using DrawableTextures",
+    "path": "tutorials/rendering/drawable_textures.md"
+  },
+  {
+    "title": "HDR output",
+    "path": "tutorials/rendering/hdr_output.md"
+  },
+  {
+    "title": "Rendering",
+    "path": "tutorials/rendering/index.md"
+  },
+  {
+    "title": "Fixing jitter, stutter and input lag",
+    "path": "tutorials/rendering/jitter_stutter.md"
+  },
+  {
+    "title": "Multiple resolutions",
+    "path": "tutorials/rendering/multiple_resolutions.md"
+  },
+  {
+    "title": "Overview of renderers",
+    "path": "tutorials/rendering/renderers.md"
+  },
+  {
+    "title": "Using Viewports",
+    "path": "tutorials/rendering/viewports.md"
+  },
+  {
+    "title": "C# basics",
+    "path": "tutorials/scripting/c_sharp/c_sharp_basics.md"
+  },
+  {
+    "title": "C# collections",
+    "path": "tutorials/scripting/c_sharp/c_sharp_collections.md"
+  },
+  {
+    "title": "C# API differences to GDScript",
+    "path": "tutorials/scripting/c_sharp/c_sharp_differences.md"
+  },
+  {
+    "title": "C# exported properties",
+    "path": "tutorials/scripting/c_sharp/c_sharp_exports.md"
+  },
+  {
+    "title": "C# language features",
+    "path": "tutorials/scripting/c_sharp/c_sharp_features.md"
+  },
+  {
+    "title": "C# global classes",
+    "path": "tutorials/scripting/c_sharp/c_sharp_global_classes.md"
+  },
+  {
+    "title": "C# signals",
+    "path": "tutorials/scripting/c_sharp/c_sharp_signals.md"
+  },
+  {
+    "title": "C# style guide",
+    "path": "tutorials/scripting/c_sharp/c_sharp_style_guide.md"
+  },
+  {
+    "title": "C# Variant",
+    "path": "tutorials/scripting/c_sharp/c_sharp_variant.md"
+  },
+  {
+    "title": "GD0001: Missing partial modifier on declaration of type that derives from GodotObject",
+    "path": "tutorials/scripting/c_sharp/diagnostics/GD0001.md"
+  },
+  {
+    "title": "GD0002: Missing partial modifier on declaration of type which contains nested classes that derive from GodotObject",
+    "path": "tutorials/scripting/c_sharp/diagnostics/GD0002.md"
+  },
+  {
+    "title": "GD0003: Found multiple classes with the same name in the same script file",
+    "path": "tutorials/scripting/c_sharp/diagnostics/GD0003.md"
+  },
+  {
+    "title": "GD0101: The exported member is static",
+    "path": "tutorials/scripting/c_sharp/diagnostics/GD0101.md"
+  },
+  {
+    "title": "GD0102: The type of the exported member is not supported",
+    "path": "tutorials/scripting/c_sharp/diagnostics/GD0102.md"
+  },
+  {
+    "title": "GD0103: The exported member is read-only",
+    "path": "tutorials/scripting/c_sharp/diagnostics/GD0103.md"
+  },
+  {
+    "title": "GD0104: The exported property is write-only",
+    "path": "tutorials/scripting/c_sharp/diagnostics/GD0104.md"
+  },
+  {
+    "title": "GD0105: The exported property is an indexer",
+    "path": "tutorials/scripting/c_sharp/diagnostics/GD0105.md"
+  },
+  {
+    "title": "GD0106: The exported property is an explicit interface implementation",
+    "path": "tutorials/scripting/c_sharp/diagnostics/GD0106.md"
+  },
+  {
+    "title": "GD0107: Types not derived from Node should not export Node members",
+    "path": "tutorials/scripting/c_sharp/diagnostics/GD0107.md"
+  },
+  {
+    "title": "GD0108: The exported tool button is not in a tool class",
+    "path": "tutorials/scripting/c_sharp/diagnostics/GD0108.md"
+  },
+  {
+    "title": "GD0109: The '[ExportToolButton]' attribute cannot be used with another '[Export]' attribute",
+    "path": "tutorials/scripting/c_sharp/diagnostics/GD0109.md"
+  },
+  {
+    "title": "GD0110: The exported tool button is not a Callable",
+    "path": "tutorials/scripting/c_sharp/diagnostics/GD0110.md"
+  },
+  {
+    "title": "GD0111: The exported tool button must be an expression-bodied property",
+    "path": "tutorials/scripting/c_sharp/diagnostics/GD0111.md"
+  },
+  {
+    "title": "GD0201: The name of the delegate must end with 'EventHandler'",
+    "path": "tutorials/scripting/c_sharp/diagnostics/GD0201.md"
+  },
+  {
+    "title": "GD0202: The parameter of the delegate signature of the signal is not supported",
+    "path": "tutorials/scripting/c_sharp/diagnostics/GD0202.md"
+  },
+  {
+    "title": "GD0203: The delegate signature of the signal must return void",
+    "path": "tutorials/scripting/c_sharp/diagnostics/GD0203.md"
+  },
+  {
+    "title": "GD0301: The generic type argument must be a Variant compatible type",
+    "path": "tutorials/scripting/c_sharp/diagnostics/GD0301.md"
+  },
+  {
+    "title": "GD0302: The generic type parameter must be annotated with the '[MustBeVariant]' attribute",
+    "path": "tutorials/scripting/c_sharp/diagnostics/GD0302.md"
+  },
+  {
+    "title": "GD0303: The parent symbol of a type argument that must be Variant compatible was not handled",
+    "path": "tutorials/scripting/c_sharp/diagnostics/GD0303.md"
+  },
+  {
+    "title": "GD0401: The class must derive from Godot.GodotObject or a derived class",
+    "path": "tutorials/scripting/c_sharp/diagnostics/GD0401.md"
+  },
+  {
+    "title": "GD0402: The class must not be generic",
+    "path": "tutorials/scripting/c_sharp/diagnostics/GD0402.md"
+  },
+  {
+    "title": "C# diagnostics",
+    "path": "tutorials/scripting/c_sharp/diagnostics/index.md"
+  },
+  {
+    "title": "C#/.NET",
+    "path": "tutorials/scripting/c_sharp/index.md"
+  },
+  {
+    "title": "Change scenes manually",
+    "path": "tutorials/scripting/change_scenes_manually.md"
+  },
+  {
+    "title": "About godot-cpp",
+    "path": "tutorials/scripting/cpp/about_godot_cpp.md"
+  },
+  {
+    "title": "Secondary build system: Working with CMake",
+    "path": "tutorials/scripting/cpp/build_system/cmake.md"
+  },
+  {
+    "title": "Build system",
+    "path": "tutorials/scripting/cpp/build_system/index.md"
+  },
+  {
+    "title": "Main build system: Working with SCons",
+    "path": "tutorials/scripting/cpp/build_system/scons.md"
+  },
+  {
+    "title": "Core functions and types",
+    "path": "tutorials/scripting/cpp/core_types.md"
+  },
+  {
+    "title": "Getting started",
+    "path": "tutorials/scripting/cpp/gdextension_cpp_example.md"
+  },
+  {
+    "title": "Adding documentation",
+    "path": "tutorials/scripting/cpp/gdextension_docs_system.md"
+  },
+  {
+    "title": "C++ (godot-cpp)",
+    "path": "tutorials/scripting/cpp/index.md"
+  },
+  {
+    "title": "Creating script templates",
+    "path": "tutorials/scripting/creating_script_templates.md"
+  },
+  {
+    "title": "Cross-language scripting",
+    "path": "tutorials/scripting/cross_language_scripting.md"
+  },
+  {
+    "title": "Custom performance monitors",
+    "path": "tutorials/scripting/debug/custom_performance_monitors.md"
+  },
+  {
+    "title": "Debugger panel",
+    "path": "tutorials/scripting/debug/debugger_panel.md"
+  },
+  {
+    "title": "Debug",
+    "path": "tutorials/scripting/debug/index.md"
+  },
+  {
+    "title": "Using the ObjectDB profiler",
+    "path": "tutorials/scripting/debug/objectdb_profiler.md"
+  },
+  {
+    "title": "Output panel",
+    "path": "tutorials/scripting/debug/output_panel.md"
+  },
+  {
+    "title": "Overview of debugging tools",
+    "path": "tutorials/scripting/debug/overview_of_debugging_tools.md"
+  },
+  {
+    "title": "The Profiler",
+    "path": "tutorials/scripting/debug/the_profiler.md"
+  },
+  {
+    "title": "Evaluating expressions",
+    "path": "tutorials/scripting/evaluating_expressions.md"
+  },
+  {
+    "title": "File system",
+    "path": "tutorials/scripting/filesystem.md"
+  },
+  {
+    "title": "GDScript: An introduction to dynamic languages",
+    "path": "tutorials/scripting/gdscript/gdscript_advanced.md"
+  },
+  {
+    "title": "GDScript reference",
+    "path": "tutorials/scripting/gdscript/gdscript_basics.md"
+  },
+  {
+    "title": "GDScript documentation comments",
+    "path": "tutorials/scripting/gdscript/gdscript_documentation_comments.md"
+  },
+  {
+    "title": "GDScript exported properties",
+    "path": "tutorials/scripting/gdscript/gdscript_exports.md"
+  },
+  {
+    "title": "GDScript format strings",
+    "path": "tutorials/scripting/gdscript/gdscript_format_string.md"
+  },
+  {
+    "title": "GDScript style guide",
+    "path": "tutorials/scripting/gdscript/gdscript_styleguide.md"
+  },
+  {
+    "title": "GDScript",
+    "path": "tutorials/scripting/gdscript/index.md"
+  },
+  {
+    "title": "Static typing in GDScript",
+    "path": "tutorials/scripting/gdscript/static_typing.md"
+  },
+  {
+    "title": "GDScript warning system",
+    "path": "tutorials/scripting/gdscript/warning_system.md"
+  },
+  {
+    "title": "Groups",
+    "path": "tutorials/scripting/groups.md"
+  },
+  {
+    "title": "How to read the Godot API",
+    "path": "tutorials/scripting/how_to_read_the_godot_api.md"
+  },
+  {
+    "title": "Idle and Physics Processing",
+    "path": "tutorials/scripting/idle_and_physics_processing.md"
+  },
+  {
+    "title": "Scripting",
+    "path": "tutorials/scripting/index.md"
+  },
+  {
+    "title": "Instancing with signals",
+    "path": "tutorials/scripting/instancing_with_signals.md"
+  },
+  {
+    "title": "Logging",
+    "path": "tutorials/scripting/logging.md"
+  },
+  {
+    "title": "Nodes and scene instances",
+    "path": "tutorials/scripting/nodes_and_scene_instances.md"
+  },
+  {
+    "title": "Other languages",
+    "path": "tutorials/scripting/other_languages.md"
+  },
+  {
+    "title": "Overridable functions",
+    "path": "tutorials/scripting/overridable_functions.md"
+  },
+  {
+    "title": "Pausing games and process mode",
+    "path": "tutorials/scripting/pausing_games.md"
+  },
+  {
+    "title": "Resources",
+    "path": "tutorials/scripting/resources.md"
+  },
+  {
+    "title": "Using SceneTree",
+    "path": "tutorials/scripting/scene_tree.md"
+  },
+  {
+    "title": "Scene Unique Nodes",
+    "path": "tutorials/scripting/scene_unique_nodes.md"
+  },
+  {
+    "title": "Singletons (Autoload)",
+    "path": "tutorials/scripting/singletons_autoload.md"
+  },
+  {
+    "title": "Advanced post-processing",
+    "path": "tutorials/shaders/advanced_postprocessing.md"
+  },
+  {
+    "title": "Using compute shaders",
+    "path": "tutorials/shaders/compute_shaders.md"
+  },
+  {
+    "title": "Converting GLSL to Godot shaders",
+    "path": "tutorials/shaders/converting_glsl_to_godot_shaders.md"
+  },
+  {
+    "title": "Custom post-processing",
+    "path": "tutorials/shaders/custom_postprocessing.md"
+  },
+  {
+    "title": "Shaders",
+    "path": "tutorials/shaders/index.md"
+  },
+  {
+    "title": "Introduction to shaders",
+    "path": "tutorials/shaders/introduction_to_shaders.md"
+  },
+  {
+    "title": "Making trees",
+    "path": "tutorials/shaders/making_trees.md"
+  },
+  {
+    "title": "Screen-reading shaders",
+    "path": "tutorials/shaders/screen-reading_shaders.md"
+  },
+  {
+    "title": "CanvasItem shaders",
+    "path": "tutorials/shaders/shader_reference/canvas_item_shader.md"
+  },
+  {
+    "title": "Fog shaders",
+    "path": "tutorials/shaders/shader_reference/fog_shader.md"
+  },
+  {
+    "title": "Shading reference",
+    "path": "tutorials/shaders/shader_reference/index.md"
+  },
+  {
+    "title": "Particle shaders",
+    "path": "tutorials/shaders/shader_reference/particle_shader.md"
+  },
+  {
+    "title": "Built-in shader functions",
+    "path": "tutorials/shaders/shader_reference/shader_functions.md"
+  },
+  {
+    "title": "Shader preprocessor",
+    "path": "tutorials/shaders/shader_reference/shader_preprocessor.md"
+  },
+  {
+    "title": "Shading language",
+    "path": "tutorials/shaders/shader_reference/shading_language.md"
+  },
+  {
+    "title": "Sky shaders",
+    "path": "tutorials/shaders/shader_reference/sky_shader.md"
+  },
+  {
+    "title": "Spatial shaders",
+    "path": "tutorials/shaders/shader_reference/spatial_shader.md"
+  },
+  {
+    "title": "Texture blit shaders",
+    "path": "tutorials/shaders/shader_reference/texture_blit_shader.md"
+  },
+  {
+    "title": "Shaders style guide",
+    "path": "tutorials/shaders/shaders_style_guide.md"
+  },
+  {
+    "title": "Using a SubViewport as a texture",
+    "path": "tutorials/shaders/using_viewport_as_texture.md"
+  },
+  {
+    "title": "Using VisualShaders",
+    "path": "tutorials/shaders/visual_shaders.md"
+  },
+  {
+    "title": "Your first shader",
+    "path": "tutorials/shaders/your_first_shader/index.md"
+  },
+  {
+    "title": "Your first 2D shader",
+    "path": "tutorials/shaders/your_first_shader/your_first_2d_shader.md"
+  },
+  {
+    "title": "Your first 3D shader",
+    "path": "tutorials/shaders/your_first_shader/your_first_3d_shader.md"
+  },
+  {
+    "title": "Your second 3D shader",
+    "path": "tutorials/shaders/your_first_shader/your_second_3d_shader.md"
+  },
+  {
+    "title": "Troubleshooting",
+    "path": "tutorials/troubleshooting.md"
+  },
+  {
+    "title": "BBCode in RichTextLabel",
+    "path": "tutorials/ui/bbcode_in_richtextlabel.md"
+  },
+  {
+    "title": "Control node gallery",
+    "path": "tutorials/ui/control_node_gallery.md"
+  },
+  {
+    "title": "Creating applications",
+    "path": "tutorials/ui/creating_applications.md"
+  },
+  {
+    "title": "Custom GUI controls",
+    "path": "tutorials/ui/custom_gui_controls.md"
+  },
+  {
+    "title": "Using Containers",
+    "path": "tutorials/ui/gui_containers.md"
+  },
+  {
+    "title": "Keyboard/Controller Navigation and Focus",
+    "path": "tutorials/ui/gui_navigation.md"
+  },
+  {
+    "title": "Introduction to GUI skinning",
+    "path": "tutorials/ui/gui_skinning.md"
+  },
+  {
+    "title": "Theme type variations",
+    "path": "tutorials/ui/gui_theme_type_variations.md"
+  },
+  {
+    "title": "Using Fonts",
+    "path": "tutorials/ui/gui_using_fonts.md"
+  },
+  {
+    "title": "Using the theme editor",
+    "path": "tutorials/ui/gui_using_theme_editor.md"
+  },
+  {
+    "title": "User interface (UI)",
+    "path": "tutorials/ui/index.md"
+  },
+  {
+    "title": "Size and anchors",
+    "path": "tutorials/ui/size_and_anchors.md"
+  },
+  {
+    "title": "A better XR start script",
+    "path": "tutorials/xr/a_better_xr_start_script.md"
+  },
+  {
+    "title": "AR / Passthrough",
+    "path": "tutorials/xr/ar_passthrough.md"
+  },
+  {
+    "title": "ARCore",
+    "path": "tutorials/xr/arcore_intro.md"
+  },
+  {
+    "title": "Basic XR Locomotion",
+    "path": "tutorials/xr/basic_xr_locomotion.md"
+  },
+  {
+    "title": "Deploying to Android",
+    "path": "tutorials/xr/deploying_to_android.md"
+  },
+  {
+    "title": "XR",
+    "path": "tutorials/xr/index.md"
+  },
+  {
+    "title": "Introducing XR tools",
+    "path": "tutorials/xr/introducing_xr_tools.md"
+  },
+  {
+    "title": "Mobile VR",
+    "path": "tutorials/xr/mobilevr_intro.md"
+  },
+  {
+    "title": "OpenVR",
+    "path": "tutorials/xr/openvr_intro.md"
+  },
+  {
+    "title": "OpenXR body tracking",
+    "path": "tutorials/xr/openxr_body_tracking.md"
+  },
+  {
+    "title": "OpenXR composition layers",
+    "path": "tutorials/xr/openxr_composition_layers.md"
+  },
+  {
+    "title": "OpenXR hand tracking",
+    "path": "tutorials/xr/openxr_hand_tracking.md"
+  },
+  {
+    "title": "OpenXR Render Models",
+    "path": "tutorials/xr/openxr_render_models.md"
+  },
+  {
+    "title": "OpenXR Settings",
+    "path": "tutorials/xr/openxr_settings.md"
+  },
+  {
+    "title": "OpenXR spatial entities",
+    "path": "tutorials/xr/openxr_spatial_entities.md"
+  },
+  {
+    "title": "Setting up XR",
+    "path": "tutorials/xr/setting_up_xr.md"
+  },
+  {
+    "title": "TiltFive",
+    "path": "tutorials/xr/tiltfive_intro.md"
+  },
+  {
+    "title": "WebXR",
+    "path": "tutorials/xr/webxr_intro.md"
+  },
+  {
+    "title": "The XR action map",
+    "path": "tutorials/xr/xr_action_map.md"
+  },
+  {
+    "title": "XR full screen effects",
+    "path": "tutorials/xr/xr_full_screen_effects.md"
+  },
+  {
+    "title": "Where to go from here",
+    "path": "tutorials/xr/xr_next_steps.md"
+  },
+  {
+    "title": "Room scale in XR",
+    "path": "tutorials/xr/xr_room_scale.md"
+  },
+  {
+    "title": "XR Terminology",
+    "path": "tutorials/xr/xr_terminology.md"
+  }
+]

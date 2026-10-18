@@ -1,0 +1,30 @@
+name: Windows skill package
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+jobs:
+  test:
+    runs-on: windows-latest
+    strategy:
+      matrix:
+        python: ['3.11', '3.14']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - run: python -m pip install -r requirements.txt
+      - run: python -B toolkit/validate.py
+      - run: python -B tests/run.py
+      - run: python -B toolkit/build.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: windows-python-${{ matrix.python }}
+          include-hidden-files: true
+          path: |
+            .local/validation.json
+            .local/tests.json
+            dist/*.zip
+            dist/*.sha256

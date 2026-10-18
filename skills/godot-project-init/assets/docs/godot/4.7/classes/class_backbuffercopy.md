@@ -1,0 +1,92 @@
+> Source: https://docs.godotengine.org/en/4.7/classes/class_backbuffercopy.html
+> Godot documentation: 4.7; format-converted, not summarized.
+
+<a id="backbuffercopy"></a>
+
+<a id="class-backbuffercopy"></a>
+
+# BackBufferCopy
+
+**Inherits:** [Node2D](class_node2d.md#class-node2d) **<** [CanvasItem](class_canvasitem.md#class-canvasitem) **<** [Node](class_node.md#class-node) **<** [Object](class_object.md#class-object)
+
+A node that copies a region of the screen to a buffer for access in shader code.
+
+<a id="description"></a>
+
+## Description
+
+Node for back-buffering the currently-displayed screen. The region defined in the **BackBufferCopy** node is buffered with the content of the screen it covers, or the entire screen according to the [copy_mode](class_backbuffercopy.md#class-backbuffercopy-property-copy-mode). It can be accessed in shader scripts using the screen texture (i.e. a uniform sampler with `hint_screen_texture`).
+
+**Note:** Since this node inherits from [Node2D](class_node2d.md#class-node2d) (and not [Control](class_control.md#class-control)), anchors and margins won't apply to child [Control](class_control.md#class-control)-derived nodes. This can be problematic when resizing the window. To avoid this, add [Control](class_control.md#class-control)-derived nodes as *siblings* to the **BackBufferCopy** node instead of adding them as children.
+
+<a id="tutorials"></a>
+
+## Tutorials
+
+- [Screen-reading shaders](../tutorials/shaders/screen-reading_shaders.md)
+
+<a id="properties"></a>
+
+## Properties
+
+|  |  |  |
+| --- | --- | --- |
+| [CopyMode](class_backbuffercopy.md#enum-backbuffercopy-copymode) | [copy_mode](class_backbuffercopy.md#class-backbuffercopy-property-copy-mode) | `1` |
+| [Rect2](class_rect2.md#class-rect2) | [rect](class_backbuffercopy.md#class-backbuffercopy-property-rect) | `Rect2(-100, -100, 200, 200)` |
+
+---
+
+
+<a id="enumerations"></a>
+
+## Enumerations
+
+<a id="enum-backbuffercopy-copymode"></a>
+
+enum **CopyMode**: [🔗](class_backbuffercopy.md#enum-backbuffercopy-copymode)
+
+<a id="class-backbuffercopy-constant-copy-mode-disabled"></a>
+
+[CopyMode](class_backbuffercopy.md#enum-backbuffercopy-copymode) **COPY_MODE_DISABLED** = `0`
+
+Disables the buffering mode. This means the **BackBufferCopy** node will directly use the portion of screen it covers.
+
+<a id="class-backbuffercopy-constant-copy-mode-rect"></a>
+
+[CopyMode](class_backbuffercopy.md#enum-backbuffercopy-copymode) **COPY_MODE_RECT** = `1`
+
+**BackBufferCopy** buffers a rectangular region.
+
+<a id="class-backbuffercopy-constant-copy-mode-viewport"></a>
+
+[CopyMode](class_backbuffercopy.md#enum-backbuffercopy-copymode) **COPY_MODE_VIEWPORT** = `2`
+
+**BackBufferCopy** buffers the entire screen.
+
+---
+
+
+<a id="property-descriptions"></a>
+
+## Property Descriptions
+
+<a id="class-backbuffercopy-property-copy-mode"></a>
+
+[CopyMode](class_backbuffercopy.md#enum-backbuffercopy-copymode) **copy_mode** = `1` [🔗](class_backbuffercopy.md#class-backbuffercopy-property-copy-mode)
+
+- void **set_copy_mode**(value: [CopyMode](class_backbuffercopy.md#enum-backbuffercopy-copymode))
+- [CopyMode](class_backbuffercopy.md#enum-backbuffercopy-copymode) **get_copy_mode**()
+
+Buffer mode.
+
+---
+
+
+<a id="class-backbuffercopy-property-rect"></a>
+
+[Rect2](class_rect2.md#class-rect2) **rect** = `Rect2(-100, -100, 200, 200)` [🔗](class_backbuffercopy.md#class-backbuffercopy-property-rect)
+
+- void **set_rect**(value: [Rect2](class_rect2.md#class-rect2))
+- [Rect2](class_rect2.md#class-rect2) **get_rect**()
+
+The area covered by the **BackBufferCopy**. Only used if [copy_mode](class_backbuffercopy.md#class-backbuffercopy-property-copy-mode) is [COPY_MODE_RECT](class_backbuffercopy.md#class-backbuffercopy-constant-copy-mode-rect).

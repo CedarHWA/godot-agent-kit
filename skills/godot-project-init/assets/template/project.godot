@@ -1,0 +1,16 @@
+; Engine configuration file. Prefer the editor for project settings.
+config_version=5
+
+[application]
+config/name=__PROJECT_NAME_JSON__
+run/main_scene="res://scenes/main/main.tscn"
+config/features=PackedStringArray("__DOCS_VERSION__", "__RENDERER_FEATURE__")
+
+[display]
+window/size/viewport_width=1152
+window/size/viewport_height=648
+
+[rendering]
+renderer/rendering_method="__RENDERER__"
+renderer/rendering_method.mobile="__RENDERER__"
+textures/default_filters/use_nearest_mipmap_filter=false

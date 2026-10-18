@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "id": "core",
+  "engine_version": "4.7.2",
+  "dimension": "2d",
+  "renderer": "gl_compatibility",
+  "platform": "Windows",
+  "assets": "none",
+  "description": "Godot initialization, offline docs, editable scenes, development skill and checks."
+}

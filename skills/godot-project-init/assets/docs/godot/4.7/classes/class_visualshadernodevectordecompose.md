@@ -1,0 +1,18 @@
+> Source: https://docs.godotengine.org/en/4.7/classes/class_visualshadernodevectordecompose.html
+> Godot documentation: 4.7; format-converted, not summarized.
+
+<a id="visualshadernodevectordecompose"></a>
+
+<a id="class-visualshadernodevectordecompose"></a>
+
+# VisualShaderNodeVectorDecompose
+
+**Inherits:** [VisualShaderNodeVectorBase](class_visualshadernodevectorbase.md#class-visualshadernodevectorbase) **<** [VisualShaderNode](class_visualshadernode.md#class-visualshadernode) **<** [Resource](class_resource.md#class-resource) **<** [RefCounted](class_refcounted.md#class-refcounted) **<** [Object](class_object.md#class-object)
+
+Decomposes a [Vector2](class_vector2.md#class-vector2), [Vector3](class_vector3.md#class-vector3) or 4D vector (represented as a [Quaternion](class_quaternion.md#class-quaternion)) into scalars within the visual shader graph.
+
+<a id="description"></a>
+
+## Description
+
+Takes a `vec2`, `vec3` or `vec4` and decomposes it into scalar values that can be used as separate outputs.

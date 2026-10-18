@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "id": "endpoint",
+  "engine_version": "4.7.2",
+  "dimension": "2d",
+  "renderer": "gl_compatibility",
+  "platform": "Windows",
+  "assets": "endpoint",
+  "description": "Attach an explicitly configured existing ComfyUI API; no lifecycle or model installation."
+}

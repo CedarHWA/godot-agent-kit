@@ -1,0 +1,264 @@
+> Source: https://docs.godotengine.org/en/4.7/classes/class_animatedsprite3d.html
+> Godot documentation: 4.7; format-converted, not summarized.
+
+<a id="animatedsprite3d"></a>
+
+<a id="class-animatedsprite3d"></a>
+
+# AnimatedSprite3D
+
+**Inherits:** [SpriteBase3D](class_spritebase3d.md#class-spritebase3d) **<** [GeometryInstance3D](class_geometryinstance3d.md#class-geometryinstance3d) **<** [VisualInstance3D](class_visualinstance3d.md#class-visualinstance3d) **<** [Node3D](class_node3d.md#class-node3d) **<** [Node](class_node.md#class-node) **<** [Object](class_object.md#class-object)
+
+2D sprite node in 3D world, that can use multiple 2D textures for animation.
+
+<a id="description"></a>
+
+## Description
+
+**AnimatedSprite3D** is similar to the [Sprite3D](class_sprite3d.md#class-sprite3d) node, except it carries multiple textures as animation [sprite_frames](class_animatedsprite3d.md#class-animatedsprite3d-property-sprite-frames). Animations are created using a [SpriteFrames](class_spriteframes.md#class-spriteframes) resource, which allows you to import image files (or a folder containing said files) to provide the animation frames for the sprite. The [SpriteFrames](class_spriteframes.md#class-spriteframes) resource can be configured in the editor via the SpriteFrames bottom panel.
+
+<a id="tutorials"></a>
+
+## Tutorials
+
+- [2D Sprite animation (also applies to 3D)](../tutorials/2d/2d_sprite_animation.md)
+
+<a id="properties"></a>
+
+## Properties
+
+|  |  |  |
+| --- | --- | --- |
+| [StringName](class_stringname.md#class-stringname) | [animation](class_animatedsprite3d.md#class-animatedsprite3d-property-animation) | `&"default"` |
+| [String](class_string.md#class-string) | [autoplay](class_animatedsprite3d.md#class-animatedsprite3d-property-autoplay) | `""` |
+| [int](class_int.md#class-int) | [frame](class_animatedsprite3d.md#class-animatedsprite3d-property-frame) | `0` |
+| [float](class_float.md#class-float) | [frame_progress](class_animatedsprite3d.md#class-animatedsprite3d-property-frame-progress) | `0.0` |
+| [float](class_float.md#class-float) | [speed_scale](class_animatedsprite3d.md#class-animatedsprite3d-property-speed-scale) | `1.0` |
+| [SpriteFrames](class_spriteframes.md#class-spriteframes) | [sprite_frames](class_animatedsprite3d.md#class-animatedsprite3d-property-sprite-frames) |  |
+
+<a id="methods"></a>
+
+## Methods
+
+|  |  |
+| --- | --- |
+| [float](class_float.md#class-float) | [get_playing_speed](class_animatedsprite3d.md#class-animatedsprite3d-method-get-playing-speed)() const |
+| [bool](class_bool.md#class-bool) | [is_playing](class_animatedsprite3d.md#class-animatedsprite3d-method-is-playing)() const |
+| void | [pause](class_animatedsprite3d.md#class-animatedsprite3d-method-pause)() |
+| void | [play](class_animatedsprite3d.md#class-animatedsprite3d-method-play)(name: [StringName](class_stringname.md#class-stringname) = &"", custom_speed: [float](class_float.md#class-float) = 1.0, from_end: [bool](class_bool.md#class-bool) = false) |
+| void | [play_backwards](class_animatedsprite3d.md#class-animatedsprite3d-method-play-backwards)(name: [StringName](class_stringname.md#class-stringname) = &"") |
+| void | [set_frame_and_progress](class_animatedsprite3d.md#class-animatedsprite3d-method-set-frame-and-progress)(frame: [int](class_int.md#class-int), progress: [float](class_float.md#class-float)) |
+| void | [stop](class_animatedsprite3d.md#class-animatedsprite3d-method-stop)() |
+
+---
+
+
+<a id="signals"></a>
+
+## Signals
+
+<a id="class-animatedsprite3d-signal-animation-changed"></a>
+
+**animation_changed**() [🔗](class_animatedsprite3d.md#class-animatedsprite3d-signal-animation-changed)
+
+Emitted when [animation](class_animatedsprite3d.md#class-animatedsprite3d-property-animation) changes.
+
+---
+
+
+<a id="class-animatedsprite3d-signal-animation-finished"></a>
+
+**animation_finished**() [🔗](class_animatedsprite3d.md#class-animatedsprite3d-signal-animation-finished)
+
+Emitted when the animation reaches the end, or the start if it is played in reverse. When the animation finishes, it pauses the playback.
+
+**Note:** This signal is not emitted if an animation is looping.
+
+---
+
+
+<a id="class-animatedsprite3d-signal-animation-looped"></a>
+
+**animation_looped**() [🔗](class_animatedsprite3d.md#class-animatedsprite3d-signal-animation-looped)
+
+Emitted when the animation loops.
+
+---
+
+
+<a id="class-animatedsprite3d-signal-frame-changed"></a>
+
+**frame_changed**() [🔗](class_animatedsprite3d.md#class-animatedsprite3d-signal-frame-changed)
+
+Emitted when [frame](class_animatedsprite3d.md#class-animatedsprite3d-property-frame) changes.
+
+---
+
+
+<a id="class-animatedsprite3d-signal-sprite-frames-changed"></a>
+
+**sprite_frames_changed**() [🔗](class_animatedsprite3d.md#class-animatedsprite3d-signal-sprite-frames-changed)
+
+Emitted when [sprite_frames](class_animatedsprite3d.md#class-animatedsprite3d-property-sprite-frames) changes.
+
+---
+
+
+<a id="property-descriptions"></a>
+
+## Property Descriptions
+
+<a id="class-animatedsprite3d-property-animation"></a>
+
+[StringName](class_stringname.md#class-stringname) **animation** = `&"default"` [🔗](class_animatedsprite3d.md#class-animatedsprite3d-property-animation)
+
+- void **set_animation**(value: [StringName](class_stringname.md#class-stringname))
+- [StringName](class_stringname.md#class-stringname) **get_animation**()
+
+The current animation from the [sprite_frames](class_animatedsprite3d.md#class-animatedsprite3d-property-sprite-frames) resource. If this value is changed, the [frame](class_animatedsprite3d.md#class-animatedsprite3d-property-frame) counter and the [frame_progress](class_animatedsprite3d.md#class-animatedsprite3d-property-frame-progress) are reset.
+
+---
+
+
+<a id="class-animatedsprite3d-property-autoplay"></a>
+
+[String](class_string.md#class-string) **autoplay** = `""` [🔗](class_animatedsprite3d.md#class-animatedsprite3d-property-autoplay)
+
+- void **set_autoplay**(value: [String](class_string.md#class-string))
+- [String](class_string.md#class-string) **get_autoplay**()
+
+The key of the animation to play when the scene loads.
+
+---
+
+
+<a id="class-animatedsprite3d-property-frame"></a>
+
+[int](class_int.md#class-int) **frame** = `0` [🔗](class_animatedsprite3d.md#class-animatedsprite3d-property-frame)
+
+- void **set_frame**(value: [int](class_int.md#class-int))
+- [int](class_int.md#class-int) **get_frame**()
+
+The displayed animation frame's index. Setting this property also resets [frame_progress](class_animatedsprite3d.md#class-animatedsprite3d-property-frame-progress). If this is not desired, use [set_frame_and_progress()](class_animatedsprite3d.md#class-animatedsprite3d-method-set-frame-and-progress).
+
+---
+
+
+<a id="class-animatedsprite3d-property-frame-progress"></a>
+
+[float](class_float.md#class-float) **frame_progress** = `0.0` [🔗](class_animatedsprite3d.md#class-animatedsprite3d-property-frame-progress)
+
+- void **set_frame_progress**(value: [float](class_float.md#class-float))
+- [float](class_float.md#class-float) **get_frame_progress**()
+
+The progress value between `0.0` and `1.0` until the current frame transitions to the next frame. If the animation is playing backwards, the value transitions from `1.0` to `0.0`.
+
+---
+
+
+<a id="class-animatedsprite3d-property-speed-scale"></a>
+
+[float](class_float.md#class-float) **speed_scale** = `1.0` [🔗](class_animatedsprite3d.md#class-animatedsprite3d-property-speed-scale)
+
+- void **set_speed_scale**(value: [float](class_float.md#class-float))
+- [float](class_float.md#class-float) **get_speed_scale**()
+
+The speed scaling ratio. For example, if this value is `1`, then the animation plays at normal speed. If it's `0.5`, then it plays at half speed. If it's `2`, then it plays at double speed.
+
+If set to a negative value, the animation is played in reverse. If set to `0`, the animation will not advance.
+
+---
+
+
+<a id="class-animatedsprite3d-property-sprite-frames"></a>
+
+[SpriteFrames](class_spriteframes.md#class-spriteframes) **sprite_frames** [🔗](class_animatedsprite3d.md#class-animatedsprite3d-property-sprite-frames)
+
+- void **set_sprite_frames**(value: [SpriteFrames](class_spriteframes.md#class-spriteframes))
+- [SpriteFrames](class_spriteframes.md#class-spriteframes) **get_sprite_frames**()
+
+The [SpriteFrames](class_spriteframes.md#class-spriteframes) resource containing the animation(s). Allows you the option to load, edit, clear, make unique and save the states of the [SpriteFrames](class_spriteframes.md#class-spriteframes) resource.
+
+---
+
+
+<a id="method-descriptions"></a>
+
+## Method Descriptions
+
+<a id="class-animatedsprite3d-method-get-playing-speed"></a>
+
+[float](class_float.md#class-float) **get_playing_speed**() const [🔗](class_animatedsprite3d.md#class-animatedsprite3d-method-get-playing-speed)
+
+Returns the actual playing speed of current animation or `0` if not playing. This speed is the [speed_scale](class_animatedsprite3d.md#class-animatedsprite3d-property-speed-scale) property multiplied by `custom_speed` argument specified when calling the [play()](class_animatedsprite3d.md#class-animatedsprite3d-method-play) method.
+
+Returns a negative value if the current animation is playing backwards.
+
+---
+
+
+<a id="class-animatedsprite3d-method-is-playing"></a>
+
+[bool](class_bool.md#class-bool) **is_playing**() const [🔗](class_animatedsprite3d.md#class-animatedsprite3d-method-is-playing)
+
+Returns `true` if an animation is currently playing (even if [speed_scale](class_animatedsprite3d.md#class-animatedsprite3d-property-speed-scale) and/or `custom_speed` are `0`).
+
+---
+
+
+<a id="class-animatedsprite3d-method-pause"></a>
+
+void **pause**() [🔗](class_animatedsprite3d.md#class-animatedsprite3d-method-pause)
+
+Pauses the currently playing animation. The [frame](class_animatedsprite3d.md#class-animatedsprite3d-property-frame) and [frame_progress](class_animatedsprite3d.md#class-animatedsprite3d-property-frame-progress) will be kept and calling [play()](class_animatedsprite3d.md#class-animatedsprite3d-method-play) or [play_backwards()](class_animatedsprite3d.md#class-animatedsprite3d-method-play-backwards) without arguments will resume the animation from the current playback position.
+
+See also [stop()](class_animatedsprite3d.md#class-animatedsprite3d-method-stop).
+
+---
+
+
+<a id="class-animatedsprite3d-method-play"></a>
+
+void **play**(name: [StringName](class_stringname.md#class-stringname) = &"", custom_speed: [float](class_float.md#class-float) = 1.0, from_end: [bool](class_bool.md#class-bool) = false) [🔗](class_animatedsprite3d.md#class-animatedsprite3d-method-play)
+
+Plays the animation with key `name`. If `custom_speed` is negative and `from_end` is `true`, the animation will play backwards (which is equivalent to calling [play_backwards()](class_animatedsprite3d.md#class-animatedsprite3d-method-play-backwards)).
+
+If this method is called with that same animation `name`, or with no `name` parameter, the assigned animation will resume playing if it was paused.
+
+---
+
+
+<a id="class-animatedsprite3d-method-play-backwards"></a>
+
+void **play_backwards**(name: [StringName](class_stringname.md#class-stringname) = &"") [🔗](class_animatedsprite3d.md#class-animatedsprite3d-method-play-backwards)
+
+Plays the animation with key `name` in reverse.
+
+This method is a shorthand for [play()](class_animatedsprite3d.md#class-animatedsprite3d-method-play) with `custom_speed = -1.0` and `from_end = true`, so see its description for more information.
+
+---
+
+
+<a id="class-animatedsprite3d-method-set-frame-and-progress"></a>
+
+void **set_frame_and_progress**(frame: [int](class_int.md#class-int), progress: [float](class_float.md#class-float)) [🔗](class_animatedsprite3d.md#class-animatedsprite3d-method-set-frame-and-progress)
+
+Sets [frame](class_animatedsprite3d.md#class-animatedsprite3d-property-frame) and [frame_progress](class_animatedsprite3d.md#class-animatedsprite3d-property-frame-progress) to the given values. Unlike setting [frame](class_animatedsprite3d.md#class-animatedsprite3d-property-frame), this method does not reset the [frame_progress](class_animatedsprite3d.md#class-animatedsprite3d-property-frame-progress) to `0.0` implicitly.
+
+**Example:** Change the animation while keeping the same [frame](class_animatedsprite3d.md#class-animatedsprite3d-property-frame) and [frame_progress](class_animatedsprite3d.md#class-animatedsprite3d-property-frame-progress):
+
+```gdscript
+var current_frame = animated_sprite.get_frame()
+var current_progress = animated_sprite.get_frame_progress()
+animated_sprite.play("walk_another_skin")
+animated_sprite.set_frame_and_progress(current_frame, current_progress)
+```
+
+---
+
+
+<a id="class-animatedsprite3d-method-stop"></a>
+
+void **stop**() [🔗](class_animatedsprite3d.md#class-animatedsprite3d-method-stop)
+
+Stops the currently playing animation. The animation position is reset to `0` and the `custom_speed` is reset to `1.0`. See also [pause()](class_animatedsprite3d.md#class-animatedsprite3d-method-pause).

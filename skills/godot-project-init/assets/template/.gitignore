@@ -1,0 +1,28 @@
+# Godot 4 cache. Keep .uid and *.import sidecars under version control.
+.godot/
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
+.local/
+.bootstrap/proposals/
+.bootstrap/last-run.json
+.venv/
+__pycache__/
+*.pyc
+builds/
+work/*
+!work/.gdignore
+.env
+.env.*
+!.env.example
+export_credentials.cfg
+# ML weights belong in the shared model store, not in the game repository.
+*.safetensors
+*.ckpt
+*.gguf
+
+# Machine-specific project MCP command/path; regenerate with project_comfyui.py setup
+.codex/config.toml
+
+.dsh/comfyui.cordis.yml

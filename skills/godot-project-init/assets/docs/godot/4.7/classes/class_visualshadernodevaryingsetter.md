@@ -1,0 +1,18 @@
+> Source: https://docs.godotengine.org/en/4.7/classes/class_visualshadernodevaryingsetter.html
+> Godot documentation: 4.7; format-converted, not summarized.
+
+<a id="visualshadernodevaryingsetter"></a>
+
+<a id="class-visualshadernodevaryingsetter"></a>
+
+# VisualShaderNodeVaryingSetter
+
+**Inherits:** [VisualShaderNodeVarying](class_visualshadernodevarying.md#class-visualshadernodevarying) **<** [VisualShaderNode](class_visualshadernode.md#class-visualshadernode) **<** [Resource](class_resource.md#class-resource) **<** [RefCounted](class_refcounted.md#class-refcounted) **<** [Object](class_object.md#class-object)
+
+A visual shader node that sets a value of a varying.
+
+<a id="description"></a>
+
+## Description
+
+Inputs a value to a varying defined in the shader. You need to first create a varying that can be used in the given function, e.g. varying setter in Fragment shader requires a varying with mode set to [VisualShader.VARYING_MODE_FRAG_TO_LIGHT](class_visualshader.md#class-visualshader-constant-varying-mode-frag-to-light).

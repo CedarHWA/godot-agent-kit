@@ -1,0 +1,57 @@
+> Source: https://docs.godotengine.org/en/4.7/classes/class_worldboundaryshape2d.html
+> Godot documentation: 4.7; format-converted, not summarized.
+
+<a id="worldboundaryshape2d"></a>
+
+<a id="class-worldboundaryshape2d"></a>
+
+# WorldBoundaryShape2D
+
+**Inherits:** [Shape2D](class_shape2d.md#class-shape2d) **<** [Resource](class_resource.md#class-resource) **<** [RefCounted](class_refcounted.md#class-refcounted) **<** [Object](class_object.md#class-object)
+
+A 2D world boundary (half-plane) shape used for physics collision.
+
+<a id="description"></a>
+
+## Description
+
+A 2D world boundary shape, intended for use in physics. **WorldBoundaryShape2D** works like an infinite straight line that forces all physics bodies to stay above it. The line's normal determines which direction is considered as "above" and in the editor, the smaller line over it represents this direction. It can for example be used for endless flat floors.
+
+<a id="properties"></a>
+
+## Properties
+
+|  |  |  |
+| --- | --- | --- |
+| [float](class_float.md#class-float) | [distance](class_worldboundaryshape2d.md#class-worldboundaryshape2d-property-distance) | `0.0` |
+| [Vector2](class_vector2.md#class-vector2) | [normal](class_worldboundaryshape2d.md#class-worldboundaryshape2d-property-normal) | `Vector2(0, -1)` |
+
+---
+
+
+<a id="property-descriptions"></a>
+
+## Property Descriptions
+
+<a id="class-worldboundaryshape2d-property-distance"></a>
+
+[float](class_float.md#class-float) **distance** = `0.0` [🔗](class_worldboundaryshape2d.md#class-worldboundaryshape2d-property-distance)
+
+- void **set_distance**(value: [float](class_float.md#class-float))
+- [float](class_float.md#class-float) **get_distance**()
+
+The distance from the origin to the line, expressed in terms of [normal](class_worldboundaryshape2d.md#class-worldboundaryshape2d-property-normal) (according to its direction and magnitude). Actual absolute distance from the origin to the line can be calculated as `abs(distance) / normal.length()`.
+
+In the scalar equation of the line `ax + by = d`, this is `d`, while the `(a, b)` coordinates are represented by the [normal](class_worldboundaryshape2d.md#class-worldboundaryshape2d-property-normal) property.
+
+---
+
+
+<a id="class-worldboundaryshape2d-property-normal"></a>
+
+[Vector2](class_vector2.md#class-vector2) **normal** = `Vector2(0, -1)` [🔗](class_worldboundaryshape2d.md#class-worldboundaryshape2d-property-normal)
+
+- void **set_normal**(value: [Vector2](class_vector2.md#class-vector2))
+- [Vector2](class_vector2.md#class-vector2) **get_normal**()
+
+The line's normal, typically a unit vector. Its direction indicates the non-colliding half-plane. Can be of any length but zero. Defaults to [Vector2.UP](class_vector2.md#class-vector2-constant-up).

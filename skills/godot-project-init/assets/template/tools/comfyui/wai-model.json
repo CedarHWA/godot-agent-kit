@@ -1,0 +1,18 @@
+{
+  "group": "image",
+  "name": "WAI-illustrious-SDXL v17.0",
+  "destination": "checkpoints/waiIllustriousSDXL_v170.safetensors",
+  "bytes": 6938040682,
+  "sha256": "f116b0c78ff441467b0cdc8f1936e1ed18ea31e9997c7b132b1b8db533f0bd04",
+  "url": "https://huggingface.co/LyliaEngine/waiIllustriousSDXL_v170/resolve/5ef4e2da7173a160ad04aebcaa2fdcd6d20ed792/waiIllustriousSDXL_v170.safetensors",
+  "model_card": "https://civitai.red/models/827184/wai-illustrious-sdxl?modelVersionId=2883731",
+  "author": "WAI0731",
+  "civitai_model_id": 827184,
+  "civitai_version_id": 2883731,
+  "civitai_file_id": 2763986,
+  "identity_verification": "Hugging Face mirror LFS SHA256 and size match the Civitai author version API exactly; local download must match the same full SHA256.",
+  "format": "safetensors",
+  "precision": "fp16",
+  "gated": false,
+  "license": "Author model page / Illustrious inherited terms; mirror metadata is not authoritative. See WAI.md."
+}

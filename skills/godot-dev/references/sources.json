@@ -1,0 +1,318 @@
+{
+  "schema": 1,
+  "reviewed_at": "2026-10-17",
+  "method": "Pinned public upstream texts inspected as reference data; no downloaded code executed. Original integration guidance, no upstream code/templates vendored.",
+  "repositories": [
+    {
+      "repository": "aigengame/godot-agent",
+      "url": "https://github.com/aigengame/godot-agent",
+      "commit": "47b0d82825313ed3ad4a1488ca0ddaf861c903ae",
+      "commit_date": "2026-10-16T01:46:13Z",
+      "reported_license_spdx": "MIT",
+      "license_files_in_tree": [
+        "LICENSE"
+      ],
+      "review_scope": "gda SKILL 的 discovery、结果判定、headless、隔离数据章节；未运行 CLI/daemon。",
+      "vendored_code_or_text": false,
+      "retrieved_files": [
+        {
+          "path": "LICENSE",
+          "url": "https://raw.githubusercontent.com/aigengame/godot-agent/47b0d82825313ed3ad4a1488ca0ddaf861c903ae/LICENSE",
+          "bytes": 1066,
+          "sha256": "5f0e3dc94ca9673566dc5e7367125f9475637c437cdbb12b3485aaea56894b7c"
+        },
+        {
+          "path": "skills/gda/SKILL.md",
+          "url": "https://raw.githubusercontent.com/aigengame/godot-agent/47b0d82825313ed3ad4a1488ca0ddaf861c903ae/skills/gda/SKILL.md",
+          "bytes": 17532,
+          "sha256": "ab877216ae15c05c59c5f9025a13b4875520de31bbaf2ac55a352003b51416a6"
+        }
+      ]
+    },
+    {
+      "repository": "BangRocket/godot-skill",
+      "url": "https://github.com/BangRocket/godot-skill",
+      "commit": "2306f66e32c336ffb3fe90bee26eb104cb879e78",
+      "commit_date": "2026-04-20T22:38:12Z",
+      "reported_license_spdx": null,
+      "license_files_in_tree": [],
+      "review_scope": "主入口及资源参考的共享/序列化章节。未核实作者履历，未发现许可文件，不分发源码。",
+      "vendored_code_or_text": false,
+      "retrieved_files": [
+        {
+          "path": "godot/SKILL.md",
+          "url": "https://raw.githubusercontent.com/BangRocket/godot-skill/2306f66e32c336ffb3fe90bee26eb104cb879e78/godot/SKILL.md",
+          "bytes": 19812,
+          "sha256": "0c18d2611187b43a6f3c567a029ff662f172a7088f6bee614f203f1c5cd7fdd6"
+        },
+        {
+          "path": "godot/resources-and-optimization.md",
+          "url": "https://raw.githubusercontent.com/BangRocket/godot-skill/2306f66e32c336ffb3fe90bee26eb104cb879e78/godot/resources-and-optimization.md",
+          "bytes": 33101,
+          "sha256": "b36ef34baeac634ce792464c44eff4ae16cd27103ec272d8e3f78cf3f9df4c11"
+        }
+      ]
+    },
+    {
+      "repository": "fetasty/godot-skills",
+      "url": "https://github.com/fetasty/godot-skills",
+      "commit": "d52b934dc26f2bd81837a7187a098629e16ef96a",
+      "commit_date": "2026-05-16T13:16:34Z",
+      "reported_license_spdx": "MIT",
+      "license_files_in_tree": [
+        "LICENSE"
+      ],
+      "review_scope": "godot 与 godot-gdscript 正文。版本参考仅归档用于确认基线，未采用其版本结论。",
+      "vendored_code_or_text": false,
+      "retrieved_files": [
+        {
+          "path": "LICENSE",
+          "url": "https://raw.githubusercontent.com/fetasty/godot-skills/d52b934dc26f2bd81837a7187a098629e16ef96a/LICENSE",
+          "bytes": 1066,
+          "sha256": "b8b9987e7fd41b3b00af09bf1e4517c2c75d1dfbc20f596cc3606306a0ef3661"
+        },
+        {
+          "path": "godot/SKILL.md",
+          "url": "https://raw.githubusercontent.com/fetasty/godot-skills/d52b934dc26f2bd81837a7187a098629e16ef96a/godot/SKILL.md",
+          "bytes": 5922,
+          "sha256": "50da690b0a6fec849a5a1e3a9cc64f14a51b14e392d40bdf55ca2bb9d34c942a"
+        },
+        {
+          "path": "godot-gdscript/SKILL.md",
+          "url": "https://raw.githubusercontent.com/fetasty/godot-skills/d52b934dc26f2bd81837a7187a098629e16ef96a/godot-gdscript/SKILL.md",
+          "bytes": 5472,
+          "sha256": "c3922a63a8a075850db1f4261da94c576e1fc49c9c68970fd37e558b834650d1"
+        },
+        {
+          "path": "godot/references/VERSION.md",
+          "url": "https://raw.githubusercontent.com/fetasty/godot-skills/d52b934dc26f2bd81837a7187a098629e16ef96a/godot/references/VERSION.md",
+          "bytes": 1368,
+          "sha256": "2f8a1d151f32a5b8ffbefb20ffcb22a50504f7e728162e7c8f06f32e9a635b69"
+        }
+      ]
+    },
+    {
+      "repository": "haxqer/godot-skill",
+      "url": "https://github.com/haxqer/godot-skill",
+      "commit": "037c03e9858ae748bf66c010aeb9942dbe9b93d6",
+      "commit_date": "2026-09-23T05:02:37Z",
+      "reported_license_spdx": "MIT",
+      "license_files_in_tree": [
+        "LICENSE"
+      ],
+      "review_scope": "主入口路由及交付要求、QFramework 架构正文；UI 布局、测试结果语义、tscn 层级/UID 章节。未运行 dispatcher。",
+      "vendored_code_or_text": false,
+      "retrieved_files": [
+        {
+          "path": "LICENSE",
+          "url": "https://raw.githubusercontent.com/haxqer/godot-skill/037c03e9858ae748bf66c010aeb9942dbe9b93d6/LICENSE",
+          "bytes": 1066,
+          "sha256": "c0a972030de84a2d82d1f66084f070316029957b218d5713d78351d369418e03"
+        },
+        {
+          "path": "skill/godot/SKILL.md",
+          "url": "https://raw.githubusercontent.com/haxqer/godot-skill/037c03e9858ae748bf66c010aeb9942dbe9b93d6/skill/godot/SKILL.md",
+          "bytes": 82675,
+          "sha256": "1a15711ab1d81dd6b2c395b3a7c91976c92ca34b157e33a709b06060e24a6ae2"
+        },
+        {
+          "path": "skill/godot/references/architecture_qframework_lite.md",
+          "url": "https://raw.githubusercontent.com/haxqer/godot-skill/037c03e9858ae748bf66c010aeb9942dbe9b93d6/skill/godot/references/architecture_qframework_lite.md",
+          "bytes": 5951,
+          "sha256": "121539da395a80a2c42ea5e99b1b461924250e83f5d3ec15af3c4661a8ec48ac"
+        },
+        {
+          "path": "skill/godot/references/testing.md",
+          "url": "https://raw.githubusercontent.com/haxqer/godot-skill/037c03e9858ae748bf66c010aeb9942dbe9b93d6/skill/godot/references/testing.md",
+          "bytes": 18065,
+          "sha256": "1146f2c3df60783abd722e87525daa3964c65a1087ece08d673d9fbf0ffb279e"
+        },
+        {
+          "path": "skill/godot/references/tscn_format.md",
+          "url": "https://raw.githubusercontent.com/haxqer/godot-skill/037c03e9858ae748bf66c010aeb9942dbe9b93d6/skill/godot/references/tscn_format.md",
+          "bytes": 22870,
+          "sha256": "30bd9a6ff39447b1f3202ab384145b0892a42b13ffaafc49587e4a6b39e65d79"
+        },
+        {
+          "path": "skill/godot/references/game_ui.md",
+          "url": "https://raw.githubusercontent.com/haxqer/godot-skill/037c03e9858ae748bf66c010aeb9942dbe9b93d6/skill/godot/references/game_ui.md",
+          "bytes": 41734,
+          "sha256": "83844ff43f3e74974089005f746b67b2d78d99b553db6218dcf30f48a322dddb"
+        }
+      ]
+    },
+    {
+      "repository": "jame581/GodotPrompter",
+      "url": "https://github.com/jame581/GodotPrompter",
+      "commit": "bd9d18008fb1fd5919fdc297267048670b6eac1f",
+      "commit_date": "2026-10-14T19:22:19Z",
+      "reported_license_spdx": "MIT",
+      "license_files_in_tree": [
+        "LICENSE"
+      ],
+      "review_scope": "场景组织、资源、调试、测试正文；UI、优化、存档的决策与检查章节。未逐个审阅所有被链接的配套脚本。",
+      "vendored_code_or_text": false,
+      "retrieved_files": [
+        {
+          "path": "skills/godot-ui/SKILL.md",
+          "url": "https://raw.githubusercontent.com/jame581/GodotPrompter/bd9d18008fb1fd5919fdc297267048670b6eac1f/skills/godot-ui/SKILL.md",
+          "bytes": 13094,
+          "sha256": "49010b52143cd8fae422c5975c39304d5d91c71b75ce807912632ad52f627d1f"
+        },
+        {
+          "path": "skills/resource-pattern/SKILL.md",
+          "url": "https://raw.githubusercontent.com/jame581/GodotPrompter/bd9d18008fb1fd5919fdc297267048670b6eac1f/skills/resource-pattern/SKILL.md",
+          "bytes": 12545,
+          "sha256": "bb285e8301f566412cd3bcb8de58592edbcb16647f1ec9673eb1607457521915"
+        },
+        {
+          "path": "skills/scene-organization/SKILL.md",
+          "url": "https://raw.githubusercontent.com/jame581/GodotPrompter/bd9d18008fb1fd5919fdc297267048670b6eac1f/skills/scene-organization/SKILL.md",
+          "bytes": 10447,
+          "sha256": "48d8fee8036e5d1a630a6154057afa86524f6b9df1f28cc138e040c74f08ef19"
+        },
+        {
+          "path": "skills/godot-debugging/SKILL.md",
+          "url": "https://raw.githubusercontent.com/jame581/GodotPrompter/bd9d18008fb1fd5919fdc297267048670b6eac1f/skills/godot-debugging/SKILL.md",
+          "bytes": 12259,
+          "sha256": "15e997ee3cd52a902ce9da1442bb26b663e29b73cd77dcb48efc452f2b2bf5f8"
+        },
+        {
+          "path": "LICENSE",
+          "url": "https://raw.githubusercontent.com/jame581/GodotPrompter/bd9d18008fb1fd5919fdc297267048670b6eac1f/LICENSE",
+          "bytes": 1083,
+          "sha256": "075667c180b39c81507891dd1411f3861b7da6b860d9b912841ed9f949c66277"
+        },
+        {
+          "path": "skills/godot-optimization/SKILL.md",
+          "url": "https://raw.githubusercontent.com/jame581/GodotPrompter/bd9d18008fb1fd5919fdc297267048670b6eac1f/skills/godot-optimization/SKILL.md",
+          "bytes": 11865,
+          "sha256": "bccea6c076bb71caf09869ac96ed5a8fdb48de4c17caf32401687d17c232f57f"
+        },
+        {
+          "path": "skills/save-load/SKILL.md",
+          "url": "https://raw.githubusercontent.com/jame581/GodotPrompter/bd9d18008fb1fd5919fdc297267048670b6eac1f/skills/save-load/SKILL.md",
+          "bytes": 5508,
+          "sha256": "d2107f48f8de8860ba742f9738f77e920b2a95c0dec6232226b196b161236d96"
+        },
+        {
+          "path": "skills/godot-testing/SKILL.md",
+          "url": "https://raw.githubusercontent.com/jame581/GodotPrompter/bd9d18008fb1fd5919fdc297267048670b6eac1f/skills/godot-testing/SKILL.md",
+          "bytes": 9564,
+          "sha256": "d16ab0a15b0ee47b8ddc24835f69b6e696ea384c6e248d78693f16bd7ea1b08f"
+        }
+      ]
+    },
+    {
+      "repository": "thedivergentai/Game-Dev-Agentic-Skills",
+      "url": "https://github.com/thedivergentai/Game-Dev-Agentic-Skills",
+      "commit": "db004d74c40686ca2f7a35fe067b119a9cda593e",
+      "commit_date": "2026-10-16T20:58:31Z",
+      "reported_license_spdx": "LGPL-3.0",
+      "license_files_in_tree": [
+        "LICENSE"
+      ],
+      "review_scope": "组合正文、Resource/信号的规则、决策表和语义说明。未采用配套实现或其他引擎资料。",
+      "vendored_code_or_text": false,
+      "retrieved_files": [
+        {
+          "path": "skills/godot-composition/SKILL.md",
+          "url": "https://raw.githubusercontent.com/thedivergentai/Game-Dev-Agentic-Skills/db004d74c40686ca2f7a35fe067b119a9cda593e/skills/godot-composition/SKILL.md",
+          "bytes": 15062,
+          "sha256": "148692b04c38d90a5991e6e1ee607e3bacb5695bb37a6740796bc58352852417"
+        },
+        {
+          "path": "LICENSE",
+          "url": "https://raw.githubusercontent.com/thedivergentai/Game-Dev-Agentic-Skills/db004d74c40686ca2f7a35fe067b119a9cda593e/LICENSE",
+          "bytes": 7652,
+          "sha256": "e3a994d82e644b03a792a930f574002658412f62407f5fee083f2555c5f23118"
+        },
+        {
+          "path": "skills/godot-signal-architecture/SKILL.md",
+          "url": "https://raw.githubusercontent.com/thedivergentai/Game-Dev-Agentic-Skills/db004d74c40686ca2f7a35fe067b119a9cda593e/skills/godot-signal-architecture/SKILL.md",
+          "bytes": 12278,
+          "sha256": "b86e9f99ea7b248d0c198713f5fd7811dfbfa04443d79c40292c8ca54eba3e9d"
+        },
+        {
+          "path": "skills/godot-resource-data-patterns/SKILL.md",
+          "url": "https://raw.githubusercontent.com/thedivergentai/Game-Dev-Agentic-Skills/db004d74c40686ca2f7a35fe067b119a9cda593e/skills/godot-resource-data-patterns/SKILL.md",
+          "bytes": 10273,
+          "sha256": "747cdac8eca6f72d05c201134469e6b1dcd5d46b8231db47506b253edc63bad8"
+        }
+      ]
+    },
+    {
+      "repository": "vl4dt/godot-skills",
+      "url": "https://github.com/vl4dt/godot-skills",
+      "commit": "1ae280d35f2cc3931d4d8eb63f4bac82d6acf4a0",
+      "commit_date": "2026-08-25T21:16:10Z",
+      "reported_license_spdx": "MIT",
+      "license_files_in_tree": [
+        "LICENSE"
+      ],
+      "review_scope": "架构、headless workflow、state management 正文与关键代码示例。未审计所有 linked references 或 MCP bridge。",
+      "vendored_code_or_text": false,
+      "retrieved_files": [
+        {
+          "path": "LICENSE",
+          "url": "https://raw.githubusercontent.com/vl4dt/godot-skills/1ae280d35f2cc3931d4d8eb63f4bac82d6acf4a0/LICENSE",
+          "bytes": 1064,
+          "sha256": "4947852f43a69b00248297d0d06de66dd4691afa31bb6014bee8c46d0eb343d2"
+        },
+        {
+          "path": "skills/godot-architecture/SKILL.md",
+          "url": "https://raw.githubusercontent.com/vl4dt/godot-skills/1ae280d35f2cc3931d4d8eb63f4bac82d6acf4a0/skills/godot-architecture/SKILL.md",
+          "bytes": 6471,
+          "sha256": "877f09c03d9e6323af7103524017589cb1f7f6ed58aebf414ebad8927042cd1a"
+        },
+        {
+          "path": "skills/godot-headless-workflow/SKILL.md",
+          "url": "https://raw.githubusercontent.com/vl4dt/godot-skills/1ae280d35f2cc3931d4d8eb63f4bac82d6acf4a0/skills/godot-headless-workflow/SKILL.md",
+          "bytes": 12745,
+          "sha256": "bcd08c081f50360a9ec804bcacc167de96d9613d5b4e8fd146c7e8dce1228abb"
+        },
+        {
+          "path": "skills/godot-state-management/SKILL.md",
+          "url": "https://raw.githubusercontent.com/vl4dt/godot-skills/1ae280d35f2cc3931d4d8eb63f4bac82d6acf4a0/skills/godot-state-management/SKILL.md",
+          "bytes": 7575,
+          "sha256": "2886dcac79b56e0208c6096833bede34b9a1b67c5131e9d60025ed312df3bbf8"
+        }
+      ]
+    }
+  ],
+  "additional_primary_sources": [
+    {
+      "url": "https://www.gdquest.com/library/signals_good_practices/",
+      "topic": "signal coupling and traceability; old syntax not adopted"
+    },
+    {
+      "url": "https://www.gdquest.com/tutorial/godot/design-patterns/finite-state-machine/",
+      "topic": "simple vs node FSM tradeoffs"
+    },
+    {
+      "url": "https://docs.godotengine.org/en/4.7/classes/class_packedscene.html",
+      "topic": "ownership serialization"
+    },
+    {
+      "url": "https://docs.godotengine.org/en/4.7/classes/class_resource.html",
+      "topic": "sharing and duplication"
+    },
+    {
+      "url": "https://docs.godotengine.org/en/4.7/classes/class_signal.html",
+      "topic": "connection semantics"
+    },
+    {
+      "url": "https://docs.godotengine.org/en/4.7/classes/class_input.html",
+      "topic": "global polling independent of GUI event consumption"
+    },
+    {
+      "url": "https://docs.godotengine.org/en/4.7/tutorials/performance/general_optimization.html",
+      "topic": "profiling before optimization"
+    }
+  ],
+  "official_snapshot": {
+    "path_pattern": "docs/godot/<project-major.minor>/",
+    "review_engine": "4.7.2",
+    "note": "Follow project baseline; source mirror is not a promise of exact patch behavior."
+  }
+}

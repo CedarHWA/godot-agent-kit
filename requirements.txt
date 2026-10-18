@@ -1,0 +1,8 @@
+# Core installer, doctor and initializer use Python 3.11+ standard library only.
+# Development validation and the optional Comfy Desktop adapter:
+gdtoolkit==4.5.0
+psutil==7.2.2
+websocket-client==1.9.2
+PyYAML==6.0.3
+beautifulsoup4==4.15.0
+markdownify==1.2.3

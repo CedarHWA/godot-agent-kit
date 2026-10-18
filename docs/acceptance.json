@@ -1,0 +1,381 @@
+{
+  "schema": 1,
+  "version": "2.0.0",
+  "date": "2026-10-17",
+  "platform": "Windows",
+  "tests": {
+    "passed": true,
+    "portable": 34,
+    "dev_bundle": 12,
+    "desktop": 10,
+    "binding": 7,
+    "total": 63
+  },
+  "hosts": {
+    "passed": true,
+    "checks": {
+      "codex:codex": {
+        "passed": true,
+        "skills": [
+          {
+            "name": "godot-dev",
+            "scope": "repo",
+            "enabled": true
+          },
+          {
+            "name": "godot-project-init",
+            "scope": "repo",
+            "enabled": true
+          }
+        ],
+        "errors": []
+      },
+      "deepseek-harness:harness": {
+        "passed": true,
+        "skills": [
+          {
+            "name": "godot-project-init",
+            "source": "project-dsh",
+            "bodyLoaded": true,
+            "resourcesPresent": true
+          },
+          {
+            "name": "godot-dev",
+            "source": "project-dsh",
+            "bodyLoaded": true,
+            "resourcesPresent": true
+          }
+        ],
+        "warnings": []
+      },
+      "both:codex": {
+        "passed": true,
+        "skills": [
+          {
+            "name": "godot-dev",
+            "scope": "repo",
+            "enabled": true
+          },
+          {
+            "name": "godot-project-init",
+            "scope": "repo",
+            "enabled": true
+          }
+        ],
+        "errors": []
+      },
+      "both:harness": {
+        "passed": true,
+        "skills": [
+          {
+            "name": "godot-project-init",
+            "source": "project-agents",
+            "bodyLoaded": true,
+            "resourcesPresent": true
+          },
+          {
+            "name": "godot-dev",
+            "source": "project-agents",
+            "bodyLoaded": true,
+            "resourcesPresent": true
+          }
+        ],
+        "warnings": []
+      },
+      "user:codex": {
+        "passed": true,
+        "skills": [
+          {
+            "name": "godot-dev",
+            "scope": "user",
+            "enabled": true
+          },
+          {
+            "name": "godot-project-init",
+            "scope": "user",
+            "enabled": true
+          }
+        ],
+        "errors": []
+      },
+      "user:harness": {
+        "passed": true,
+        "skills": [
+          {
+            "name": "godot-project-init",
+            "source": "user-dsh",
+            "bodyLoaded": true,
+            "resourcesPresent": true
+          },
+          {
+            "name": "godot-dev",
+            "source": "user-dsh",
+            "bodyLoaded": true,
+            "resourcesPresent": true
+          }
+        ],
+        "warnings": []
+      }
+    },
+    "model_requests": 0,
+    "temporary_directories_removed": true
+  },
+  "godot_integration": {
+    "passed": true,
+    "checks": [
+      {
+        "name": "powershell-installer",
+        "passed": true,
+        "exit_code": 0
+      },
+      {
+        "name": "installed-init-new",
+        "passed": true,
+        "exit_code": 0
+      },
+      {
+        "name": "installed-init-idempotence",
+        "passed": true,
+        "exit_code": 0
+      },
+      {
+        "name": "godot-checks",
+        "passed": true,
+        "exit_code": 0
+      },
+      {
+        "name": "godot-runtime-evidence",
+        "passed": true,
+        "checks": [
+          {
+            "name": "engine-version",
+            "passed": true
+          },
+          {
+            "name": "gdformat-0",
+            "passed": true
+          },
+          {
+            "name": "gdlint-0",
+            "passed": true
+          },
+          {
+            "name": "import",
+            "passed": true
+          },
+          {
+            "name": "editor-structure",
+            "passed": true
+          },
+          {
+            "name": "test-0",
+            "passed": true
+          },
+          {
+            "name": "runtime",
+            "passed": true
+          }
+        ]
+      },
+      {
+        "name": "offline-docs",
+        "passed": true,
+        "exit_code": 0
+      },
+      {
+        "name": "doctor-installed",
+        "passed": true,
+        "exit_code": 0
+      },
+      {
+        "name": "supplement-preserves-requirements",
+        "passed": true,
+        "exit_code": 0
+      },
+      {
+        "name": "supplement-reports-conflicts",
+        "passed": true,
+        "exit_code": 2
+      },
+      {
+        "name": "supplement-reviewed-keep",
+        "passed": true,
+        "exit_code": 0
+      },
+      {
+        "name": "harness-overlay",
+        "passed": true,
+        "exit_code": 0
+      }
+    ],
+    "temporary_directories_removed": true,
+    "limitations": [
+      "No model generation, GUI interaction or subjective audio review is claimed by this tooling smoke test."
+    ]
+  },
+  "official_documentation": {
+    "passed": true,
+    "pages": 1596,
+    "checked_links": 148893,
+    "code_blocks": 3766,
+    "upstream_missing_anchors": 1,
+    "errors": []
+  },
+  "comfy_protocol": {
+    "passed": true,
+    "protocol": "2025-06-18",
+    "server": {
+      "name": "comfy-mcp",
+      "version": ""
+    },
+    "tools": [
+      "auth_login",
+      "auth_status",
+      "discover",
+      "download",
+      "download_model",
+      "emit_partner_workflow",
+      "fetch_outputs",
+      "fetch_template",
+      "free_memory",
+      "generate_image",
+      "get_logs",
+      "get_template",
+      "install_node",
+      "job",
+      "launch_comfyui",
+      "list_partner_models",
+      "list_workflow_notes",
+      "list_workflow_slots",
+      "node_dependencies",
+      "nodes",
+      "partner_generate",
+      "partner_model_schema",
+      "project",
+      "restart_comfyui",
+      "run_template",
+      "run_workflow",
+      "search_models",
+      "search_templates",
+      "server_info",
+      "set_workflow_slot",
+      "stop_comfyui",
+      "switch_comfyui_version",
+      "system_stats",
+      "update_comfyui",
+      "upload_file",
+      "validate_workflow",
+      "vary_workflow",
+      "which",
+      "workflow_deps"
+    ],
+    "generation_requests": 0,
+    "backend_started": false
+  },
+  "release_probe": {
+    "passed": true,
+    "extracted_installer": true,
+    "installed_initializer": true,
+    "project_ignore_markers": true
+  },
+  "doctor": {
+    "passed": true,
+    "checks": [
+      {
+        "name": "windows",
+        "status": "pass",
+        "required": true
+      },
+      {
+        "name": "python",
+        "status": "pass",
+        "required": true
+      },
+      {
+        "name": "python-version",
+        "status": "pass",
+        "required": true
+      },
+      {
+        "name": "godot",
+        "status": "pass",
+        "required": true
+      },
+      {
+        "name": "engine-baseline",
+        "status": "pass",
+        "required": true
+      },
+      {
+        "name": "gdtoolkit",
+        "status": "pass",
+        "required": true
+      },
+      {
+        "name": "codex",
+        "status": "pass",
+        "required": false
+      },
+      {
+        "name": "deepseek-harness",
+        "status": "pass",
+        "required": false
+      },
+      {
+        "name": "desktop_exe",
+        "status": "pass",
+        "required": true
+      },
+      {
+        "name": "desktop_data",
+        "status": "pass",
+        "required": true
+      },
+      {
+        "name": "mcp",
+        "status": "pass",
+        "required": true
+      },
+      {
+        "name": "comfy_bin",
+        "status": "pass",
+        "required": true
+      },
+      {
+        "name": "desktop-version",
+        "status": "pass",
+        "required": true
+      },
+      {
+        "name": "desktop-adapter",
+        "status": "pass",
+        "required": true
+      },
+      {
+        "name": "nvidia",
+        "status": "pass",
+        "required": true
+      },
+      {
+        "name": "desktop-helper",
+        "status": "pass",
+        "required": true
+      },
+      {
+        "name": "wai-model",
+        "status": "pass",
+        "required": true
+      },
+      {
+        "name": "sensory-acceptance",
+        "status": "unverified",
+        "required": false
+      }
+    ]
+  },
+  "limits": [
+    "No model generation or independent model behavior evaluation",
+    "No new Desktop instance created",
+    "Windows Python 3.14 tested locally; remote CI not run"
+  ]
+}

@@ -1,0 +1,111 @@
+> Source: https://docs.godotengine.org/en/4.7/classes/class_visualshadernodeparameter.html
+> Godot documentation: 4.7; format-converted, not summarized.
+
+<a id="visualshadernodeparameter"></a>
+
+<a id="class-visualshadernodeparameter"></a>
+
+# VisualShaderNodeParameter
+
+**Inherits:** [VisualShaderNode](class_visualshadernode.md#class-visualshadernode) **<** [Resource](class_resource.md#class-resource) **<** [RefCounted](class_refcounted.md#class-refcounted) **<** [Object](class_object.md#class-object)
+
+**Inherited By:** [VisualShaderNodeBooleanParameter](class_visualshadernodebooleanparameter.md#class-visualshadernodebooleanparameter), [VisualShaderNodeColorParameter](class_visualshadernodecolorparameter.md#class-visualshadernodecolorparameter), [VisualShaderNodeFloatParameter](class_visualshadernodefloatparameter.md#class-visualshadernodefloatparameter), [VisualShaderNodeIntParameter](class_visualshadernodeintparameter.md#class-visualshadernodeintparameter), [VisualShaderNodeTextureParameter](class_visualshadernodetextureparameter.md#class-visualshadernodetextureparameter), [VisualShaderNodeTransformParameter](class_visualshadernodetransformparameter.md#class-visualshadernodetransformparameter), [VisualShaderNodeUIntParameter](class_visualshadernodeuintparameter.md#class-visualshadernodeuintparameter), [VisualShaderNodeVec2Parameter](class_visualshadernodevec2parameter.md#class-visualshadernodevec2parameter), [VisualShaderNodeVec3Parameter](class_visualshadernodevec3parameter.md#class-visualshadernodevec3parameter), [VisualShaderNodeVec4Parameter](class_visualshadernodevec4parameter.md#class-visualshadernodevec4parameter)
+
+A base type for the parameters within the visual shader graph.
+
+<a id="description"></a>
+
+## Description
+
+A parameter represents a variable in the shader which is set externally, i.e. from the [ShaderMaterial](class_shadermaterial.md#class-shadermaterial). Parameters are exposed as properties in the [ShaderMaterial](class_shadermaterial.md#class-shadermaterial) and can be assigned from the Inspector or from a script.
+
+<a id="properties"></a>
+
+## Properties
+
+|  |  |  |
+| --- | --- | --- |
+| [int](class_int.md#class-int) | [instance_index](class_visualshadernodeparameter.md#class-visualshadernodeparameter-property-instance-index) | `0` |
+| [String](class_string.md#class-string) | [parameter_name](class_visualshadernodeparameter.md#class-visualshadernodeparameter-property-parameter-name) | `""` |
+| [Qualifier](class_visualshadernodeparameter.md#enum-visualshadernodeparameter-qualifier) | [qualifier](class_visualshadernodeparameter.md#class-visualshadernodeparameter-property-qualifier) | `0` |
+
+---
+
+
+<a id="enumerations"></a>
+
+## Enumerations
+
+<a id="enum-visualshadernodeparameter-qualifier"></a>
+
+enum **Qualifier**: [🔗](class_visualshadernodeparameter.md#enum-visualshadernodeparameter-qualifier)
+
+<a id="class-visualshadernodeparameter-constant-qual-none"></a>
+
+[Qualifier](class_visualshadernodeparameter.md#enum-visualshadernodeparameter-qualifier) **QUAL_NONE** = `0`
+
+The parameter will be tied to the [ShaderMaterial](class_shadermaterial.md#class-shadermaterial) using this shader.
+
+<a id="class-visualshadernodeparameter-constant-qual-global"></a>
+
+[Qualifier](class_visualshadernodeparameter.md#enum-visualshadernodeparameter-qualifier) **QUAL_GLOBAL** = `1`
+
+The parameter will use a global value, defined in Project Settings.
+
+<a id="class-visualshadernodeparameter-constant-qual-instance"></a>
+
+[Qualifier](class_visualshadernodeparameter.md#enum-visualshadernodeparameter-qualifier) **QUAL_INSTANCE** = `2`
+
+The parameter will be tied to the node with attached [ShaderMaterial](class_shadermaterial.md#class-shadermaterial) using this shader.
+
+<a id="class-visualshadernodeparameter-constant-qual-instance-index"></a>
+
+[Qualifier](class_visualshadernodeparameter.md#enum-visualshadernodeparameter-qualifier) **QUAL_INSTANCE_INDEX** = `3`
+
+The parameter will be tied to the node with attached [ShaderMaterial](class_shadermaterial.md#class-shadermaterial) using this shader. Enables setting a [instance_index](class_visualshadernodeparameter.md#class-visualshadernodeparameter-property-instance-index) property.
+
+<a id="class-visualshadernodeparameter-constant-qual-max"></a>
+
+[Qualifier](class_visualshadernodeparameter.md#enum-visualshadernodeparameter-qualifier) **QUAL_MAX** = `4`
+
+Represents the size of the [Qualifier](class_visualshadernodeparameter.md#enum-visualshadernodeparameter-qualifier) enum.
+
+---
+
+
+<a id="property-descriptions"></a>
+
+## Property Descriptions
+
+<a id="class-visualshadernodeparameter-property-instance-index"></a>
+
+[int](class_int.md#class-int) **instance_index** = `0` [🔗](class_visualshadernodeparameter.md#class-visualshadernodeparameter-property-instance-index)
+
+- void **set_instance_index**(value: [int](class_int.md#class-int))
+- [int](class_int.md#class-int) **get_instance_index**()
+
+The index within 0-15 range, which is used to avoid clashes when shader used on multiple materials.
+
+---
+
+
+<a id="class-visualshadernodeparameter-property-parameter-name"></a>
+
+[String](class_string.md#class-string) **parameter_name** = `""` [🔗](class_visualshadernodeparameter.md#class-visualshadernodeparameter-property-parameter-name)
+
+- void **set_parameter_name**(value: [String](class_string.md#class-string))
+- [String](class_string.md#class-string) **get_parameter_name**()
+
+Name of the parameter, by which it can be accessed through the [ShaderMaterial](class_shadermaterial.md#class-shadermaterial) properties.
+
+---
+
+
+<a id="class-visualshadernodeparameter-property-qualifier"></a>
+
+[Qualifier](class_visualshadernodeparameter.md#enum-visualshadernodeparameter-qualifier) **qualifier** = `0` [🔗](class_visualshadernodeparameter.md#class-visualshadernodeparameter-property-qualifier)
+
+- void **set_qualifier**(value: [Qualifier](class_visualshadernodeparameter.md#enum-visualshadernodeparameter-qualifier))
+- [Qualifier](class_visualshadernodeparameter.md#enum-visualshadernodeparameter-qualifier) **get_qualifier**()
+
+Defines the scope of the parameter.

@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "id": "desktop-wai",
+  "engine_version": "4.7.2",
+  "dimension": "2d",
+  "renderer": "gl_compatibility",
+  "platform": "Windows",
+  "assets": "desktop-wai",
+  "desktop_versions": ["1.1.7"],
+  "gpu_vendor": "NVIDIA",
+  "description": "Retained managed Comfy Desktop workflow; shared WAI weights, isolated instance environment, native Shell launch."
+}

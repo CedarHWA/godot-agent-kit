@@ -1,0 +1,57 @@
+> Source: https://docs.godotengine.org/en/4.7/classes/class_separationrayshape2d.html
+> Godot documentation: 4.7; format-converted, not summarized.
+
+<a id="separationrayshape2d"></a>
+
+<a id="class-separationrayshape2d"></a>
+
+# SeparationRayShape2D
+
+**Inherits:** [Shape2D](class_shape2d.md#class-shape2d) **<** [Resource](class_resource.md#class-resource) **<** [RefCounted](class_refcounted.md#class-refcounted) **<** [Object](class_object.md#class-object)
+
+A 2D ray shape used for physics collision that tries to separate itself from any collider.
+
+<a id="description"></a>
+
+## Description
+
+A 2D ray shape, intended for use in physics. Usually used to provide a shape for a [CollisionShape2D](class_collisionshape2d.md#class-collisionshape2d). When a **SeparationRayShape2D** collides with an object, it tries to separate itself from it by moving its endpoint to the collision point. For example, a **SeparationRayShape2D** next to a character can allow it to instantly move up when touching stairs.
+
+<a id="properties"></a>
+
+## Properties
+
+|  |  |  |
+| --- | --- | --- |
+| [float](class_float.md#class-float) | [length](class_separationrayshape2d.md#class-separationrayshape2d-property-length) | `20.0` |
+| [bool](class_bool.md#class-bool) | [slide_on_slope](class_separationrayshape2d.md#class-separationrayshape2d-property-slide-on-slope) | `false` |
+
+---
+
+
+<a id="property-descriptions"></a>
+
+## Property Descriptions
+
+<a id="class-separationrayshape2d-property-length"></a>
+
+[float](class_float.md#class-float) **length** = `20.0` [🔗](class_separationrayshape2d.md#class-separationrayshape2d-property-length)
+
+- void **set_length**(value: [float](class_float.md#class-float))
+- [float](class_float.md#class-float) **get_length**()
+
+The ray's length.
+
+---
+
+
+<a id="class-separationrayshape2d-property-slide-on-slope"></a>
+
+[bool](class_bool.md#class-bool) **slide_on_slope** = `false` [🔗](class_separationrayshape2d.md#class-separationrayshape2d-property-slide-on-slope)
+
+- void **set_slide_on_slope**(value: [bool](class_bool.md#class-bool))
+- [bool](class_bool.md#class-bool) **get_slide_on_slope**()
+
+If `false` (default), the shape always separates and returns a normal along its own direction.
+
+If `true`, the shape can return the correct normal and separate in any direction, allowing sliding motion on slopes.

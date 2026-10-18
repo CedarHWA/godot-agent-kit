@@ -1,0 +1,18 @@
+> Source: https://docs.godotengine.org/en/4.7/classes/class_visualshadernodefaceforward.html
+> Godot documentation: 4.7; format-converted, not summarized.
+
+<a id="visualshadernodefaceforward"></a>
+
+<a id="class-visualshadernodefaceforward"></a>
+
+# VisualShaderNodeFaceForward
+
+**Inherits:** [VisualShaderNodeVectorBase](class_visualshadernodevectorbase.md#class-visualshadernodevectorbase) **<** [VisualShaderNode](class_visualshadernode.md#class-visualshadernode) **<** [Resource](class_resource.md#class-resource) **<** [RefCounted](class_refcounted.md#class-refcounted) **<** [Object](class_object.md#class-object)
+
+Returns the vector that points in the same direction as a reference vector within the visual shader graph.
+
+<a id="description"></a>
+
+## Description
+
+Translates to `faceforward(N, I, Nref)` in the shader language. The function has three vector parameters: `N`, the vector to orient, `I`, the incident vector, and `Nref`, the reference vector. If the dot product of `I` and `Nref` is smaller than zero the return value is `N`. Otherwise, `-N` is returned.

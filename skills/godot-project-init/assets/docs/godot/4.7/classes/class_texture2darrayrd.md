@@ -1,0 +1,26 @@
+> Source: https://docs.godotengine.org/en/4.7/classes/class_texture2darrayrd.html
+> Godot documentation: 4.7; format-converted, not summarized.
+
+<a id="texture2darrayrd"></a>
+
+<a id="class-texture2darrayrd"></a>
+
+# Texture2DArrayRD
+
+**Inherits:** [TextureLayeredRD](class_texturelayeredrd.md#class-texturelayeredrd) **<** [TextureLayered](class_texturelayered.md#class-texturelayered) **<** [Texture](class_texture.md#class-texture) **<** [Resource](class_resource.md#class-resource) **<** [RefCounted](class_refcounted.md#class-refcounted) **<** [Object](class_object.md#class-object)
+
+Texture Array for 2D that is bound to a texture created on the [RenderingDevice](class_renderingdevice.md#class-renderingdevice).
+
+<a id="description"></a>
+
+## Description
+
+This texture array class allows you to use a 2D array texture created directly on the [RenderingDevice](class_renderingdevice.md#class-renderingdevice) as a texture for materials, meshes, etc.
+
+**Note:** **Texture2DArrayRD** is intended for low-level usage with [RenderingDevice](class_renderingdevice.md#class-renderingdevice). For most use cases, use [Texture2DArray](class_texture2darray.md#class-texture2darray) instead.
+
+<a id="tutorials"></a>
+
+## Tutorials
+
+- [Compute Texture demo](https://godotengine.org/asset-library/asset/2764)

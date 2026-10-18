@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "agent": "codex",
+  "project_skill_root": ".agents/skills",
+  "user_skill_root": "${CODEX_HOME:-~/.codex}/skills",
+  "shared_root_override": "--skills-dir ~/.agents/skills (verify host support)",
+  "invocation": "$godot-dev",
+  "mcp": ".codex/config.toml",
+  "sources": ["https://developers.openai.com/codex/skills", "https://developers.openai.com/codex/mcp"]
+}

@@ -1,0 +1,122 @@
+> Source: https://docs.godotengine.org/en/4.7/classes/class_collisionshape2d.html
+> Godot documentation: 4.7; format-converted, not summarized.
+
+<a id="collisionshape2d"></a>
+
+<a id="class-collisionshape2d"></a>
+
+# CollisionShape2D
+
+**Inherits:** [Node2D](class_node2d.md#class-node2d) **<** [CanvasItem](class_canvasitem.md#class-canvasitem) **<** [Node](class_node.md#class-node) **<** [Object](class_object.md#class-object)
+
+A node that provides a [Shape2D](class_shape2d.md#class-shape2d) to a [CollisionObject2D](class_collisionobject2d.md#class-collisionobject2d) parent.
+
+<a id="description"></a>
+
+## Description
+
+A node that provides a [Shape2D](class_shape2d.md#class-shape2d) to a [CollisionObject2D](class_collisionobject2d.md#class-collisionobject2d) parent and allows it to be edited. This can give a detection shape to an [Area2D](class_area2d.md#class-area2d) or turn a [PhysicsBody2D](class_physicsbody2d.md#class-physicsbody2d) into a solid object.
+
+<a id="tutorials"></a>
+
+## Tutorials
+
+- [Physics introduction](../tutorials/physics/physics_introduction.md)
+- [2D Dodge The Creeps Demo](https://godotengine.org/asset-library/asset/2712)
+- [2D Pong Demo](https://godotengine.org/asset-library/asset/2728)
+- [2D Kinematic Character Demo](https://godotengine.org/asset-library/asset/2719)
+
+<a id="properties"></a>
+
+## Properties
+
+|  |  |  |
+| --- | --- | --- |
+| [Color](class_color.md#class-color) | [debug_color](class_collisionshape2d.md#class-collisionshape2d-property-debug-color) | `Color(0, 0, 0, 0)` |
+| [bool](class_bool.md#class-bool) | [disabled](class_collisionshape2d.md#class-collisionshape2d-property-disabled) | `false` |
+| [bool](class_bool.md#class-bool) | [one_way_collision](class_collisionshape2d.md#class-collisionshape2d-property-one-way-collision) | `false` |
+| [Vector2](class_vector2.md#class-vector2) | [one_way_collision_direction](class_collisionshape2d.md#class-collisionshape2d-property-one-way-collision-direction) | `Vector2(0, 1)` |
+| [float](class_float.md#class-float) | [one_way_collision_margin](class_collisionshape2d.md#class-collisionshape2d-property-one-way-collision-margin) | `1.0` |
+| [Shape2D](class_shape2d.md#class-shape2d) | [shape](class_collisionshape2d.md#class-collisionshape2d-property-shape) |  |
+
+---
+
+
+<a id="property-descriptions"></a>
+
+## Property Descriptions
+
+<a id="class-collisionshape2d-property-debug-color"></a>
+
+[Color](class_color.md#class-color) **debug_color** = `Color(0, 0, 0, 0)` [🔗](class_collisionshape2d.md#class-collisionshape2d-property-debug-color)
+
+- void **set_debug_color**(value: [Color](class_color.md#class-color))
+- [Color](class_color.md#class-color) **get_debug_color**()
+
+The collision shape color that is displayed in the editor, or in the running project if **Debug > Visible Collision Shapes** is checked at the top of the editor.
+
+**Note:** The default value is [ProjectSettings.debug/shapes/collision/shape_color](class_projectsettings.md#class-projectsettings-property-debug-shapes-collision-shape-color). The `Color(0, 0, 0, 0)` value documented here is a placeholder, and not the actual default debug color.
+
+---
+
+
+<a id="class-collisionshape2d-property-disabled"></a>
+
+[bool](class_bool.md#class-bool) **disabled** = `false` [🔗](class_collisionshape2d.md#class-collisionshape2d-property-disabled)
+
+- void **set_disabled**(value: [bool](class_bool.md#class-bool))
+- [bool](class_bool.md#class-bool) **is_disabled**()
+
+A disabled collision shape has no effect in the world. This property should be changed with [Object.set_deferred()](class_object.md#class-object-method-set-deferred).
+
+---
+
+
+<a id="class-collisionshape2d-property-one-way-collision"></a>
+
+[bool](class_bool.md#class-bool) **one_way_collision** = `false` [🔗](class_collisionshape2d.md#class-collisionshape2d-property-one-way-collision)
+
+- void **set_one_way_collision**(value: [bool](class_bool.md#class-bool))
+- [bool](class_bool.md#class-bool) **is_one_way_collision_enabled**()
+
+Sets whether this collision shape should only detect collision on one side (top or bottom).
+
+**Note:** This property has no effect if this **CollisionShape2D** is a child of an [Area2D](class_area2d.md#class-area2d) node.
+
+**Note:** The one way collision direction can be configured by setting [one_way_collision_direction](class_collisionshape2d.md#class-collisionshape2d-property-one-way-collision-direction).
+
+---
+
+
+<a id="class-collisionshape2d-property-one-way-collision-direction"></a>
+
+[Vector2](class_vector2.md#class-vector2) **one_way_collision_direction** = `Vector2(0, 1)` [🔗](class_collisionshape2d.md#class-collisionshape2d-property-one-way-collision-direction)
+
+- void **set_one_way_collision_direction**(value: [Vector2](class_vector2.md#class-vector2))
+- [Vector2](class_vector2.md#class-vector2) **get_one_way_collision_direction**()
+
+The direction used for one-way collision.
+
+---
+
+
+<a id="class-collisionshape2d-property-one-way-collision-margin"></a>
+
+[float](class_float.md#class-float) **one_way_collision_margin** = `1.0` [🔗](class_collisionshape2d.md#class-collisionshape2d-property-one-way-collision-margin)
+
+- void **set_one_way_collision_margin**(value: [float](class_float.md#class-float))
+- [float](class_float.md#class-float) **get_one_way_collision_margin**()
+
+The margin used for one-way collision (in pixels). Higher values will make the shape thicker, and work better for colliders that enter the shape at a high velocity.
+
+---
+
+
+<a id="class-collisionshape2d-property-shape"></a>
+
+[Shape2D](class_shape2d.md#class-shape2d) **shape** [🔗](class_collisionshape2d.md#class-collisionshape2d-property-shape)
+
+- void **set_shape**(value: [Shape2D](class_shape2d.md#class-shape2d))
+- [Shape2D](class_shape2d.md#class-shape2d) **get_shape**()
+
+The actual shape owned by this collision shape.

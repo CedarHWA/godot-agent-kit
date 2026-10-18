@@ -1,0 +1,28 @@
+> Source: https://docs.godotengine.org/en/4.7/classes/class_animationnodeblend2.html
+> Godot documentation: 4.7; format-converted, not summarized.
+
+<a id="animationnodeblend2"></a>
+
+<a id="class-animationnodeblend2"></a>
+
+# AnimationNodeBlend2
+
+**Inherits:** [AnimationNodeSync](class_animationnodesync.md#class-animationnodesync) **<** [AnimationNode](class_animationnode.md#class-animationnode) **<** [Resource](class_resource.md#class-resource) **<** [RefCounted](class_refcounted.md#class-refcounted) **<** [Object](class_object.md#class-object)
+
+Blends two animations linearly inside of an [AnimationNodeBlendTree](class_animationnodeblendtree.md#class-animationnodeblendtree).
+
+<a id="description"></a>
+
+## Description
+
+A resource to add to an [AnimationNodeBlendTree](class_animationnodeblendtree.md#class-animationnodeblendtree). Blends two animations linearly based on the amount value.
+
+In general, the blend value should be in the `[0.0, 1.0]` range. Values outside of this range can blend amplified or inverted animations, however, [AnimationNodeAdd2](class_animationnodeadd2.md#class-animationnodeadd2) works better for this purpose.
+
+<a id="tutorials"></a>
+
+## Tutorials
+
+- [Using AnimationTree](../tutorials/animation/animation_tree.md)
+- [3D Platformer Demo](https://godotengine.org/asset-library/asset/2748)
+- [Third Person Shooter (TPS) Demo](https://godotengine.org/asset-library/asset/2710)

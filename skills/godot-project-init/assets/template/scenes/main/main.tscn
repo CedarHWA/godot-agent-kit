@@ -1,0 +1,17 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/main/main.gd" id="1_main"]
+
+[node name="Main" type="Node"]
+script = ExtResource("1_main")
+
+[node name="World" type="__WORLD_TYPE__" parent="."]
+
+[node name="UI" type="CanvasLayer" parent="."]
+
+[node name="Message" type="Label" parent="UI"]
+offset_left = 32.0
+offset_top = 32.0
+offset_right = 700.0
+offset_bottom = 88.0
+text = "Godot project ready. Build the first requirement here."

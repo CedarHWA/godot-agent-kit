@@ -1,0 +1,14 @@
+{
+  "schema": 1,
+  "godot": "",
+  "python": "",
+  "comfyui_bootstrap": {
+    "desktop_exe": "",
+    "desktop_data": "",
+    "mcp": "",
+    "comfy_bin": ""
+  },
+  "comfyui_endpoint": {
+    "url": "http://127.0.0.1:8188"
+  }
+}

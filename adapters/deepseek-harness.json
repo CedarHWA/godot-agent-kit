@@ -1,0 +1,17 @@
+{
+  "schema": 1,
+  "agent": "deepseek-harness",
+  "tested_version": "0.2.0-rc.2",
+  "project_skill_root": ".dsh/skills",
+  "user_skill_root": "${DSH_HOME:-~/.dsh}/skills",
+  "shared_skill_root": ".agents/skills",
+  "project_root": "nearest .git ancestor, otherwise cwd",
+  "invocation": "/godot-dev",
+  "mcp_overlay": ".dsh/comfyui.cordis.yml",
+  "load_overlay": "dsh web --patch .dsh/comfyui.cordis.yml",
+  "sources": [
+    "https://github.com/deepseek-ai/deepseek-harness/tree/master/packages/skill/skill-filesystem",
+    "https://github.com/deepseek-ai/deepseek-harness/tree/master/packages/mcp/mcp-client",
+    "https://github.com/deepseek-ai/deepseek-harness/blob/master/docs/user/guide/mcp-memory.md"
+  ]
+}

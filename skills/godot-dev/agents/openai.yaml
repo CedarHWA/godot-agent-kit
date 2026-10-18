@@ -1,0 +1,4 @@
+interface:
+  display_name: "Godot 需求开发"
+  short_description: "以可编辑场景和资源完成 Godot 开发，按需查专题、制作素材并验证交付"
+  default_prompt: "使用 $godot-dev，按这份需求完成开发，按任务读取专题，交付可编辑场景与资源，按需使用项目 ComfyUI，并完成验证和清理。"

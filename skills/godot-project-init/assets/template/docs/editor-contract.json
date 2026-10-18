@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "scenes": [
+    {
+      "path": "res://scenes/main/main.tscn",
+      "nodes": [
+        {
+          "path": "World",
+          "type": "Node"
+        },
+        {
+          "path": "UI",
+          "type": "CanvasLayer"
+        }
+      ]
+    }
+  ],
+  "resources": []
+}
