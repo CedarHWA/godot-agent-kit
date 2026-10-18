@@ -61,3 +61,24 @@
 | 仅评审或设计一个玩法 | 对应文档/意见 | 擅自开发、生成资源或导出 |
 
 本轮自动检查覆盖安装内容、引用完整性、冲突保护、幂等性、真实 Godot 语义及项目常规验证；没有独立代理前测。还发现并修复初始化模板 check.ps1 未转发 TestScript 的问题：新增传参和未知参数拒绝，避免指定测试被静默忽略。测试文件存在不是已执行的证据。以后根据真实偏离作针对性修正，不继续堆叠“永远/必须”的泛化规则。
+
+## 2026-10-18：从可序列化推进到可组合、可编辑
+
+只读审阅一个实际旋转连线游戏后发现，已有 `.tscn`、Resource、Theme 和纯规则层，仍可能出现页面控制器掌管多个部件、单节点场景把全部外观藏在绘制代码里、Inspector 参数被布局刷新覆盖的情况。脚本数量或场景数量都不能区分这些问题。
+
+本轮通过 GitHub 重新读取上表固定提交的 GodotPrompter `scene-organization` 和 Game-Dev-Agentic-Skills `godot-composition` 正文，核对原清单 SHA-256；没有运行或分发它们的实现。借鉴独立编辑与组件职责边界，继续排除节点数门槛、根脚本零逻辑、全面禁止内部路径、默认 EventBus 和组件注册表等要求。
+
+同时查阅官方 [场景组织](https://docs.godotengine.org/en/stable/tutorials/best_practices/scene_organization.html)、[场景与脚本](https://docs.godotengine.org/en/stable/tutorials/best_practices/scenes_versus_scripts.html)、[节点替代方案](https://docs.godotengine.org/en/stable/tutorials/best_practices/node_alternatives.html)、[Resources](https://docs.godotengine.org/en/stable/tutorials/scripting/resources.html)、[自绘](https://docs.godotengine.org/en/stable/tutorials/2d/custom_drawing_in_2d.html) 与 [InputEvent](https://docs.godotengine.org/en/stable/tutorials/inputs/inputevent.html)。这些设计依据支持按需求选择载体；它们没有要求一切节点化或禁止自绘。稳定版网页用于设计交叉检查，具体 API 仍遵从项目版本。
+
+落地到入口、场景资源、UI 输入和调试专题：先做功能组合及可运行切片；提供内置能力选择表和原创职责示例；区分配置与运行推导值；审阅主要组件的真实编辑入口，在 ready/布局/动画之后观察配置是否有效。新项目模板同步这些要求，未改写被审阅的游戏或现有安装。
+
+后续行为评测补充以下题目；本轮只完成源码审阅及工具包检查，没有让独立代理再开发游戏，不能称模型行为提升已被验证：
+
+| 请求/条件 | 应观察的决策与结果 |
+| --- | --- |
+| 新增带棋盘、帮助和结算的完整玩法页 | 先明确功能树；独立组件拥有内部表现/交互，父级协调流程；连通算法仍可用纯对象 |
+| 修改棋盘间距与轨道皮肤 | 找到实际配置消费者，刷新布局后仍生效；自绘参数或资源可改并有可见样例 |
+| 只有标题文字通过编辑试验，格子场景只有一个自绘节点 | 继续审阅棋盘与格子的入口，不能据标题测试宣称整个功能可编辑 |
+| 把旋转键从 Q 改为其他键 | 更改 InputMap 后同一命令正常触发，不要求改代码或另造输入框架 |
+| 修复 BFS 边界或存档兼容 | 保留合适的纯规则/序列化脚本，不为满足场景优先制造 Node |
+| 一个简单按钮改文案 | 沿用现有场景，不强制提取面板或制作完整架构报告 |

@@ -1,6 +1,63 @@
 # 场景与资源：让修改发生在编辑器中
 
-用于新增/重构场景、配置、可复用组件、序列化及 `@tool` 预览。项目 docs/development.md 是交付判据；本页补充容易遗漏的实现细节。
+用于新增完整玩法、页面、角色，以及重构场景、配置、组件、序列化和 `@tool` 预览。项目 docs/development.md 是交付判据；本页帮助把需求落实为 Godot 的可编辑组合，不以脚本数量衡量质量。
+
+## 从功能找到组合边界
+
+实现前在已有架构记录中简列本次功能的场景/节点、资源、状态所有者和事件方向。沿着玩家的一次操作追踪“输入 → 命令 → 状态变化 → 表现”，先做一条可运行路径，再扩展内容；设计说明应对应实际产物。
+
+审阅现有功能时先读 `.tscn`、`.tres`、project.godot 和挂载脚本，再判断是否需要拆分。脚本单独放在 scripts/ 不代表脱离 Godot；Resource 类、纯算法、序列化及节点行为脚本都可以独立成文件。
+
+以下情况值得提取功能场景或子节点，即使暂时只使用一次：
+
+- 一组节点有自己的布局/皮肤、输入/焦点、动画或启停周期，可以作为整体预览、替换或验证。
+- 父脚本同时管理多个面板的内部标签、按钮和动画；调整其中一个部件时不断修改总控制器。
+- 同一功能需要变体或可替换实现，而父级只需要稳定的少量命令/事件。
+
+提取后把内部引用、配置消费、行为与清理一起交给组件。父级保留流程与组件间协调，不继续逐个控制子场景控件；也不要求父脚本零逻辑。只有少数紧密协作的节点或简单状态时保持在一起，不预建组件注册表、通用 FSM 或每变量一个 Node。
+
+## 先选择内置能力
+
+只检查本次涉及的行，按项目引擎版本核对 API；不是要求每个游戏用齐这些功能。
+
+| 要实现的内容 | 优先评估的 Godot 载体 | 脚本/自定义方案的合理职责 |
+| --- | --- | --- |
+| 可见物件、可交互角色 | Sprite2D / MeshInstance3D、合适的 Body/Area 与形状、子场景 | 规则、运动意图、事件响应；避免重复实现已有碰撞/拾取能力 |
+| 固定地图、空间布置 | Node2D/3D 场景、TileMapLayer/TileSet、GridMap（适用时） | 过程生成算法；棋盘纯逻辑网格不必强改 TileMap |
+| UI 排列、皮肤、点击和焦点 | Control、Container、Theme、Button/TextureButton | 数据绑定与特殊交互；不默认自绘整套按钮/焦点系统 |
+| 方向、旋转、交互、暂停 | Project Settings 的 InputMap、GUI 事件/内置信号 | 从动作到命令；物理键码用于键位录入、调试或确需区分按键的逻辑 |
+| 固定反馈/循环/过场 | AnimationPlayer/AnimationLibrary、SpriteFrames；混合才用 AnimationTree | 数据决定目标的 Tween、流程与取消，不在多处重复写时间轴 |
+| 冷却/延迟/周期 | 可配置 Timer；一次等待可用 SceneTreeTimer | 纯回合规则、离线模拟可用数值；先明确暂停/重试语义 |
+| 图标、轨道、轮廓、特效 | Sprite/TextureRect、Line2D/Polygon2D、材质/粒子、Theme 资源 | 数据驱动几何可 `_draw()`；保留样式、几何参数及预览入口 |
+| 音乐、空间音效、混音 | AudioStreamPlayer/2D/3D、AudioStream 资源、总线 | 播放决策、并发控制；不为使用节点而引入全局音频框架 |
+| 物品、关卡、波次、对话 | 类型化 Resource、导出属性；空间布局可用场景 | 校验、查询、纯计算和当前实例状态 |
+
+自定义绘制是 Godot 的正常能力。适合图表、连通轨道、密集重复几何等；问题是把本应可调的图形、字形、线宽、时长全部藏在代码中。采用时说明内置节点为何不合适，暴露有用的参数/资源，并提供可见样例或安全的编辑预览；不需要为每条线生成节点。单节点自绘场景并非自动失败，也不能仅凭 `.tscn` 存在就算外观可编辑。
+
+## 示例：组合一个旋转连线玩法
+
+以下是职责示意，按实际需求取舍，不是要安装的框架或本次已实现的游戏：
+
+```text
+PlayScreen (Control，协调一局和页面请求)
+├─ BoardView (board_view.tscn，布局/选择/格子实例)
+│  └─ GridContainer → TileView 实例
+├─ HUD (hud.tscn，显示步数/目标)
+├─ HelpPanel (help_panel.tscn，说明/焦点/关闭)
+└─ ResultPanel (result_panel.tscn，结算表现/按钮事件)
+
+TileView (tile_view.tscn)
+├─ Background (Panel/TextureRect，皮肤资源)
+├─ TrackVisual (自绘或几何节点，仅负责轨道)
+├─ SourceIcon / TargetIcon (TextureRect，可替换纹理)
+└─ Feedback (AnimationPlayer，适用的固定反馈)
+```
+
+`LevelDefinition.tres` 保存设计数据；独立 `PuzzleState`（RefCounted）计算旋转、连通与胜负。棋盘发出 `rotation_requested(cell, direction)`，PlayScreen 调用规则，提交状态后让棋盘/HUD 刷新；面板发出关闭/重试请求，自己管理内部按钮和焦点。公共接口可传状态的只读视图或明确显示值，不让多个组件维护第二套胜负规则。
+
+可替换格子通过 BoardView 的 `@export var tile_scene: PackedScene` 接入；缺失依赖给出明确告警。场景约定输入事件与刷新接口，换皮肤不应要求父级知道 TrackVisual 的路径。固定内部实现使用 preload 正常；需要设计人员替换的插槽才导出，不把所有实现细节都做插件。
+
+对动作角色采用相同思路：CharacterBody 拥有移动规则，Sprite/AnimationPlayer 负责表现，Area/CollisionShape 负责交互边界；健康/武器在有独立生命周期或复用需求时作为组件，速度/伤害定义保存在导出属性或 Resource。简单角色无需先拆一套 Input/Movement/StateMachine 框架。
 
 ## 先确定谁拥有内容
 
@@ -18,6 +75,8 @@
 
 ## Inspector 与共享资源
 
+- 明确每项设计值的权威来源。例如格子间距由 Theme 或 BoardView 的导出配置拥有，布局算法读取它；不得每次 resize 又写回硬编码的 8。运行推导值（如实时步数、容器最终 size）不是配置入口；不要把自动被覆盖的 Label.text 列为可编辑文案，应指向其上游关卡/文案资源。
+- 定义 Resource 后检查设计者能否理解和操作数据。空间内容优先考虑场景/瓦片编辑，紧凑数组或位掩码适合算法，但手工关卡至少需要字段说明、约束校验及可见布局预览；不要把“Inspector 能显示整数数组”当作已具备关卡制作工具。只在制作需求值得时写轻量预览/工具，不默认引入大型插件。
 - 为需要设计人员调整的字段提供具体类型、单位、范围、分组及有意义默认值。资源脚本独立成文件；需要 Inspector 创建/反序列化时 `_init` 不依赖必填外部参数。
 - 直接导出 Texture2D、AudioStream、PackedScene 等真实资源引用。只有大型可选内容确需延迟加载时才使用路径/ID 目录，并说明策略，不把所有资源改为脚本路径字典。
 - 同路径资源通常共享缓存。修改内存中共享对象会影响其他引用者，**不会仅因赋值就自动写回磁盘**；写盘取决于明确保存操作。
@@ -37,7 +96,7 @@
 
 只有需要预览或配置告警时才加 `@tool`。用 `Engine.is_editor_hint()` 隔离游戏输入、音频、存档和外部操作；setter 在节点 ready 前可能运行，更新预览前检查就绪。资源 `changed` 连接在替换引用时解除旧对象，避免重复监听。必要的 `_get_configuration_warnings()` 指出未接资源/组件，更新配置时刷新。
 
-验收取代表性编辑：移动/重排控件后信号仍工作，换素材后重新打开仍显示新素材，调参数后行为变化，两实例互不污染。交付“改什么 → 打开什么场景/资源 → 哪个 Inspector 字段”。
+验收先覆盖本次主要组件的编辑入口，再按风险取代表性编辑：移动/重排控件后信号仍工作，换素材后重新打开仍显示新素材，调参数后行为变化，两实例互不污染。给待改参数设置明显不同的值，保存后从磁盘重新加载，在 ready、布局更新或动画执行后观察实际消费者，不能只断言 Resource 数值存在。动态内容提供约定依赖/样例，不要求所有子场景无条件 F6 运行。交付“改什么 → 打开什么场景/资源 → 哪个字段 → 谁消费它”，未预览或只做结构检查应明确记录。
 
 官方查阅入口（相对 `docs/godot/<主次版本>/`）：`tutorials/best_practices/scene_organization.md`、`node_alternatives.md`（同目录）、`tutorials/scripting/resources.md`、`scene_unique_nodes.md`（同目录）、`tutorials/plugins/running_code_in_the_editor.md`、`classes/class_packedscene.md`、`class_resource.md`、`class_node.md`。
 

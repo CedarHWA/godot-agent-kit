@@ -314,5 +314,36 @@
     "path_pattern": "docs/godot/<project-major.minor>/",
     "review_engine": "4.7.2",
     "note": "Follow project baseline; source mirror is not a promise of exact patch behavior."
-  }
+  },
+  "follow_up_reviews": [
+    {
+      "reviewed_at": "2026-10-18",
+      "focus": "Scene composition, native engine facilities, and effective editor configuration after read-only game source review.",
+      "reread_pinned_sources": [
+        {
+          "repository": "jame581/GodotPrompter",
+          "commit": "bd9d18008fb1fd5919fdc297267048670b6eac1f",
+          "path": "skills/scene-organization/SKILL.md",
+          "sha256_verified": true
+        },
+        {
+          "repository": "thedivergentai/Game-Dev-Agentic-Skills",
+          "commit": "db004d74c40686ca2f7a35fe067b119a9cda593e",
+          "path": "skills/godot-composition/SKILL.md",
+          "sha256_verified": true
+        }
+      ],
+      "official_pages_read": [
+        "https://docs.godotengine.org/en/stable/tutorials/best_practices/scene_organization.html",
+        "https://docs.godotengine.org/en/stable/tutorials/best_practices/scenes_versus_scripts.html",
+        "https://docs.godotengine.org/en/stable/tutorials/best_practices/node_alternatives.html",
+        "https://docs.godotengine.org/en/stable/tutorials/scripting/resources.html",
+        "https://docs.godotengine.org/en/stable/tutorials/2d/custom_drawing_in_2d.html",
+        "https://docs.godotengine.org/en/stable/tutorials/inputs/inputevent.html"
+      ],
+      "version_boundary": "Stable web pages inform design choices; API use follows the target project version. Existing 4.7 snapshot is unchanged.",
+      "vendored_code_or_text": false,
+      "independent_agent_gameplay_evaluation": false
+    }
+  ]
 }
